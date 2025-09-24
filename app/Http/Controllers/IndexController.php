@@ -12,4 +12,9 @@ class IndexController extends Controller
         return view('index');
     }
 
+    public function coming_soon()
+    {
+        return view('coming_soon');
+    }
+
 }

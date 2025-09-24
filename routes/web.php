@@ -42,7 +42,8 @@ Route::get('/optimize', function () {
 });
 
 
-Route::get('/', [IndexController::class, 'index'])->name('home');
+Route::get('/', [IndexController::class, 'coming_soon'])->name('coming');
+Route::get('/show', [IndexController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'about'])->name('about');
 Route::get('/services', [ServiceController::class, 'service'])->name('services');
 Route::get('/service-detail', [ServiceController::class, 'serviceDetail'])->name('service-detail');

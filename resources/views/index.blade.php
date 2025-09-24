@@ -1,0 +1,1629 @@
+@extends('layouts.header')
+@section('content')
+    <!-- Header Main Area End Here -->
+    <div class="pbmit-slider-area pbmit-slider-four">
+        <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="1"
+            data-margin="0" data-effect="fade">
+            <div class="swiper-wrapper">
+                <!-- Slide1 -->
+                <div class="swiper-slide">
+                    <div class="pbmit-slider-item">
+                        <div class="pbmit-slider-bg"
+                            style="background-image: url({{ asset('assets/images/banner-slider-img/slider04-slide-1.jpg') }});">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-lg-6">
+                                    <div class="pbmit-slider-content">
+                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">Plan for
+                                            Secure Future</h5>
+                                        <h2 class="pbmit-title transform-left transform-delay-2">
+                                            <strong>Growing</strong> <br> <span>Together.</span>
+                                        </h2>
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-md-4 col-xl-3">
+                                                <div class="transform-bottom transform-delay-3">
+                                                    <a href="contact-us.html" class="pbmit-btn pbmit-btn-white">
+                                                        <span class="pbmit-header-button-text">
+                                                            Contact Us
+                                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="10" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-xl-9">
+                                                <div class="pbmit-desc transform-bottom transform-delay-4">
+                                                    True relationships developing the futures.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide2 -->
+                <div class="swiper-slide">
+                    <div class="pbmit-slider-item">
+                        <div class="pbmit-slider-bg"
+                            style="background-image: url(images/banner-slider-img/slider04-slide-2.jpg);">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-lg-6">
+                                    <div class="pbmit-slider-content">
+                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">Think
+                                            Different, Execute Better</h5>
+                                        <h2 class="pbmit-title transform-left transform-delay-2">
+                                            <strong>ultimate</strong> <br> <span>freedom.</span>
+                                        </h2>
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-md-4 col-xl-3">
+                                                <div class="transform-bottom transform-delay-3">
+                                                    <a href="contact-us.html" class="pbmit-btn pbmit-btn-white">
+                                                        <span class="pbmit-header-button-text">
+                                                            Contact Us
+                                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="10" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-xl-9">
+                                                <div class="pbmit-desc transform-bottom transform-delay-4">
+                                                    True relationships developing the futures.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide3 -->
+                <div class="swiper-slide">
+                    <div class="pbmit-slider-item">
+                        <div class="pbmit-slider-bg"
+                            style="background-image: url(images/banner-slider-img/slider04-slide-3.jpg);">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-lg-6">
+                                    <div class="pbmit-slider-content">
+                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">A
+                                            Revolution in Marketing</h5>
+                                        <h2 class="pbmit-title transform-left transform-delay-2">
+                                            <strong>leading</strong> <br> <span>financial. </span>
+                                        </h2>
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-md-4 col-xl-3">
+                                                <div class="transform-bottom transform-delay-3">
+                                                    <a href="contact-us.html" class="pbmit-btn pbmit-btn-white">
+                                                        <span class="pbmit-header-button-text">
+                                                            Contact Us
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="10" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-xl-9">
+                                                <div class="pbmit-desc transform-bottom transform-delay-4">
+                                                    True relationships developing the futures.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Content -->
+    <div class="page-content">
+
+        <!-- About -->
+        <section class="section-lgx pbmit-bg-color-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xl-4">
+                        <div class="pbmit-heading-subheading">
+                            <h4 class="pbmit-subtitle">Who we are</h4>
+                        </div>
+                        <div class="pbminfotech-ele-fid-style-5">
+                            <div class="pbmit-fld-contents">
+                                <div class="pbmit-fld-wrap">
+                                    <h4 class="pbmit-fid-inner">
+                                        <span class="pbmit-fid"></span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
+                                            data-from="0" data-to="25" data-interval="5" data-before=""
+                                            data-before-style="" data-after="" data-after-style="">25</span>
+                                        <span class="pbmit-fid"><span>+</span></span>
+                                    </h4>
+                                    <h3 class="pbmit-fid-title">Years of <br>Experience</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pbminfotech-ele-fid-style-5 mt-4">
+                            <div class="pbmit-fld-contents">
+                                <div class="pbmit-fld-wrap">
+                                    <h4 class="pbmit-fid-inner">
+                                        <span class="pbmit-fid"></span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
+                                            data-from="0" data-to="412" data-interval="5" data-before=""
+                                            data-before-style="" data-after="" data-after-style="">412</span>
+                                    </h4>
+                                    <h3 class="pbmit-fid-title">users that is <br> active world-wide</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-8">
+                        <div class="about-four-rightbox">
+                            <div class="pbmit-heading-subheading">
+                                <h4 class="pbmit-title text-white">Guided by integrity, trust & client centricity
+                                    our values drive everything we do.</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="about-four-right-img"></div>
+                                </div>
+                                <div class="col-md-6 text-white pbmit-desc">
+                                    <p>At FinFlow, we understand the importance of financial planning for
+                                        individuals and businesses alike.</p>
+                                    <p>Our team of expert financial planners is committed to helping you achieve
+                                        your financial goals and secure your financial future.</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-md-6 col-xl-4">
+                                    <div class="pbmit-ihbox-style-5">
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                <a href="service-detail.html">
+                                                    <span>
+                                                        Implement Business<br> Strategies
+                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19" height="19" viewBox="0 0 19 19"
+                                                            xml:space="preserve">
+                                                            <line x1="1" y1="18" x2="17.8"
+                                                                y2="1.2"></line>
+                                                            <line x1="1.2" y1="1" x2="18"
+                                                                y2="1"></line>
+                                                            <line x1="18" y1="17.8" x2="18"
+                                                                y2="1"></line>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </h2>
+                                            <div class="pbmit-ihbox-btn">
+                                                <a href="service-detail.html">
+                                                    <span>
+                                                        Read More
+                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19" height="19" viewBox="0 0 19 19"
+                                                            xml:space="preserve">
+                                                            <line x1="1" y1="18" x2="17.8"
+                                                                y2="1.2"></line>
+                                                            <line x1="1.2" y1="1" x2="18"
+                                                                y2="1"></line>
+                                                            <line x1="18" y1="17.8" x2="18"
+                                                                y2="1"></line>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-wapper"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4">
+                                    <div class="pbmit-ihbox-style-5">
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                <a href="service-detail.html">
+                                                    <span>
+                                                        Market Analysis <br> and Research
+                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19" height="19" viewBox="0 0 19 19"
+                                                            xml:space="preserve">
+                                                            <line x1="1" y1="18" x2="17.8"
+                                                                y2="1.2"></line>
+                                                            <line x1="1.2" y1="1" x2="18"
+                                                                y2="1"></line>
+                                                            <line x1="18" y1="17.8" x2="18"
+                                                                y2="1"></line>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </h2>
+                                            <div class="pbmit-ihbox-btn">
+                                                <a href="service-detail.html">
+                                                    <span>
+                                                        Read More
+                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19" height="19" viewBox="0 0 19 19"
+                                                            xml:space="preserve">
+                                                            <line x1="1" y1="18" x2="17.8"
+                                                                y2="1.2"></line>
+                                                            <line x1="1.2" y1="1" x2="18"
+                                                                y2="1"></line>
+                                                            <line x1="18" y1="17.8" x2="18"
+                                                                y2="1"></line>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-wapper"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-4">
+                                    <div class="pbmit-ihbox-style-5">
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                <a href="service-detail.html">
+                                                    <span>
+                                                        Innovative <br> Techniques
+                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19" height="19" viewBox="0 0 19 19"
+                                                            xml:space="preserve">
+                                                            <line x1="1" y1="18" x2="17.8"
+                                                                y2="1.2"></line>
+                                                            <line x1="1.2" y1="1" x2="18"
+                                                                y2="1"></line>
+                                                            <line x1="18" y1="17.8" x2="18"
+                                                                y2="1"></line>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </h2>
+                                            <div class="pbmit-ihbox-btn">
+                                                <a href="service-detail.html">
+                                                    <span>
+                                                        Read More
+                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="19" height="19" viewBox="0 0 19 19"
+                                                            xml:space="preserve">
+                                                            <line x1="1" y1="18" x2="17.8"
+                                                                y2="1.2"></line>
+                                                            <line x1="1.2" y1="1" x2="18"
+                                                                y2="1"></line>
+                                                            <line x1="18" y1="17.8" x2="18"
+                                                                y2="1"></line>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-wapper"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <section class="pbmit-element-service-style-4 pbmit-bg-color-blackish">
+            <div class="container-fluid">
+                <div class="row">
+                    <article class="pbmit-service-style-4 col-md-12">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-service-img-wrapper"
+                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-01.jpg') }}')">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+                                        <img src="{{ asset('assets/images/homepage-04/service/service-01.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbmit-content-inner">
+                                    <div class="pbminfotech-box-number">01</div>
+                                    <div class="pbmit-cat-wrap">
+                                        <div class="pbmit-serv-cat">
+                                            <a href="services.html" rel="tag">Advisory</a>
+                                        </div>
+                                        <h3 class="pbmit-service-title">
+                                            <a href="service-detail.html">Qualify leads</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="pbmit-svg-btn">
+                                    <a class="btn-arrow" href="service-detail.html" title="Qualify leads">
+                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                            </line>
+                                            <line x1="1.2" y1="1" x2="18" y2="1">
+                                            </line>
+                                            <line x1="18" y1="17.8" x2="18" y2="1">
+                                            </line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-icon-box">
+                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                            </div>
+                        </div>
+                        <a href="service-detail.html" class="pbmit-link"></a>
+                    </article>
+                    <article class="pbmit-service-style-4 col-md-12">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-service-img-wrapper"
+                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-02.jpg') }}')">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+                                        <img src="{{ asset('assets/images/homepage-04/service/service-02.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbmit-content-inner">
+                                    <div class="pbminfotech-box-number">02</div>
+                                    <div class="pbmit-cat-wrap">
+                                        <div class="pbmit-serv-cat">
+                                            <a href="services.html" rel="tag">Consulting</a>
+                                        </div>
+                                        <h3 class="pbmit-service-title">
+                                            <a href="service-detail.html">Business Planning</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="pbmit-svg-btn">
+                                    <a class="btn-arrow" href="service-detail.html" title="Business Planning">
+                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                            </line>
+                                            <line x1="1.2" y1="1" x2="18" y2="1">
+                                            </line>
+                                            <line x1="18" y1="17.8" x2="18" y2="1">
+                                            </line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-icon-box">
+                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                            </div>
+                        </div>
+                        <a href="service-detail.html" class="pbmit-link"></a>
+                    </article>
+                    <article class="pbmit-service-style-4 col-md-12">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-service-img-wrapper"
+                                style="background-image:url('{{asset('assets/images/homepage-04/service/service-03.jpg')}}')">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+                                        <img src="{{asset('assets/images/homepage-04/service/service-03.jpg')}}" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbmit-content-inner">
+                                    <div class="pbminfotech-box-number">03</div>
+                                    <div class="pbmit-cat-wrap">
+                                        <div class="pbmit-serv-cat">
+                                            <a href="services.html" rel="tag">Inventory</a>
+                                        </div>
+                                        <h3 class="pbmit-service-title">
+                                            <a href="service-detail.html">Market Research</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="pbmit-svg-btn">
+                                    <a class="btn-arrow" href="service-detail.html" title="Market Research">
+                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                            </line>
+                                            <line x1="1.2" y1="1" x2="18" y2="1">
+                                            </line>
+                                            <line x1="18" y1="17.8" x2="18" y2="1">
+                                            </line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-icon-box">
+                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                            </div>
+                        </div>
+                        <a href="service-detail.html" class="pbmit-link"></a>
+                    </article>
+                    <article class="pbmit-service-style-4 col-md-12">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-service-img-wrapper"
+                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-04.jpg') }}')">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+                                        <img src="{{ asset('assets/images/homepage-04/service/service-04.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbmit-content-inner">
+                                    <div class="pbminfotech-box-number">04</div>
+                                    <div class="pbmit-cat-wrap">
+                                        <div class="pbmit-serv-cat">
+                                            <a href="services.html" rel="tag">Management</a>
+                                        </div>
+                                        <h3 class="pbmit-service-title">
+                                            <a href="service-detail.html">Financial Management</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="pbmit-svg-btn">
+                                    <a class="btn-arrow" href="service-detail.html" title="Financial Management">
+                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                            </line>
+                                            <line x1="1.2" y1="1" x2="18" y2="1">
+                                            </line>
+                                            <line x1="18" y1="17.8" x2="18" y2="1">
+                                            </line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-icon-box">
+                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                            </div>
+                        </div>
+                        <a href="service-detail.html" class="pbmit-link"></a>
+                    </article>
+                    <article class="pbmit-service-style-4 col-md-12">
+                        <div class="pbminfotech-post-item">
+                            <div class="pbmit-service-img-wrapper"
+                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-05.jpg') }}')">
+                                <div class="pbmit-featured-img-wrapper">
+                                    <div class="pbmit-featured-wrapper">
+                                        <img src="{{ asset('assets/images/homepage-04/service/service-05.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-box-content">
+                                <div class="pbmit-content-inner">
+                                    <div class="pbminfotech-box-number">05</div>
+                                    <div class="pbmit-cat-wrap">
+                                        <div class="pbmit-serv-cat">
+                                            <a href="services.html" rel="tag">Marketing</a>
+                                        </div>
+                                        <h3 class="pbmit-service-title">
+                                            <a href="service-detail.html">Finance Instruments</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="pbmit-svg-btn">
+                                    <a class="btn-arrow" href="service-detail.html" title="Finance Instruments">
+                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                            </line>
+                                            <line x1="1.2" y1="1" x2="18" y2="1">
+                                            </line>
+                                            <line x1="18" y1="17.8" x2="18" y2="1">
+                                            </line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pbminfotech-icon-box">
+                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                            </div>
+                        </div>
+                        <a href="service-detail.html" class="pbmit-link"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Service End -->
+
+        <!--Ihbox Start -->
+        <section class="section-lgx">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-md-12 col-xl-7">
+                        <div class="pbmit-mask-image-style-1">
+                            <div class="pbmit-mask-image-box">
+                                <div class="pbmit-mask-image-title-image"
+                                    style="background-image:url('{{asset('assets/images/homepage-04/mask-image.jpg')}}')">
+                                    <h2 class="pbmit-element-title">How we work</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-5"></div>
+                </div>
+                <div class="ihbox-section-four">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="ihbox-style-7-box">
+                                <div class="pbmit-ihbox-style-7">
+                                    <div class="pbmit-ihbox-contents">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper">
+                                                <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                                    <i class="pbmit-capigo-icon pbmit-capigo-icon-investment"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 class="pbmit-element-title">
+                                            Financial Scheduling
+                                        </h2>
+                                        <h4 class="pbmit-element-subtitle">
+                                            Our mission is to empower you with the know ledge and tools to make
+                                            informed.
+                                        </h4>
+                                        <div class="pbmit-heading-desc">
+                                            <ul>
+                                                <li>Make a budget</li>
+                                                <li>Protect with insurance</li>
+                                                <li>Build an emergency fund</li>
+                                                <li>Minimize your expenditure</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="ihbox-style-7-box">
+                                <div class="pbmit-ihbox-style-7">
+                                    <div class="pbmit-ihbox-contents">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper">
+                                                <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                                    <i class="pbmit-capigo-icon pbmit-capigo-icon-call-center"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 class="pbmit-element-title">
+                                            Retirement technique
+                                        </h2>
+                                        <h4 class="pbmit-element-subtitle">
+                                            Our mission is to empower you with the know ledge and tools to make
+                                            informed.
+                                        </h4>
+                                        <div class="pbmit-heading-desc">
+                                            <ul>
+                                                <li>Check your company benefits</li>
+                                                <li>Learn about Social Security</li>
+                                                <li>Review your options</li>
+                                                <li>Adjust your goals as needed</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="ihbox-style-7-box">
+                                <div class="pbmit-ihbox-style-7">
+                                    <div class="pbmit-ihbox-contents">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper">
+                                                <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                                    <i class="pbmit-capigo-icon pbmit-capigo-icon-setting-1"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 class="pbmit-element-title">
+                                            Education scheduling
+                                        </h2>
+                                        <h4 class="pbmit-element-subtitle">
+                                            Our mission is to empower you with the know ledge and tools to make
+                                            informed.
+                                        </h4>
+                                        <div class="pbmit-heading-desc">
+                                            <ul>
+                                                <li>Resource management</li>
+                                                <li>Time management</li>
+                                                <li>Improved accuracy</li>
+                                                <li>Improved communication</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Ihbox End -->
+
+        <!-- About Us Start -->
+        <section class="pbmit-bg-color-blackish pbmit-sticky-special ">
+            <div class="container pbmit-col-stretched-yes pbmit-col-left">
+                <div class="row g-0">
+                    <div class="col-md-12 col-xl-6">
+                        <div class="pbmit-col-stretched-left">
+                            <img src="{{ asset('assets/images/homepage-04/sticky-section-side-img.jpg') }}" class="img-fluid w-100"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-6 pbmit-sticky-col2-special">
+                        <div class="about-us-four-content">
+                            <div class="pbmit-heading-subheading">
+                                <h4 class="pbmit-subtitle">Who we are</h4>
+                                <h2 class="pbmit-title">Building bridges for sustainable and growth</h2>
+                                <div class="pbmit-heading-desc text-white">
+                                    At FinFlow, we understand the importance of financial planning for individuals
+                                    and businesses alike. Our team of expert financial planners is committed to
+                                    helping you achieve your financial goals and secure your financial future.
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-6">
+                                    <div class="pbminfotech-ele-fid-style-6">
+                                        <div class="pbmit-fld-contents">
+                                            <div class="pbmit-circle-outer" data-digit="75" data-fill="#00b30f"
+                                                data-emptyfill="#052e26" data-before="" data-after="<span>%</span>"
+                                                data-thickness="2" data-size="130">
+                                                <div class="pbmit-circle">
+                                                    <div class="pbmit-fid-inner">
+                                                        <span class="pbmit-fid-number"></span>
+                                                        <span class="pbmit-number-rotate numinate"
+                                                            data-appear-animation="animateDigits" data-from="0"
+                                                            data-to="75" data-interval="5" data-before=""
+                                                            data-before-style="" data-after=""
+                                                            data-after-style="">75</span>
+                                                        <span>%</span>
+                                                    </div>
+                                                </div>
+                                                <div class="pbmit-fid-sub">
+                                                    <h3 class="pbmit-fid-title">guiding Social <br>
+                                                        Development
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="pbminfotech-ele-fid-style-6">
+                                        <div class="pbmit-fld-contents">
+                                            <div class="pbmit-circle-outer" data-digit="89" data-fill="#00b30f"
+                                                data-emptyfill="#052e26" data-before="" data-after="<span>%</span>"
+                                                data-thickness="2" data-size="130">
+                                                <div class="pbmit-circle">
+                                                    <div class="pbmit-fid-inner">
+                                                        <span class="pbmit-fid-number"></span>
+                                                        <span class="pbmit-number-rotate numinate"
+                                                            data-appear-animation="animateDigits" data-from="0"
+                                                            data-to="89" data-interval="5" data-before=""
+                                                            data-before-style="" data-after=""
+                                                            data-after-style="">89</span>
+                                                        <span>%</span>
+                                                    </div>
+                                                </div>
+                                                <div class="pbmit-fid-sub">
+                                                    <h3 class="pbmit-fid-title">Avg Profit <br>
+                                                        Increased
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="pbmit-heading">Analyze Your Business.</h5>
+                            <div class="pbmit-text-color-white">We understand the importance of financial planning
+                                for individuals and businesses alike. Our team of expert financial planners is
+                                committed to helping you achieve your financial goals and secure your financial
+                                future.</div>
+                            <ul class="list-group list-group-borderless">
+                                <li class="list-group-item">
+                                    <span class="pbmit-icon-list-icon">
+                                        <i aria-hidden="true" class="ti-check"></i>
+                                    </span>
+                                    <span class="pbmit-icon-list-text">Translating the design into code using
+                                        Webflow</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="pbmit-icon-list-icon">
+                                        <i aria-hidden="true" class="ti-check"></i>
+                                    </span>
+                                    <span class="pbmit-icon-list-text">Responsive and functions perfectly across
+                                        all devices</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="pbmit-icon-list-icon">
+                                        <i aria-hidden="true" class="ti-check"></i>
+                                    </span>
+                                    <span class="pbmit-icon-list-text">Testing the website thoroughly before
+                                        launch</span>
+                                </li>
+                            </ul>
+                            <div class="sticky-img">
+                                <img src="images/homepage-04/sticky-img.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="mt-5 mb-5 pbmit-text-color-white">
+                                We understand the importance of financial planning for individuals and businesses
+                                alike. Our team of expert financial planners is committed to helping you achieve
+                                your financial goals and secure your financial future.
+                            </div>
+                            <div class="pbmit-ihbox-style-2">
+                                <div class="pbmit-ihbox-icon">
+                                    <div class="pbmit-ihbox-icon-wrapper">
+                                        <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-presentation"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbmit-ihbox-contents">
+                                    <h2 class="pbmit-element-title">
+                                        Research and Study of the Market
+                                    </h2>
+                                    <div class="pbmit-heading-desc">Lorem ipsum dolor sit ametsed do eiusm
+                                        onsectetur adipiscing elit Adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Us End -->
+
+        <!-- Our Process Start -->
+        <section class="pbmit-element-miconheading-style-8 section-lgx overflow-hidden">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-xl-6">
+                        <div class="pbmit-heading-subheading">
+                            <h4 class="pbmit-subtitle">Our process</h4>
+                            <h2 class="pbmit-title">Celebrating excellence in extraordinary achievements</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xl-6">
+                        <div class="process-slider-arrow swiper-btn-custom d-flex flex-row-reverse"></div>
+                    </div>
+                </div>
+                <div class="pbmit-elemnt-line">
+                    <div class="swiper-slider" data-arrows-class="process-slider-arrow" data-loop="true"
+                        data-autoplay="false" data-dots="false" data-arrows="true" data-columns="4" data-margin="0"
+                        data-effect="slide">
+                        <div class="swiper-wrapper">
+                            <!-- Slide1 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2012
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                The Ideal Items <br> of Business Corp
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Our partners with leading technology
+                                                providers to guide our clients through the implementation process.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide2 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2015
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                Silver Price <br> Amazing Portfolio
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Our partners with leading technology
+                                                providers to guide our clients through the implementation process.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide3 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2017
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                Best Marketing <br>Company
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Our partners with leading technology
+                                                providers to guide our clients through the implementation process.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide4 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2020
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                The Best of <br> Financial Corp
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Our partners with leading technology
+                                                providers to guide our clients through the implementation process.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide5 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2022
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                Investigation and <br> Evaluation
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Our partners with leading technology
+                                                providers to guide our clients through the implementation process.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide6 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2023
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                Digital Media <br> Organization
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Our partners with leading technology
+                                                providers to guide our clients through the implementation process.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Process End -->
+
+        <!-- Marquee Start -->
+        <section class="pbminfotech-element-marquee-effect marquee-four">
+            <div class="container-fluid p-0">
+                <div class="swiper-slider marquee">
+                    <div class="swiper-wrapper">
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title">
+                                    Purchasing & Combining
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title">
+                                    Capital Obtaining
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title">
+                                    Market Research
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title">
+                                    Growth Strategy
+                                </h2>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Marquee End -->
+
+        <!-- Testimonial Start -->
+        <section class="pbmit-bg-color-light testimonial-four">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 position-relative">
+                        <div class="pbmit-heading-subheading animation-style2">
+                            <h4 class="pbmit-subtitle">Testimonials</h4>
+                            <h2 class="pbmit-title">What our clients say</h2>
+                        </div>
+                        <div class="testimonial-arrow swiper-btn-custom d-inline-flex flex-row-reverse"></div>
+                    </div>
+                    <div class="col-md-12 col-lg-9 pbmit-testimonialbox-right">
+                        <div class="swiper-slider" data-arrows-class="testimonial-arrow" data-loop="false"
+                            data-autoplay="false" data-dots="true" data-arrows="true" data-columns="1" data-margin="30"
+                            data-effect="slide">
+                            <div class="swiper-wrapper">
+                                <!-- Slide1 -->
+                                <article class="pbmit-testimonial-style-2 swiper-slide">
+                                    <div class="pbminfotech-post-item">
+                                        <div class="pbminfotech-box-content">
+                                            <blockquote class="pbminfotech-testimonial-text">
+                                                <p>I express my deep gratitude to the team for the impeccable and
+                                                    productive service to the company activities based on the
+                                                    results of seven years of joint work I recommend the services
+                                                </p>
+                                            </blockquote>
+                                            <div class="pbminfotech-box-star-ratings">
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                            </div>
+                                            <div class="pbminfotech-box-content-inner">
+                                                <div class="pbmit-featured-img-wrapper">
+                                                    <div class="pbmit-featured-wrapper">
+                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-01.jpg') }}"
+                                                            class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="pbminfotech-box-author">
+                                                    <h3 class="pbminfotech-box-title">Stephen Welch</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Satisfied Client
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Slide2 -->
+                                <article class="pbmit-testimonial-style-2 swiper-slide">
+                                    <div class="pbminfotech-post-item">
+                                        <div class="pbminfotech-box-content">
+                                            <blockquote class="pbminfotech-testimonial-text">
+                                                <p>I express my deep gratitude to the team for the impeccable and
+                                                    productive service to the company activities based on the
+                                                    results of seven years of joint work I recommend the services
+                                                </p>
+                                            </blockquote>
+                                            <div class="pbminfotech-box-star-ratings">
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star"></i>
+                                            </div>
+                                            <div class="pbminfotech-box-content-inner">
+                                                <div class="pbmit-featured-img-wrapper">
+                                                    <div class="pbmit-featured-wrapper">
+                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-02.jpg') }}"
+                                                            class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="pbminfotech-box-author">
+                                                    <h3 class="pbminfotech-box-title">Martin Bailey</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Chief Finance</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Slide3 -->
+                                <article class="pbmit-testimonial-style-2 swiper-slide">
+                                    <div class="pbminfotech-post-item">
+                                        <div class="pbminfotech-box-content">
+                                            <blockquote class="pbminfotech-testimonial-text">
+                                                <p>I express my deep gratitude to the team for the impeccable and
+                                                    productive service to the company activities based on the
+                                                    results of seven years of joint work I recommend the services
+                                                </p>
+                                            </blockquote>
+                                            <div class="pbminfotech-box-star-ratings">
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star"></i>
+                                                <i class="pbmit-base-icon-star"></i>
+                                            </div>
+                                            <div class="pbminfotech-box-content-inner">
+                                                <div class="pbmit-featured-img-wrapper">
+                                                    <div class="pbmit-featured-wrapper">
+                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-03.jpg') }}"
+                                                            class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="pbminfotech-box-author">
+                                                    <h3 class="pbminfotech-box-title">Emma Greed</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Legal Advisor
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Slide4 -->
+                                <article class="pbmit-testimonial-style-2 swiper-slide">
+                                    <div class="pbminfotech-post-item">
+                                        <div class="pbminfotech-box-content">
+                                            <blockquote class="pbminfotech-testimonial-text">
+                                                <p>I express my deep gratitude to the team for the impeccable and
+                                                    productive service to the company activities based on the
+                                                    results of seven years of joint work I recommend the services
+                                                </p>
+                                            </blockquote>
+                                            <div class="pbminfotech-box-star-ratings">
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                            </div>
+                                            <div class="pbminfotech-box-content-inner">
+                                                <div class="pbmit-featured-img-wrapper">
+                                                    <div class="pbmit-featured-wrapper">
+                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-04.jpg') }}"
+                                                            class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="pbminfotech-box-author">
+                                                    <h3 class="pbminfotech-box-title">Daniel Craig</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Tax Manager</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Slide5 -->
+                                <article class="pbmit-testimonial-style-2 swiper-slide">
+                                    <div class="pbminfotech-post-item">
+                                        <div class="pbminfotech-box-content">
+                                            <blockquote class="pbminfotech-testimonial-text">
+                                                <p>I express my deep gratitude to the team for the impeccable and
+                                                    productive service to the company activities based on the
+                                                    results of seven years of joint work I recommend the services
+                                                </p>
+                                            </blockquote>
+                                            <div class="pbminfotech-box-star-ratings">
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star"></i>
+                                            </div>
+                                            <div class="pbminfotech-box-content-inner">
+                                                <div class="pbmit-featured-img-wrapper">
+                                                    <div class="pbmit-featured-wrapper">
+                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-05.jpg') }}"
+                                                            class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="pbminfotech-box-author">
+                                                    <h3 class="pbminfotech-box-title">Amelia Dyer</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Stockbroker</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Slide6 -->
+                                <article class="pbmit-testimonial-style-2 swiper-slide">
+                                    <div class="pbminfotech-post-item">
+                                        <div class="pbminfotech-box-content">
+                                            <blockquote class="pbminfotech-testimonial-text">
+                                                <p>I express my deep gratitude to the team for the impeccable and
+                                                    productive service to the company activities based on the
+                                                    results of seven years of joint work I recommend the services
+                                                </p>
+                                            </blockquote>
+                                            <div class="pbminfotech-box-star-ratings">
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                                <i class="pbmit-base-icon-star pbmit-active"></i>
+                                            </div>
+                                            <div class="pbminfotech-box-content-inner">
+                                                <div class="pbmit-featured-img-wrapper">
+                                                    <div class="pbmit-featured-wrapper">
+                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-06.jpg') }}"
+                                                            class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="pbminfotech-box-author">
+                                                    <h3 class="pbminfotech-box-title">Henry Cavil</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Cost Marketing
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial End -->
+
+        <!-- Client Start -->
+        <section class="section-lgb pbmit-bg-color-light overflow-hidden">
+            <div class="container-fluid pbmit-col-stretched-yes pbmit-col-right">
+                <div class="pbmit-col-stretched-right">
+                    <div class="swiper-slider" data-loop="true" data-autoplay="false" data-dots="false"
+                        data-arrows="false" data-columns="6" data-margin="30" data-effect="slide">
+                        <div class="swiper-wrapper">
+                            <!-- Slide1 -->
+                            <article class="pbmit-client-style-1 swiper-slide">
+                                <div class="pbmit-client-content">
+                                    <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+                                        <h4 class="pbmit-hide">Client 06</h4>
+                                        <div class="pbmit-client-hover-img">
+                                            <img src="{{ asset('assets/images/client/client-global-01.png') }}" alt="">
+                                        </div>
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('assets/images/client/client-dark-01.png') }}" class="img-fluid"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide2 -->
+                            <article class="pbmit-client-style-1 swiper-slide">
+                                <div class="pbmit-client-content">
+                                    <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+                                        <h4 class="pbmit-hide">Client 06</h4>
+                                        <div class="pbmit-client-hover-img">
+                                            <img src="{{ asset('assets/images/client/client-global-02.png') }}" alt="">
+                                        </div>
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('assets/images/client/client-dark-02.png') }}" class="img-fluid"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide3 -->
+                            <article class="pbmit-client-style-1 swiper-slide">
+                                <div class="pbmit-client-content">
+                                    <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+                                        <h4 class="pbmit-hide">Client 06</h4>
+                                        <div class="pbmit-client-hover-img">
+                                            <img src="{{ asset('assets/images/client/client-global-03.png') }}" alt="">
+                                        </div>
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('assets/images/client/client-dark-03.png') }}" class="img-fluid"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide4 -->
+                            <article class="pbmit-client-style-1 swiper-slide">
+                                <div class="pbmit-client-content">
+                                    <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+                                        <h4 class="pbmit-hide">Client 06</h4>
+                                        <div class="pbmit-client-hover-img">
+                                            <img src="{{ asset('assets/images/client/client-global-04.png') }}" alt="">
+                                        </div>
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('assets/images/client/client-dark-04.png') }}" class="img-fluid"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide5 -->
+                            <article class="pbmit-client-style-1 swiper-slide">
+                                <div class="pbmit-client-content">
+                                    <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+                                        <h4 class="pbmit-hide">Client 06</h4>
+                                        <div class="pbmit-client-hover-img">
+                                            <img src="{{ asset('assets/images/client/client-global-05.png') }}" alt="">
+                                        </div>
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('assets/images/client/client-dark-05.png') }}" class="img-fluid"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide6 -->
+                            <article class="pbmit-client-style-1 swiper-slide">
+                                <div class="pbmit-client-content">
+                                    <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+                                        <h4 class="pbmit-hide">Client 06</h4>
+                                        <div class="pbmit-client-hover-img">
+                                            <img src="{{ asset('assets/images/client/client-global-06.png') }}" alt="">
+                                        </div>
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('assets/images/client/client-dark-06.png') }}" class="img-fluid"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Client End -->
+
+        <!-- Blog Start -->
+        <section class="section-lgx">
+            <div class="container">
+                <div class="pbmit-heading-subheading text-center">
+                    <h4 class="pbmit-subtitle">Latest Blog</h4>
+                    <h2 class="pbmit-title">Latest news coming</h2>
+                </div>
+                <div class="swiper-slider" data-loop="false" data-autoplay="false" data-dots="false"
+                    data-arrows="false" data-columns="3" data-margin="30" data-effect="slide">
+                    <div class="swiper-wrapper">
+                        <!-- Slide1 -->
+                        <article class="pbmit-blog-style-1 swiper-slide">
+                            <div class="post-item">
+                                <div class="pbmit-featured-container">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-01.jpg') }}" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                        <div class="pbmit-meta-category">
+                                            <a href="blog-classic.html" rel="category tag">Business</a>
+                                        </div>
+                                        <div class="pbmit-meta-date">
+                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pbmit-post-title">
+                                        <a href="blog-single-detail.html">Determine and get in touch with
+                                            prospects.</a>
+                                    </h3>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="blog-single-detail.html">
+                                            Read More
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="blog-single-detail.html" class="pbmit-link"></a>
+                            </div>
+                        </article>
+                        <!-- Slide2 -->
+                        <article class="pbmit-blog-style-1 swiper-slide">
+                            <div class="post-item">
+                                <div class="pbmit-featured-container">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-02.jpg') }}" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                        <div class="pbmit-meta-category">
+                                            <a href="blog-classic.html" rel="category tag">Economy</a>
+                                        </div>
+                                        <div class="pbmit-meta-date">
+                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pbmit-post-title">
+                                        <a href="blog-single-detail.html">Measure These 8 Crucial Brand Awareness
+                                            Metrics</a>
+                                    </h3>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="blog-single-detail.html">
+                                            Read More
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="blog-single-detail.html" class="pbmit-link"></a>
+                            </div>
+                        </article>
+                        <!-- Slide3 -->
+                        <article class="pbmit-blog-style-1 swiper-slide">
+                            <div class="post-item">
+                                <div class="pbmit-featured-container">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-03.jpg') }}" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                        <div class="pbmit-meta-category">
+                                            <a href="blog-classic.html" rel="category tag">Finance</a>
+                                        </div>
+                                        <div class="pbmit-meta-date">
+                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pbmit-post-title">
+                                        <a href="blog-single-detail.html">Keep aware of new current trends and
+                                            competitors</a>
+                                    </h3>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="blog-single-detail.html">
+                                            Read More
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="blog-single-detail.html" class="pbmit-link"></a>
+                            </div>
+                        </article>
+                        <!-- Slide4 -->
+                        <article class="pbmit-blog-style-1 swiper-slide">
+                            <div class="post-item">
+                                <div class="pbmit-featured-container">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-04.jpg') }}" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                        <div class="pbmit-meta-category">
+                                            <a href="blog-classic.html" rel="category tag">Insurance</a>
+                                        </div>
+                                        <div class="pbmit-meta-date">
+                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pbmit-post-title">
+                                        <a href="blog-single-detail.html">Speak with salespeople and development
+                                            managers.</a>
+                                    </h3>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="blog-single-detail.html">
+                                            Read More
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="blog-single-detail.html" class="pbmit-link"></a>
+                            </div>
+                        </article>
+                        <!-- Slide5 -->
+                        <article class="pbmit-blog-style-1 swiper-slide">
+                            <div class="post-item">
+                                <div class="pbmit-featured-container">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-05.jpg') }}" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                        <div class="pbmit-meta-category">
+                                            <a href="blog-classic.html" rel="category tag">Investment</a>
+                                        </div>
+                                        <div class="pbmit-meta-date">
+                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pbmit-post-title">
+                                        <a href="blog-single-detail.html">Motivate your employees to advance their
+                                            skills.</a>
+                                    </h3>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="blog-single-detail.html">
+                                            Read More
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="blog-single-detail.html" class="pbmit-link"></a>
+                            </div>
+                        </article>
+                        <!-- Slide6 -->
+                        <article class="pbmit-blog-style-1 swiper-slide">
+                            <div class="post-item">
+                                <div class="pbmit-featured-container">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-06.jpg') }}" class="img-fluid"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                        <div class="pbmit-meta-category">
+                                            <a href="blog-classic.html" rel="category tag">Research</a>
+                                        </div>
+                                        <div class="pbmit-meta-date">
+                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="pbmit-post-title">
+                                        <a href="blog-single-detail.html">Create sales content based on
+                                            achievements.</a>
+                                    </h3>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="blog-single-detail.html">
+                                            Read More
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="blog-single-detail.html" class="pbmit-link"></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog End -->
+
+    </div>
+    <!-- Page Content End -->
+
+    <!-- footer -->
+@endsection

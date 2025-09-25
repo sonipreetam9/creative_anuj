@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class AdminAboutController extends Controller
 {
-    
 
-    public function AdminAbout()    
+
+    public function AdminAbout()
     {
         $about = AboutModel::all();
         return view('admin.about', compact('about'));
@@ -39,26 +39,36 @@ class AdminAboutController extends Controller
     }
 
 
-    public function AdminAboutEdit($id)
+    public function AdminAboutUpdatePage($id)
     {
-        $about = AboutModel::find($id);
-        if ($about) {
-            return view('admin.edit-about', compact('about'));
+        $data = AboutModel::findOrFail($id);
+        return view('admin.edit-about', compact('data'));
+    }
+
+    public function AdminAboutUpdate(Request $request, $id)
+    {
+
+        $about = AboutModel::findOrFail($id);
+        if ($request->hasFile('image')) {
+            $file_name = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $request->file('image')->move(public_path('uploads'), $file_name);
+            $about->image = $file_name;
         }
-        return redirect()->back()->with('error', 'About information not found.');
+        $about->title = $request->title;
+        $about->short_description = $request->short_description;
+        $about->long_description = $request->long_description;
+        $about->save();
+
+        // Redirect back with success message
+        return redirect()->route('admin.about')->with('success', 'About Content updated successfully!');
     }
 
     public function AdminAboutDelete($id)
     {
-        $about = AboutModel::find($id);
-        if ($about) {
-            if ($about->image && file_exists(public_path('uploads/' . $about->image))) {
-                unlink(public_path('uploads/' . $about->image));
-            }
-            $about->delete();
-            return redirect()->back()->with('success', 'About information deleted successfully.');
-        }
-        return redirect()->back()->with('error', 'About information not found.');
+        $about = AboutModel::findOrFail($id);
+        $about->delete();
+
+        return redirect()->back()->with('success', 'About Content deleted successfully!');
     }
 
 

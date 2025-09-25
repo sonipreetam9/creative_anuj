@@ -9,6 +9,8 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AdminIndexController;
 use App\Http\Controllers\AdminAboutController;
+use App\Http\Controllers\AdminServiceController;
+use App\Http\Controllers\AdminPortfolioController;
 use Illuminate\Support\Facades\Artisan;
 use GuzzleHttp\Middleware;
 
@@ -70,8 +72,21 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin']], function () 
     Route::get('/dashboard', [AdminIndexController::class, 'AdminDashboard'])->name('admin.dashboard');
     Route::get('/about', [AdminAboutController::class, 'AdminAbout'])->name('admin.about');
     Route::post('/about/post', [AdminAboutController::class, 'AdminAboutPost'])->name('admin.about.post');
-    Route::get('/about/edit/{id}', [AdminAboutController::class, 'AdminAboutEdit'])->name('admin.about.edit');
-    Route::post('/about/delete/{id}', [AdminAboutController::class, 'AdminAboutDelete'])->name('admin.about.delete');
+    Route::get('/about/edit/{id}', [AdminAboutController::class, 'AdminAboutUpdatePage'])->name('admin.about.edit');
+    Route::post('/about/edit/{id}', [AdminAboutController::class, 'AdminAboutUpdate'])->name('admin.about.update');
+    Route::get('/about/delete/{id}', [AdminAboutController::class, 'AdminAboutDelete'])->name('admin.about.delete');
+    Route::get('/add-service', [AdminServiceController::class, 'AdminServiceIndex'])->name('admin.service');
+    Route::post('/add-service', [AdminServiceController::class, 'AdminServicePost'])->name('admin.service.post');
+    Route::get('/all-service', [AdminServiceController::class, 'AdminAllService'])->name('admin.all.service');
+    Route::get('/edit-service/{id}', [AdminServiceController::class, 'AdminServiceUpdate'])->name('admin.service.edit.page');
+    Route::post('/edit-service/{id}', [AdminServiceController::class, 'AdminServiceUpdatePost'])->name('admin.service.edit.post');
+    Route::get('/delete-service/{id}', [AdminServiceController::class, 'AdminServiceDelete'])->name('admin.service.delete');
+    Route::get('/portfolio-heading', [AdminPortfolioController::class, 'AdminPortfolioHeading'])->name('admin.portfolio.heading');
+    Route::post('/portfolio-heading/create', [AdminPortfolioController::class, 'AdminPortfolioHeadingCreate'])->name('admin.portfolio.heading.create');
+    Route::post('/portfolio-heading/edit/{id}', [AdminPortfolioController::class, 'AdminPortfolioHeadingUpdate'])->name('admin.portfolio.heading.update');
+    Route::get('/portfolio-heading/delete/{id}', [AdminPortfolioController::class, 'AdminPortfolioHeadingDelete'])->name('admin.portfolio.heading.delete');
+    Route::get('/portfolio/create', [AdminPortfolioController::class, 'AdminPortfolioIndex'])->name('admin.portfolio.index');
+    // Route::post('/portfolio/create', [AdminPortfolioController::class, 'AdminPortfolioPost'])->name('admin.portfolio.post');
     Route::get('/logout', [AdminIndexController::class, 'AdminLogout'])->name('admin.logout');
 
 });

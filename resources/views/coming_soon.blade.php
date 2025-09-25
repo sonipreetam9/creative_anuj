@@ -123,6 +123,11 @@
                 margin-top: 310px;
             }
 
+            h1 {
+                font-size: 28px;
+                font-weight: bold;
+            }
+
             .countdown {
                 gap: 8px;
             }
@@ -152,7 +157,7 @@
     </div>
 
     <div class="wrap">
-        <h1>Coming Soon</h1>
+        <h1><b>Coming Soon</b></h1>
         <div class="countdown" id="countdown">
             <div class="unit">
                 <div class="value" id="days">--</div>

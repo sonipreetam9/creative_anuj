@@ -52,11 +52,9 @@
 
                                         {{-- Email --}}
                                         <div class="col-md-12">
-                                            <div class="form-floating">
+                                            <div class="form-control">
                                                 <input type="file" class="form-control" id="image" name="image"
                                                     required>
-
-                                                <label for="email">Image</label>
                                                 {{-- <small class="form-text text-muted">Enter branch email (will be used for
                                                     login).</small> --}}
                                                 @error('email')
@@ -111,7 +109,7 @@
                 <div class="col-xl-12">
                     <div class="card">
                         <div class="card-header align-items-center d-flex">
-                            <h4 class="card-title mb-0 flex-grow-1">About us</h4>
+                            <h4 class="card-title mb-0 flex-grow-1">List</h4>
                         </div><!-- end card header -->
 
 
@@ -159,9 +157,11 @@
                                                 <td>{{ $data->short_description }}</td>
 
                                                 <td>
-                                                    <a class="btn btn-warning btn-sm" href="{{ route('admin.about.edit', $data->id) }}">Edit</a>
-                                                    <a href="javascript:void(0);" class="btn btn-danger btn-sm delete-btn"
-                                                        data-url="{{ route('admin.about.delete', $data->id) }}">
+                                                    <a class="btn btn-warning btn-sm"
+                                                        href="{{ route('admin.about.edit', $data->id) }}">Edit</a>
+                                                    <a href="{{ route('admin.about.delete', $data->id) }}"
+                                                        class="btn btn-danger btn-sm delete-btn"
+                                                        onclick="return confirm('Are you sure you want to Delete')">
                                                         Delete
                                                     </a>
                                                 </td>

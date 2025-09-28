@@ -51,19 +51,19 @@
                         <div class="navbar-brand-box horizontal-logo">
                             <a href="#" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="82">
+                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="88">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="82">
+                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="88">
                                 </span>
                             </a>
 
                             <a href="#" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="82">
+                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="88">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="17">
+                                    <img src="{{ asset($dashboard_logo) }}" alt="" height="18">
                                 </span>
                             </a>
 

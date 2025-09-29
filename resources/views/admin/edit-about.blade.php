@@ -50,12 +50,12 @@
                                             </div>
                                         </div>
 
-                                        {{-- Email --}}
+                                        {{-- image 1 --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">
                                                 <input type="file" class="form-control" id="image" name="image">
 
-                                                <label for="email">Image</label>
+                                                <label for="email">Image 1</label>
                                                 <img src="{{ asset('uploads/' . $data->image) }}" width="100"
                                                     alt="about image">
                                                 {{-- <small class="form-text text-muted">Enter branch email (will be used for
@@ -65,6 +65,24 @@
                                                 @enderror
                                             </div>
                                         </div>
+
+                                        {{-- image 2 --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="file" class="form-control" id="image" name="image2">
+
+                                                <label for="email">Image 2</label>
+                                                <img src="{{ asset('uploads/' . $data->image2) }}" width="100"
+                                                    alt="about image">
+                                                {{-- <small class="form-text text-muted">Enter branch email (will be used for
+                                                    login).</small> --}}
+                                                @error('email')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
 
                                         {{-- Short Description --}}
                                         <div class="col-md-12">

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Models\ServiceModel;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        
+
         $comp_title = "Creative Tech Studio";
         $comp_url = "www.creativetechstudio.in";
         $comp_phone = "93064-39947";
@@ -37,5 +38,12 @@ class AppServiceProvider extends ServiceProvider
         view()->share('small_logo', $small_logo);
         view()->share('dashboard_logo', $dashboard_logo);
         view()->share('login_logo', $login_logo);
+
+        $services = ServiceModel::orderBy('id', 'ASC')->get();
+        view()->share('services', $services);
+
+
     }
+
+
 }

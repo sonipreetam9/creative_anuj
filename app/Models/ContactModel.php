@@ -5,20 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class AboutModel extends Model
+class ContactModel extends Model
 {
     use HasFactory;
-
-    protected $table = 'about';
-
+    protected $table = 'contact';
     protected $fillable = [
+        'name',
+        'phone',
+        'email',
+        'subject',
+        'message'
 
-        'title',
-        'image',
-        'image2',
-        'short_description',
-        'long_description',
-        
     ];
 
 }

@@ -154,78 +154,88 @@
         <!-- About -->
         <section class="section-lgx">
             <div class="container">
-                <div class="row g-0 align-items-center">
-                    <div class="col-md-12 col-xl-6">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="about-three_img1">
-                                    <div class="pbmit-animation-style4">
-                                        <img src="{{ asset('assets/images/homepage-03/about-img-02.jpg') }}" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-three_img2">
-                                    <div class="pbmit-animation-style3">
-                                        <img src="{{ asset('assets/images/homepage-03/about-img-01.jpg') }}" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-xl-6">
-                        <div class="about-us-three-rightbox">
-                            <div class="pbmit-heading-subheading animation-style2">
-                                <h4 class="pbmit-subtitle">Who We Are</h4>
-                                <h2 class="pbmit-title">We provide the solutions to grow Business.</h2>
-                            </div>
-                            <div class="about-us-three-content">
-                                <div class="pbmit-desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliquat
-                                    enim ad minim veniam nostrud exercitation ullamco sed do eiusmod tempor incid idunt.
-                                </div>
-                                <div class="row mt-5 mb-5">
-                                    <div class="col-md-6">
-                                        <div class="pbmit-ihbox-style-2">
-                                            <div class="pbmit-ihbox-icon">
-                                                <div class="pbmit-ihbox-icon-wrapper">
-                                                    <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                                        <i class="pbmit-capigo-icon pbmit-capigo-icon-call-center"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">
-                                                    Market Analysis
-                                                </h2>
-                                                <div class="pbmit-heading-desc">We welcome and celebrate different
-                                                    perspectives to help our firm.</div>
-                                            </div>
+                @foreach ($abouts as $about)
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-12 col-xl-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="about-three_img1">
+                                        <div class="pbmit-animation-style4">
+                                            @if ($about->image)
+                                                <img src="{{ asset('uploads/' . $about->image) }}" class="img-fluid"
+                                                    alt="{{ $about->title }}">
+                                            @else
+                                                <span>No Image Available</span>
+                                            @endif
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="pbmit-ihbox-style-2">
-                                            <div class="pbmit-ihbox-icon">
-                                                <div class="pbmit-ihbox-icon-wrapper">
-                                                    <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                                        <i class="pbmit-capigo-icon pbmit-capigo-icon-investment"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">
-                                                    Rise in Sales
-                                                </h2>
-                                                <div class="pbmit-heading-desc">We welcome and celebrate different
-                                                    perspectives to help our firm.</div>
-                                            </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="about-three_img2">
+                                        <div class="pbmit-animation-style3">
+                                            @if ($about->image)
+                                                <img src="{{ asset('uploads/' . $about->image2) }}" class="img-fluid"
+                                                    alt="{{ $about->title }}">
+                                            @else
+                                                <span>No Image Available</span>
+                                            @endif
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-12 col-xl-6">
+                            <div class="about-us-three-rightbox">
+                                <div class="pbmit-heading-subheading animation-style2">
+                                    <h4 class="pbmit-subtitle">Creative Tech Studio </h4>
+                                    <h2 class="pbmit-title">{{ $about->title }}</h2>
+                                </div>
+                                <div class="about-us-three-content">
+                                    <div class="pbmit-desc">{{ $about->long_description }}</div>
+                                </div>
+                                {{-- <div class="row mt-5 mb-5">
+                                        <div class="col-md-6">
+                                            <div class="pbmit-ihbox-style-2">
+                                                <div class="pbmit-ihbox-icon">
+                                                    <div class="pbmit-ihbox-icon-wrapper">
+                                                        <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-call-center"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pbmit-ihbox-contents">
+                                                    <h2 class="pbmit-element-title">
+                                                        Market Analysis
+                                                    </h2>
+                                                    <div class="pbmit-heading-desc">We welcome and celebrate different
+                                                        perspectives to help our firm.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="pbmit-ihbox-style-2">
+                                                <div class="pbmit-ihbox-icon">
+                                                    <div class="pbmit-ihbox-icon-wrapper">
+                                                        <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-investment"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pbmit-ihbox-contents">
+                                                    <h2 class="pbmit-element-title">
+                                                        Rise in Sales
+                                                    </h2>
+                                                    <div class="pbmit-heading-desc">We welcome and celebrate different
+                                                        perspectives to help our firm.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> --}}
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
+            @endforeach
         </section>
         <!-- About end -->
 
@@ -254,8 +264,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-01.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-01.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -278,8 +288,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-02.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-02.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -302,8 +312,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-03.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-03.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -326,8 +336,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-04.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-04.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -350,8 +360,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-05.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-05.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -374,8 +384,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-06.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-06.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -398,8 +408,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-07.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-07.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -422,8 +432,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-08.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-08.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -446,8 +456,8 @@
                                     <div class="pbminfotech-service-content">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/homepage-01/service/service-09.jpg') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/homepage-01/service/service-09.jpg') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                         <div class="pbminfotech-box-content">
@@ -567,11 +577,13 @@
                                 <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                     <h4 class="pbmit-hide">Client 06</h4>
                                     <div class="pbmit-client-hover-img">
-                                        <img src="{{ asset('assets/images/client/client-global-01.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/client/client-global-01.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/client/client-dark-01.png') }}" class="img-fluid" alt="">
+                                            <img src="{{ asset('assets/images/client/client-dark-01.png') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -583,11 +595,13 @@
                                 <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                     <h4 class="pbmit-hide">Client 06</h4>
                                     <div class="pbmit-client-hover-img">
-                                        <img src="{{ asset('assets/images/client/client-global-02.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/client/client-global-02.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/client/client-dark-02.png') }}" class="img-fluid" alt="">
+                                            <img src="{{ asset('assets/images/client/client-dark-02.png') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -599,11 +613,13 @@
                                 <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                     <h4 class="pbmit-hide">Client 06</h4>
                                     <div class="pbmit-client-hover-img">
-                                        <img src="{{ asset('assets/images/client/client-global-03.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/client/client-global-03.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/client/client-dark-03.png') }}" class="img-fluid" alt="">
+                                            <img src="{{ asset('assets/images/client/client-dark-03.png') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -615,11 +631,13 @@
                                 <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                     <h4 class="pbmit-hide">Client 06</h4>
                                     <div class="pbmit-client-hover-img">
-                                        <img src="{{ asset('assets/images/client/client-global-04.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/client/client-global-04.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/client/client-dark-04.png') }}" class="img-fluid" alt="">
+                                            <img src="{{ asset('assets/images/client/client-dark-04.png') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -631,11 +649,13 @@
                                 <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                     <h4 class="pbmit-hide">Client 06</h4>
                                     <div class="pbmit-client-hover-img">
-                                        <img src="{{ asset('assets/images/client/client-global-05.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/client/client-global-05.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/client/client-dark-05.png') }}" class="img-fluid" alt="">
+                                            <img src="{{ asset('assets/images/client/client-dark-05.png') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -647,11 +667,13 @@
                                 <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                     <h4 class="pbmit-hide">Client 06</h4>
                                     <div class="pbmit-client-hover-img">
-                                        <img src="{{ asset('assets/images/client/client-global-06.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/client/client-global-06.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/client/client-dark-06.png') }}" class="img-fluid" alt="">
+                                            <img src="{{ asset('assets/images/client/client-dark-06.png') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>

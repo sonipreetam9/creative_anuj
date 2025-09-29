@@ -66,7 +66,7 @@
                                         </div>
 
 
-                                        
+
                                         {{-- Email --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">
@@ -82,7 +82,7 @@
                                             </div>
                                         </div>
 
-                               
+
 
 
 

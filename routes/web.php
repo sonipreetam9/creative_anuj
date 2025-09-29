@@ -11,6 +11,7 @@ use App\Http\Controllers\AdminIndexController;
 use App\Http\Controllers\AdminAboutController;
 use App\Http\Controllers\AdminServiceController;
 use App\Http\Controllers\AdminPortfolioController;
+use App\Http\Controllers\AdminContactController;
 use Illuminate\Support\Facades\Artisan;
 use GuzzleHttp\Middleware;
 
@@ -48,11 +49,12 @@ Route::get('/', [IndexController::class, 'coming_soon'])->name('coming');
 Route::get('/show', [IndexController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'about'])->name('about');
 Route::get('/services', [ServiceController::class, 'service'])->name('services');
-Route::get('/service-detail', [ServiceController::class, 'serviceDetail'])->name('service-detail');
+Route::get('/services/{id}', [ServiceController::class, 'serviceDetail'])->name('service.detail');
 Route::get('/portfolio', [PortfolioController::class, 'portfolio'])->name('portfolio');
 Route::get('/blog', [BlogController::class, 'blog'])->name('blog');
 Route::get('/blog-details', [BlogController::class, 'blogDetails'])->name('blog-details');
 Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
+Route::post('/contact-us', [ContactController::class, 'ContactRequest'])->name('contact.request');
 
 // Admin Route
 
@@ -87,6 +89,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin']], function () 
     Route::get('/portfolio-heading/delete/{id}', [AdminPortfolioController::class, 'AdminPortfolioHeadingDelete'])->name('admin.portfolio.heading.delete');
     Route::get('/portfolio/create', [AdminPortfolioController::class, 'AdminPortfolioIndex'])->name('admin.portfolio.index');
     // Route::post('/portfolio/create', [AdminPortfolioController::class, 'AdminPortfolioPost'])->name('admin.portfolio.post');
+    Route::get('/contact', [AdminContactController::class, 'AdminAllContact'])->name('admin.all.contact');
+    Route::get('/contact/delete/{id}', [AdminContactController::class, 'AdminContactDelete'])->name('admin.contact.delete');
     Route::get('/logout', [AdminIndexController::class, 'AdminLogout'])->name('admin.logout');
 
 });

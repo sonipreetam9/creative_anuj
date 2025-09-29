@@ -38,7 +38,8 @@
                             <div class="site-branding">
                                 <h1 class="site-title">
                                     <a href="{{ route('home') }}">
-                                        <img class="logo-img" src="{{ asset('assets/images/logo.png') }}" alt="Logo">
+                                        <img class="logo-img" src="{{ asset('assets/images/logo.png') }}"
+                                            alt="Logo">
                                     </a>
                                 </h1>
                             </div>
@@ -66,10 +67,13 @@
                                                 <li class="dropdown">
                                                     <a href="{{ route('services') }}">Services</a>
                                                     <ul>
-                                                        <li><a href="{{ route('service-detail') }}">Service 1</a></li>
-                                                        <li><a href="{{ route('service-detail') }}">Service 2</a></li>
-                                                        <li><a href="{{ route('service-detail') }}">Service 3</a></li>
-                                                        <li><a href="{{ route('service-detail') }}">Service 4</a></li>
+                                                        @foreach ($services as $service)
+                                                            <li>
+                                                                <a href="{{ route('service.detail', $service->id) }}">
+                                                                    {{ $service->title }}
+                                                                </a>
+                                                            </li>
+                                                        @endforeach
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">

@@ -9,21 +9,21 @@
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
                         <div class="pbmit-slider-bg"
-                            style="background-image: url({{ asset('assets/images/banner-slider-img/slider04-slide-1.jpg') }});">
+                            style="background-image: url({{ asset('assets/images/banner-slider-img/slide-1.jpg') }});">
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8 col-lg-6">
+                                <div class="col-md-8 col-lg-8">
                                     <div class="pbmit-slider-content">
-                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">Plan for
-                                            Secure Future</h5>
+                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">Website Development
+                                        </h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>Growing</strong> <br> <span>Together.</span>
+                                            <strong>BUILDING YOUR </strong> <br> <span>DIGITAL HOME.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
                                                 <div class="transform-bottom transform-delay-3">
-                                                    <a href="contact-us.html" class="pbmit-btn pbmit-btn-white">
+                                                    <a href="{{ route('contact') }}" class="pbmit-btn pbmit-btn-white">
                                                         <span class="pbmit-header-button-text">
                                                             Contact Us
                                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
@@ -43,13 +43,13 @@
                                             </div>
                                             <div class="col-md-8 col-xl-9">
                                                 <div class="pbmit-desc transform-bottom transform-delay-4">
-                                                    True relationships developing the futures.
+                                                    Crafting websites that inspire trust and deliver results.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-6"></div>
+                                <div class="col-md-4 col-lg-4"></div>
                             </div>
                         </div>
                     </div>
@@ -58,21 +58,20 @@
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
                         <div class="pbmit-slider-bg"
-                            style="background-image: url(images/banner-slider-img/slider04-slide-2.jpg);">
+                            style="background-image: url({{ asset('assets/images/banner-slider-img/slide-2.jpg') }});">
                         </div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8 col-lg-6">
                                     <div class="pbmit-slider-content">
-                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">Think
-                                            Different, Execute Better</h5>
+                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">App Development</h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>ultimate</strong> <br> <span>freedom.</span>
+                                            <strong>APPS THAT</strong> <br> <span>EMPOWER.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
                                                 <div class="transform-bottom transform-delay-3">
-                                                    <a href="contact-us.html" class="pbmit-btn pbmit-btn-white">
+                                                    <a href="{{ route('contact') }}" class="pbmit-btn pbmit-btn-white">
                                                         <span class="pbmit-header-button-text">
                                                             Contact Us
                                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +91,7 @@
                                             </div>
                                             <div class="col-md-8 col-xl-9">
                                                 <div class="pbmit-desc transform-bottom transform-delay-4">
-                                                    True relationships developing the futures.
+                                                    Seamless, smart, and scalable mobile solutions for your business.
                                                 </div>
                                             </div>
                                         </div>
@@ -107,21 +106,21 @@
                 <div class="swiper-slide">
                     <div class="pbmit-slider-item">
                         <div class="pbmit-slider-bg"
-                            style="background-image: url(images/banner-slider-img/slider04-slide-3.jpg);">
+                            style="background-image: url({{ asset('assets/images/banner-slider-img/slide-3.jpg') }});">
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8 col-lg-6">
+                                <div class="col-md-8 col-lg-8">
                                     <div class="pbmit-slider-content">
                                         <h5 class="pbmit-sub-title transform-left transform-delay-1">A
-                                            Revolution in Marketing</h5>
+                                            Digital Marketing</h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>leading</strong> <br> <span>financial. </span>
+                                            <strong>GROW YOUR</strong> <br><span>BRAND ONLINE.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
                                                 <div class="transform-bottom transform-delay-3">
-                                                    <a href="contact-us.html" class="pbmit-btn pbmit-btn-white">
+                                                    <a href="{{ route('contact') }}" class="pbmit-btn pbmit-btn-white">
                                                         <span class="pbmit-header-button-text">
                                                             Contact Us
                                                             <svg class="pbmit-svg-arrow"
@@ -142,13 +141,63 @@
                                             </div>
                                             <div class="col-md-8 col-xl-9">
                                                 <div class="pbmit-desc transform-bottom transform-delay-4">
-                                                    True relationships developing the futures.
+                                                    Turning clicks into customers with strategies that work.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-6"></div>
+                                <div class="col-md-4 col-lg-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide4 -->
+                <div class="swiper-slide">
+                    <div class="pbmit-slider-item">
+                        <div class="pbmit-slider-bg"
+                            style="background-image: url({{ asset('assets/images/banner-slider-img/slide-4.jpg') }});">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-lg-10">
+                                    <div class="pbmit-slider-content">
+                                        <h5 class="pbmit-sub-title transform-left transform-delay-1">Photography</h5>
+                                        <h2 class="pbmit-title transform-left transform-delay-2">
+                                            <strong>CAPTURING EVERY</strong><br><span>MOMENT.</span>
+                                        </h2>
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-md-4 col-xl-3">
+                                                <div class="transform-bottom transform-delay-3">
+                                                    <a href="{{ route('contact') }}" class="pbmit-btn pbmit-btn-white">
+                                                        <span class="pbmit-header-button-text">
+                                                            Contact Us
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="10" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-xl-9">
+                                                <div class="pbmit-desc transform-bottom transform-delay-4">
+                                                    Creative visuals that tell your story with impact.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-2"></div>
                             </div>
                         </div>
                     </div>
@@ -162,190 +211,102 @@
         <!-- About -->
         <section class="section-lgx pbmit-bg-color-secondary">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-xl-4">
-                        <div class="pbmit-heading-subheading">
-                            <h4 class="pbmit-subtitle">Who we are</h4>
-                        </div>
-                        <div class="pbminfotech-ele-fid-style-5">
-                            <div class="pbmit-fld-contents">
-                                <div class="pbmit-fld-wrap">
-                                    <h4 class="pbmit-fid-inner">
-                                        <span class="pbmit-fid"></span>
-                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
-                                            data-from="0" data-to="25" data-interval="5" data-before=""
-                                            data-before-style="" data-after="" data-after-style="">25</span>
-                                        <span class="pbmit-fid"><span>+</span></span>
-                                    </h4>
-                                    <h3 class="pbmit-fid-title">Years of <br>Experience</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pbminfotech-ele-fid-style-5 mt-4">
-                            <div class="pbmit-fld-contents">
-                                <div class="pbmit-fld-wrap">
-                                    <h4 class="pbmit-fid-inner">
-                                        <span class="pbmit-fid"></span>
-                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
-                                            data-from="0" data-to="412" data-interval="5" data-before=""
-                                            data-before-style="" data-after="" data-after-style="">412</span>
-                                    </h4>
-                                    <h3 class="pbmit-fid-title">users that is <br> active world-wide</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-xl-8">
-                        <div class="about-four-rightbox">
+                @foreach ($abouts as $about)
+                    <div class="row">
+                        <div class="col-md-12 col-xl-5">
                             <div class="pbmit-heading-subheading">
-                                <h4 class="pbmit-title text-white">Guided by integrity, trust & client centricity
-                                    our values drive everything we do.</h4>
+                                <h4 class="pbmit-subtitle">Creative Tech Studio</h4>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="about-four-right-img"></div>
-                                </div>
-                                <div class="col-md-6 text-white pbmit-desc">
-                                    <p>At FinFlow, we understand the importance of financial planning for
-                                        individuals and businesses alike.</p>
-                                    <p>Our team of expert financial planners is committed to helping you achieve
-                                        your financial goals and secure your financial future.</p>
-                                </div>
-                            </div>
-                            <div class="row mt-5">
-                                <div class="col-md-6 col-xl-4">
-                                    <div class="pbmit-ihbox-style-5">
-                                        <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">
-                                                <a href="service-detail.html">
-                                                    <span>
-                                                        Implement Business<br> Strategies
-                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="19" height="19" viewBox="0 0 19 19"
-                                                            xml:space="preserve">
-                                                            <line x1="1" y1="18" x2="17.8"
-                                                                y2="1.2"></line>
-                                                            <line x1="1.2" y1="1" x2="18"
-                                                                y2="1"></line>
-                                                            <line x1="18" y1="17.8" x2="18"
-                                                                y2="1"></line>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </h2>
-                                            <div class="pbmit-ihbox-btn">
-                                                <a href="service-detail.html">
-                                                    <span>
-                                                        Read More
-                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="19" height="19" viewBox="0 0 19 19"
-                                                            xml:space="preserve">
-                                                            <line x1="1" y1="18" x2="17.8"
-                                                                y2="1.2"></line>
-                                                            <line x1="1.2" y1="1" x2="18"
-                                                                y2="1"></line>
-                                                            <line x1="18" y1="17.8" x2="18"
-                                                                y2="1"></line>
-                                                        </svg>
-                                                    </span>
-                                                </a>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="about-three_img1">
+                                            <div class="pbmit-animation-style4">
+                                                @if ($about->image)
+                                                    <img src="{{ asset('uploads/' . $about->image) }}" class="img-fluid"
+                                                        alt="{{ $about->title }}">
+                                                @else
+                                                    <span>No Image Available</span>
+                                                @endif
                                             </div>
                                         </div>
-                                        <div class="pbmit-ihbox-wapper"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="about-three_img2">
+                                            <div class="pbmit-animation-style3">
+                                                @if ($about->image)
+                                                    <img src="{{ asset('uploads/' . $about->image2) }}" class="img-fluid"
+                                                        alt="{{ $about->title }}">
+                                                @else
+                                                    <span>No Image Available</span>
+                                                @endif
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-xl-4">
-                                    <div class="pbmit-ihbox-style-5">
-                                        <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">
-                                                <a href="service-detail.html">
-                                                    <span>
-                                                        Market Analysis <br> and Research
-                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="19" height="19" viewBox="0 0 19 19"
-                                                            xml:space="preserve">
-                                                            <line x1="1" y1="18" x2="17.8"
-                                                                y2="1.2"></line>
-                                                            <line x1="1.2" y1="1" x2="18"
-                                                                y2="1"></line>
-                                                            <line x1="18" y1="17.8" x2="18"
-                                                                y2="1"></line>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </h2>
-                                            <div class="pbmit-ihbox-btn">
-                                                <a href="service-detail.html">
-                                                    <span>
-                                                        Read More
-                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="19" height="19" viewBox="0 0 19 19"
-                                                            xml:space="preserve">
-                                                            <line x1="1" y1="18" x2="17.8"
-                                                                y2="1.2"></line>
-                                                            <line x1="1.2" y1="1" x2="18"
-                                                                y2="1"></line>
-                                                            <line x1="18" y1="17.8" x2="18"
-                                                                y2="1"></line>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="pbmit-ihbox-wapper"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-7">
+                            <div class="about-four-rightbox">
+                                <div class="pbmit-heading-subheading">
+                                    <h4 class="pbmit-title text-white">{{ $about->title }}</h4>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-white pbmit-desc">
+                                        <p>{{ $about->short_description }}</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-xl-4">
-                                    <div class="pbmit-ihbox-style-5">
-                                        <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">
-                                                <a href="service-detail.html">
-                                                    <span>
-                                                        Innovative <br> Techniques
-                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="19" height="19" viewBox="0 0 19 19"
-                                                            xml:space="preserve">
-                                                            <line x1="1" y1="18" x2="17.8"
-                                                                y2="1.2"></line>
-                                                            <line x1="1.2" y1="1" x2="18"
-                                                                y2="1"></line>
-                                                            <line x1="18" y1="17.8" x2="18"
-                                                                y2="1"></line>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </h2>
-                                            <div class="pbmit-ihbox-btn">
-                                                <a href="service-detail.html">
-                                                    <span>
-                                                        Read More
-                                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="19" height="19" viewBox="0 0 19 19"
-                                                            xml:space="preserve">
-                                                            <line x1="1" y1="18" x2="17.8"
-                                                                y2="1.2"></line>
-                                                            <line x1="1.2" y1="1" x2="18"
-                                                                y2="1"></line>
-                                                            <line x1="18" y1="17.8" x2="18"
-                                                                y2="1"></line>
-                                                        </svg>
-                                                    </span>
-                                                </a>
+                                <div class="row mt-5">
+                                    <div class="col-md-6 col-xl-4">
+                                        <div class="pbmit-ihbox-style-5">
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">
+                                                    <a href="{{ route('about') }}">
+                                                        <span>
+                                                            Read More
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </h2>
+                                                <div class="pbmit-ihbox-btn">
+                                                    <a href="{{ route('about') }}">
+                                                        <span>
+                                                            Read More
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
                                             </div>
+                                            <div class="pbmit-ihbox-wapper"></div>
                                         </div>
-                                        <div class="pbmit-ihbox-wapper"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                @endforeach
             </div>
         </section>
         <!-- About End -->
@@ -354,226 +315,58 @@
         <section class="pbmit-element-service-style-4 pbmit-bg-color-blackish">
             <div class="container-fluid">
                 <div class="row">
-                    <article class="pbmit-service-style-4 col-md-12">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-service-img-wrapper"
-                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-01.jpg') }}')">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="{{ asset('assets/images/homepage-04/service/service-01.jpg') }}" class="img-fluid"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-content-inner">
-                                    <div class="pbminfotech-box-number">01</div>
-                                    <div class="pbmit-cat-wrap">
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Advisory</a>
+                    @php
+                        $i = 0;
+                    @endphp
+                    @foreach ($services as $service)
+                    @php
+                        $i++;
+                    @endphp
+                        <article class="pbmit-service-style-4 col-md-12">
+                            <div class="pbminfotech-post-item">
+                                <div class="pbmit-service-img-wrapper"
+                                    style="background-image:url('{{ asset('uploads/' . $service->image) }}')">
+                                    <div class="pbmit-featured-img-wrapper">
+                                        <div class="pbmit-featured-wrapper">
+                                            <img src="{{ asset('uploads/' . $service->image) }}"
+                                                class="img-fluid" alt="">
                                         </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Qualify leads</a>
-                                        </h3>
                                     </div>
                                 </div>
-                                <div class="pbmit-svg-btn">
-                                    <a class="btn-arrow" href="service-detail.html" title="Qualify leads">
-                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                            </line>
-                                            <line x1="1.2" y1="1" x2="18" y2="1">
-                                            </line>
-                                            <line x1="18" y1="17.8" x2="18" y2="1">
-                                            </line>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-icon-box">
-                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                            </div>
-                        </div>
-                        <a href="service-detail.html" class="pbmit-link"></a>
-                    </article>
-                    <article class="pbmit-service-style-4 col-md-12">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-service-img-wrapper"
-                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-02.jpg') }}')">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="{{ asset('assets/images/homepage-04/service/service-02.jpg') }}" class="img-fluid"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-content-inner">
-                                    <div class="pbminfotech-box-number">02</div>
-                                    <div class="pbmit-cat-wrap">
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Consulting</a>
+                                <div class="pbminfotech-box-content">
+                                    <div class="pbmit-content-inner">
+                                        <div class="pbminfotech-box-number">{{ $i }}</div>
+                                        <div class="pbmit-cat-wrap">
+                                            <div class="pbmit-serv-cat">
+                                                <a href="services.html" rel="tag">Service</a>
+                                            </div>
+                                            <h3 class="pbmit-service-title">
+                                                <a href="{{ route('service.detail', $service->id) }}">{{ $service->title }}</a>
+                                            </h3>
                                         </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Business Planning</a>
-                                        </h3>
+                                    </div>
+                                    <div class="pbmit-svg-btn">
+                                        <a class="btn-arrow" href="{{ route('service.detail', $service->id) }}" title="Qualify leads">
+                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                </line>
+                                                <line x1="1.2" y1="1" x2="18" y2="1">
+                                                </line>
+                                                <line x1="18" y1="17.8" x2="18" y2="1">
+                                                </line>
+                                            </svg>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="pbmit-svg-btn">
-                                    <a class="btn-arrow" href="service-detail.html" title="Business Planning">
-                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                            </line>
-                                            <line x1="1.2" y1="1" x2="18" y2="1">
-                                            </line>
-                                            <line x1="18" y1="17.8" x2="18" y2="1">
-                                            </line>
-                                        </svg>
-                                    </a>
+                                <div class="pbminfotech-icon-box">
+                                    <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
                                 </div>
                             </div>
-                            <div class="pbminfotech-icon-box">
-                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                            </div>
-                        </div>
-                        <a href="service-detail.html" class="pbmit-link"></a>
-                    </article>
-                    <article class="pbmit-service-style-4 col-md-12">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-service-img-wrapper"
-                                style="background-image:url('{{asset('assets/images/homepage-04/service/service-03.jpg')}}')">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="{{asset('assets/images/homepage-04/service/service-03.jpg')}}" class="img-fluid"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-content-inner">
-                                    <div class="pbminfotech-box-number">03</div>
-                                    <div class="pbmit-cat-wrap">
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Inventory</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Market Research</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="pbmit-svg-btn">
-                                    <a class="btn-arrow" href="service-detail.html" title="Market Research">
-                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                            </line>
-                                            <line x1="1.2" y1="1" x2="18" y2="1">
-                                            </line>
-                                            <line x1="18" y1="17.8" x2="18" y2="1">
-                                            </line>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-icon-box">
-                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                            </div>
-                        </div>
-                        <a href="service-detail.html" class="pbmit-link"></a>
-                    </article>
-                    <article class="pbmit-service-style-4 col-md-12">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-service-img-wrapper"
-                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-04.jpg') }}')">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="{{ asset('assets/images/homepage-04/service/service-04.jpg') }}" class="img-fluid"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-content-inner">
-                                    <div class="pbminfotech-box-number">04</div>
-                                    <div class="pbmit-cat-wrap">
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Management</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Financial Management</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="pbmit-svg-btn">
-                                    <a class="btn-arrow" href="service-detail.html" title="Financial Management">
-                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                            </line>
-                                            <line x1="1.2" y1="1" x2="18" y2="1">
-                                            </line>
-                                            <line x1="18" y1="17.8" x2="18" y2="1">
-                                            </line>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-icon-box">
-                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                            </div>
-                        </div>
-                        <a href="service-detail.html" class="pbmit-link"></a>
-                    </article>
-                    <article class="pbmit-service-style-4 col-md-12">
-                        <div class="pbminfotech-post-item">
-                            <div class="pbmit-service-img-wrapper"
-                                style="background-image:url('{{ asset('assets/images/homepage-04/service/service-05.jpg') }}')">
-                                <div class="pbmit-featured-img-wrapper">
-                                    <div class="pbmit-featured-wrapper">
-                                        <img src="{{ asset('assets/images/homepage-04/service/service-05.jpg') }}" class="img-fluid"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-box-content">
-                                <div class="pbmit-content-inner">
-                                    <div class="pbminfotech-box-number">05</div>
-                                    <div class="pbmit-cat-wrap">
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Marketing</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Finance Instruments</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="pbmit-svg-btn">
-                                    <a class="btn-arrow" href="service-detail.html" title="Finance Instruments">
-                                        <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                            height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                            <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                            </line>
-                                            <line x1="1.2" y1="1" x2="18" y2="1">
-                                            </line>
-                                            <line x1="18" y1="17.8" x2="18" y2="1">
-                                            </line>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pbminfotech-icon-box">
-                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                            </div>
-                        </div>
-                        <a href="service-detail.html" class="pbmit-link"></a>
-                    </article>
+                            <a href="{{ route('service.detail', $service->id) }}" class="pbmit-link"></a>
+                        </article>
+                    @endforeach
                 </div>
             </div>
         </section>
@@ -587,7 +380,7 @@
                         <div class="pbmit-mask-image-style-1">
                             <div class="pbmit-mask-image-box">
                                 <div class="pbmit-mask-image-title-image"
-                                    style="background-image:url('{{asset('assets/images/homepage-04/mask-image.jpg')}}')">
+                                    style="background-image:url('{{ asset('assets/images/homepage-04/mask-image.jpg') }}')">
                                     <h2 class="pbmit-element-title">How we work</h2>
                                 </div>
                             </div>
@@ -699,8 +492,8 @@
                 <div class="row g-0">
                     <div class="col-md-12 col-xl-6">
                         <div class="pbmit-col-stretched-left">
-                            <img src="{{ asset('assets/images/homepage-04/sticky-section-side-img.jpg') }}" class="img-fluid w-100"
-                                alt="">
+                            <img src="{{ asset('assets/images/homepage-04/sticky-section-side-img.jpg') }}"
+                                class="img-fluid w-100" alt="">
                         </div>
                     </div>
                     <div class="col-md-12 col-xl-6 pbmit-sticky-col2-special">
@@ -1239,12 +1032,13 @@
                                     <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                         <h4 class="pbmit-hide">Client 06</h4>
                                         <div class="pbmit-client-hover-img">
-                                            <img src="{{ asset('assets/images/client/client-global-01.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/client/client-global-01.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/client/client-dark-01.png') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/client/client-dark-01.png') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1256,12 +1050,13 @@
                                     <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                         <h4 class="pbmit-hide">Client 06</h4>
                                         <div class="pbmit-client-hover-img">
-                                            <img src="{{ asset('assets/images/client/client-global-02.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/client/client-global-02.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/client/client-dark-02.png') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/client/client-dark-02.png') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1273,12 +1068,13 @@
                                     <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                         <h4 class="pbmit-hide">Client 06</h4>
                                         <div class="pbmit-client-hover-img">
-                                            <img src="{{ asset('assets/images/client/client-global-03.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/client/client-global-03.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/client/client-dark-03.png') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/client/client-dark-03.png') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1290,12 +1086,13 @@
                                     <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                         <h4 class="pbmit-hide">Client 06</h4>
                                         <div class="pbmit-client-hover-img">
-                                            <img src="{{ asset('assets/images/client/client-global-04.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/client/client-global-04.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/client/client-dark-04.png') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/client/client-dark-04.png') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1307,12 +1104,13 @@
                                     <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                         <h4 class="pbmit-hide">Client 06</h4>
                                         <div class="pbmit-client-hover-img">
-                                            <img src="{{ asset('assets/images/client/client-global-05.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/client/client-global-05.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/client/client-dark-05.png') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/client/client-dark-05.png') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1324,12 +1122,13 @@
                                     <div class="pbmit-client-wrapper pbmit-client-with-hover-img">
                                         <h4 class="pbmit-hide">Client 06</h4>
                                         <div class="pbmit-client-hover-img">
-                                            <img src="{{ asset('assets/images/client/client-global-06.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/client/client-global-06.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('assets/images/client/client-dark-06.png') }}" class="img-fluid"
-                                                    alt="">
+                                                <img src="{{ asset('assets/images/client/client-dark-06.png') }}"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1358,8 +1157,8 @@
                                 <div class="pbmit-featured-container">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-01.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-01.jpg') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1380,9 +1179,8 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1402,8 +1200,8 @@
                                 <div class="pbmit-featured-container">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-02.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-02.jpg') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1424,9 +1222,8 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1446,8 +1243,8 @@
                                 <div class="pbmit-featured-container">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-03.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-03.jpg') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1468,9 +1265,8 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1490,8 +1286,8 @@
                                 <div class="pbmit-featured-container">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-04.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-04.jpg') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1512,9 +1308,8 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1534,8 +1329,8 @@
                                 <div class="pbmit-featured-container">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-05.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-05.jpg') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1556,9 +1351,8 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1578,8 +1372,8 @@
                                 <div class="pbmit-featured-container">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-06.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-06.jpg') }}"
+                                                class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1600,9 +1394,8 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
+                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">

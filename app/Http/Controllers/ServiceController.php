@@ -2,19 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ServiceModel;
 use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
-    
- public function service()
+    // Show services list page
+    public function service()
     {
-        return view('services');
+        $services = ServiceModel::orderBy('id', 'ASC')->get();
+        return view('services', compact('services'));
     }
 
-    public function serviceDetail()
+    // Show single service detail page
+    public function serviceDetail($id)
     {
-        return view('service-detail');
+        $service = ServiceModel::findOrFail($id);
+        return view('service-detail', compact('service'));
     }
-
 }

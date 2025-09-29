@@ -55,7 +55,7 @@ class AdminPortfolioController extends Controller
 
     public function AdminPortfolioIndex()
     {
-        return view('admin.portfolio_create');
+        return view('admin.add_portfolio');
     }
 
 

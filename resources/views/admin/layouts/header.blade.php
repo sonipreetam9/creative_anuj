@@ -260,11 +260,11 @@
                         </li>
 
                         <li class="menu-title"><i class="ri-more-fill"></i> <span
-                                data-key="t-components">Admin</span>
+                                data-key="t-components">Request</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="#">
-                                <i class="mdi mdi-account-circle-outline"></i> <span>Profile</span>
+                            <a class="nav-link menu-link" href="{{ route('admin.all.contact') }}">
+                                <i class="mdi mdi-account-circle-outline"></i> <span>Contact Form Request</span>
                             </a>
                         </li>
                         <li class="nav-item">

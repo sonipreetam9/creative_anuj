@@ -43,10 +43,9 @@
                                 <h2 class="pbmit-element-title">
                                     Mail us 24/7
                                 </h2>
-                                <div class="pbmit-heading-desc"><a
-                                        href="mailto:{{ $comp_email }}"
+                                <div class="pbmit-heading-desc"><a href="mailto:{{ $comp_email }}"
                                         class="__cf_email__">{{ $comp_email }}</a>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -148,29 +147,35 @@
                     </div>
                     <div class="col-md-8 contact-us-col2">
                         <div class="contact-form-main">
+                            @if (Session::has('success'))
+                                <div style="padding: 10px 15px 0px 15px;">
+                                    <p class="alert alert-success">{{ Session::get('success') }}!</p>
+                                </div>
+                            @endif
                             <div class="contact-form">
-                                <form method="post" class="contact-form" id="contact-form"
-                                    action="">
+                                <form method="post" class="contact-form" action="{{ route('contact.request') }}">
+                                    @csrf
+
                                     <h2>Get in Touch with us!</h2>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <input type="text" class="form-control" placeholder="Your Name"
-                                                name="name" required>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="email" class="form-control" placeholder="Email Address"
-                                                name="email" required>
+                                                name="name">
                                         </div>
                                         <div class="col-md-6">
                                             <input type="text" class="form-control" placeholder="Phone Number"
-                                                name="number" required>
+                                                name="phone">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" placeholder="Email Address"
+                                                name="email">
                                         </div>
                                         <div class="col-md-6">
                                             <input type="text" class="form-control" placeholder="Subject"
-                                                name="subject" required>
+                                                name="subject">
                                         </div>
                                         <div class="col-md-12">
-                                            <textarea name="message" cols="40" rows="10" class="form-control" placeholder="Comment" required></textarea>
+                                            <textarea name="message" cols="40" rows="10" class="form-control" placeholder="Comment"></textarea>
                                         </div>
                                         <div class="col-sm-12">
                                             <button type="submit" class="pbmit-btn pbmit-btn-shape-round">
@@ -194,7 +199,6 @@
                                                 </span>
                                             </button>
                                         </div>
-                                        <div class="col-md-12 col-lg-12 message-status"></div>
                                     </div>
                                 </form>
                             </div>
@@ -207,7 +211,10 @@
 
         <!-- Iframe -->
         <section class="iframe-section">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55540.674915983436!2d75.03006357724611!3d29.53698425000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39114db0893d723d%3A0xc51125be998c4f95!2sSirsa%2C%20Haryana!5e0!3m2!1sen!2sin!4v1758522393379!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55540.674915983436!2d75.03006357724611!3d29.53698425000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39114db0893d723d%3A0xc51125be998c4f95!2sSirsa%2C%20Haryana!5e0!3m2!1sen!2sin!4v1758522393379!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <!-- Iframe End-->
 

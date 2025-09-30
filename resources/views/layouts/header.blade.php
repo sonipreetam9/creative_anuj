@@ -97,9 +97,9 @@
                             </div>
                         </div>
                         <div class="pbmit-right-box d-flex align-items-center">
-                            <div class="pbmit-header-search-btn">
+                            {{-- <div class="pbmit-header-search-btn">
                                 <a href="{{ route('contact') }}"><i class=" pbmit-base-icon-search-1"></i></a>
-                            </div>
+                            </div> --}}
                             <a href="{{ route('contact') }}" class="pbmit-btn pbmit-btn-white">
                                 <span class="pbmit-header-button-text">
                                     Get In Touch

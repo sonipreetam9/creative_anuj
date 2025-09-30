@@ -213,9 +213,9 @@
             <div class="container">
                 @foreach ($abouts as $about)
                     <div class="row">
-                        <div class="col-md-12 col-xl-5">
+                        <div class="col-md-12 col-xl-4">
                             <div class="pbmit-heading-subheading">
-                                <h4 class="pbmit-subtitle">Creative Tech Studio</h4>
+                                <h4 class="pbmit-subtitle">About us</h4>
                             </div>
                             <div class="col-md-12">
                                 <div class="row">
@@ -246,7 +246,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12 col-xl-7">
+                        <div class="col-md-12 col-xl-8">
                             <div class="about-four-rightbox">
                                 <div class="pbmit-heading-subheading">
                                     <h4 class="pbmit-title text-white">{{ $about->title }}</h4>
@@ -257,13 +257,13 @@
                                     </div>
                                 </div>
                                 <div class="row mt-5">
-                                    <div class="col-md-6 col-xl-4">
+                                    <div class="col-md-6 col-xl-3">
                                         <div class="pbmit-ihbox-style-5">
                                             <div class="pbmit-ihbox-contents">
                                                 <h2 class="pbmit-element-title">
-                                                    <a href="{{ route('about') }}">
+                                                    <a href="#">
                                                         <span>
-                                                            Read More
+                                                            Website Development
                                                             <svg class="pbmit-svg-arrow"
                                                                 xmlns="http://www.w3.org/2000/svg"
                                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -280,9 +280,144 @@
                                                     </a>
                                                 </h2>
                                                 <div class="pbmit-ihbox-btn">
-                                                    <a href="{{ route('about') }}">
+                                                    <a href="#">
                                                         <span>
-                                                            Read More
+                                                            Website Development
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="pbmit-ihbox-wapper"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <div class="pbmit-ihbox-style-5">
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">
+                                                    <a href="#">
+                                                        <span>
+                                                           Application Development
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </h2>
+                                                <div class="pbmit-ihbox-btn">
+                                                    <a href="#">
+                                                        <span>
+                                                            Application Development
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="pbmit-ihbox-wapper"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <div class="pbmit-ihbox-style-5">
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">
+                                                    <a href="#">
+                                                        <span>
+                                                            Digital Marketing
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </h2>
+                                                <div class="pbmit-ihbox-btn">
+                                                    <a href="#">
+                                                        <span>
+                                                            Digital Marketing
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="pbmit-ihbox-wapper"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <div class="pbmit-ihbox-style-5">
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">
+                                                    <a href="#">
+                                                        <span>
+                                                           Photography
+                                                            <svg class="pbmit-svg-arrow"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="19" height="19" viewBox="0 0 19 19"
+                                                                xml:space="preserve">
+                                                                <line x1="1" y1="18" x2="17.8"
+                                                                    y2="1.2"></line>
+                                                                <line x1="1.2" y1="1" x2="18"
+                                                                    y2="1"></line>
+                                                                <line x1="18" y1="17.8" x2="18"
+                                                                    y2="1"></line>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </h2>
+                                                <div class="pbmit-ihbox-btn">
+                                                    <a href="#">
+                                                        <span>
+                                                            Photography
                                                             <svg class="pbmit-svg-arrow"
                                                                 xmlns="http://www.w3.org/2000/svg"
                                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -319,17 +454,17 @@
                         $i = 0;
                     @endphp
                     @foreach ($services as $service)
-                    @php
-                        $i++;
-                    @endphp
+                        @php
+                            $i++;
+                        @endphp
                         <article class="pbmit-service-style-4 col-md-12">
                             <div class="pbminfotech-post-item">
                                 <div class="pbmit-service-img-wrapper"
                                     style="background-image:url('{{ asset('uploads/' . $service->image) }}')">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('uploads/' . $service->image) }}"
-                                                class="img-fluid" alt="">
+                                            <img src="{{ asset('uploads/' . $service->image) }}" class="img-fluid"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -341,12 +476,14 @@
                                                 <a href="services.html" rel="tag">Service</a>
                                             </div>
                                             <h3 class="pbmit-service-title">
-                                                <a href="{{ route('service.detail', $service->id) }}">{{ $service->title }}</a>
+                                                <a
+                                                    href="{{ route('service.detail', $service->id) }}">{{ $service->title }}</a>
                                             </h3>
                                         </div>
                                     </div>
                                     <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="{{ route('service.detail', $service->id) }}" title="Qualify leads">
+                                        <a class="btn-arrow" href="{{ route('service.detail', $service->id) }}"
+                                            title="Qualify leads">
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
                                                 height="19" viewBox="0 0 19 19" xml:space="preserve">
@@ -390,7 +527,7 @@
                 </div>
                 <div class="ihbox-section-four">
                     <div class="row g-0">
-                        <div class="col-md-6 col-xl-4">
+                        <div class="col-md-6 col-xl-3">
                             <div class="ihbox-style-7-box">
                                 <div class="pbmit-ihbox-style-7">
                                     <div class="pbmit-ihbox-contents">
@@ -402,25 +539,24 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                            Financial Scheduling
+                                 Website Development    
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
-                                            Our mission is to empower you with the know ledge and tools to make
-                                            informed.
+                                            Our mission is to create websites that combine functionality, aesthetics, and performance.
                                         </h4>
                                         <div class="pbmit-heading-desc">
                                             <ul>
-                                                <li>Make a budget</li>
-                                                <li>Protect with insurance</li>
-                                                <li>Build an emergency fund</li>
-                                                <li>Minimize your expenditure</li>
+                                                <li>Understand your business goals</li>
+                                                <li>Design user-friendly & responsive layouts</li>
+                                                <li>Develop with modern technologies</li>
+                                                <li>Optimize for speed & SEO</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-4">
+                        <div class="col-md-6 col-xl-3">
                             <div class="ihbox-style-7-box">
                                 <div class="pbmit-ihbox-style-7">
                                     <div class="pbmit-ihbox-contents">
@@ -432,25 +568,24 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                            Retirement technique
+                                           Application Development
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
-                                            Our mission is to empower you with the know ledge and tools to make
-                                            informed.
+                                            We build applications that deliver seamless <br> digital experiences.
                                         </h4>
                                         <div class="pbmit-heading-desc">
                                             <ul>
-                                                <li>Check your company benefits</li>
-                                                <li>Learn about Social Security</li>
-                                                <li>Review your options</li>
-                                                <li>Adjust your goals as needed</li>
+                                                <li>Analyze your requirements</li>
+                                                <li>Design intuitive user interfaces</li>
+                                                <li>Develop secure & scalable apps</li>
+                                                <li>Test & deploy for smooth performance</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-4">
+                        <div class="col-md-6 col-xl-3">
                             <div class="ihbox-style-7-box">
                                 <div class="pbmit-ihbox-style-7">
                                     <div class="pbmit-ihbox-contents">
@@ -462,18 +597,46 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                            Education scheduling
+                                           Digital Marketing
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
-                                            Our mission is to empower you with the know ledge and tools to make
-                                            informed.
+                                           We help you grow your brand with data-driven strategies.
                                         </h4>
                                         <div class="pbmit-heading-desc">
                                             <ul>
-                                                <li>Resource management</li>
-                                                <li>Time management</li>
-                                                <li>Improved accuracy</li>
-                                                <li>Improved communication</li>
+                                                <li>Conduct in-depth market research</li>
+                                                <li>Plan and execute marketing campaigns</li>
+                                                <li>Optimize SEO & social media presence</li>
+                                                <li>Track analytics to maximize ROI</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                            <div class="ihbox-style-7-box">
+                                <div class="pbmit-ihbox-style-7">
+                                    <div class="pbmit-ihbox-contents">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper">
+                                                <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                                    <i class="pbmit-capigo-icon pbmit-capigo-icon-setting-1"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 class="pbmit-element-title">
+                                          Photography
+                                        </h2>
+                                        <h4 class="pbmit-element-subtitle">
+                                          We capture visuals that tell your brand’s story.
+                                        </h4>
+                                        <div class="pbmit-heading-desc">
+                                            <ul>
+                                                <li>Plan creative concepts</li>
+                                                <li>Professional product & brand shoots</li>
+                                                <li>Edit & enhance high-quality visuals</li>
+                                                <li>Deliver media that connects with your audience</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1308,8 +1471,9 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1351,8 +1515,9 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">
@@ -1394,8 +1559,9 @@
                                         <a class="btn-arrow" href="blog-single-detail.html">
                                             Read More
                                             <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="10" height="19" viewBox="0 0 19 19"
+                                                xml:space="preserve">
                                                 <line x1="1" y1="18" x2="17.8" y2="1.2">
                                                 </line>
                                                 <line x1="1.2" y1="1" x2="18" y2="1">

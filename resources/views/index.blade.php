@@ -13,12 +13,12 @@
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8 col-lg-8">
+                                <div class="col-md-8 col-lg-6">
                                     <div class="pbmit-slider-content">
                                         <h5 class="pbmit-sub-title transform-left transform-delay-1">Website Development
                                         </h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>BUILDING YOUR </strong> <br> <span>DIGITAL HOME.</span>
+                                            <strong>BUILDING</strong> <br> <span>DIGITAL HOME.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-4"></div>
+                                <div class="col-md-6 col-lg-6"></div>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                                     <div class="pbmit-slider-content">
                                         <h5 class="pbmit-sub-title transform-left transform-delay-1">App Development</h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>APPS THAT</strong> <br> <span>EMPOWER.</span>
+                                            <strong>APPS THAT</strong> <br> <span>YOUR EMPOWER.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
@@ -110,12 +110,12 @@
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8 col-lg-8">
+                                <div class="col-md-6 col-lg-8">
                                     <div class="pbmit-slider-content">
                                         <h5 class="pbmit-sub-title transform-left transform-delay-1">A
                                             Digital Marketing</h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>GROW YOUR</strong> <br><span>BRAND ONLINE.</span>
+                                            <strong>GROW YOUR</strong> <br><span>BRAND <br> ONLINE.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
@@ -147,7 +147,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-4"></div>
+                                <div class="col-md-6 col-lg-4"></div>
                             </div>
                         </div>
                     </div>
@@ -161,11 +161,11 @@
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8 col-lg-10">
+                                <div class="col-md-6 col-lg-8">
                                     <div class="pbmit-slider-content">
                                         <h5 class="pbmit-sub-title transform-left transform-delay-1">Photography</h5>
                                         <h2 class="pbmit-title transform-left transform-delay-2">
-                                            <strong>CAPTURING EVERY</strong><br><span>MOMENT.</span>
+                                            <strong>CAPTURING </strong><br><span>EVERY MOMENT.</span>
                                         </h2>
                                         <div class="row g-0 align-items-center">
                                             <div class="col-md-4 col-xl-3">
@@ -197,7 +197,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-2"></div>
+                                <div class="col-md-6 col-lg-4"></div>
                             </div>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
                                                 <h2 class="pbmit-element-title">
                                                     <a href="#">
                                                         <span>
-                                                           Application Development
+                                                            Application Development
                                                             <svg class="pbmit-svg-arrow"
                                                                 xmlns="http://www.w3.org/2000/svg"
                                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -398,7 +398,7 @@
                                                 <h2 class="pbmit-element-title">
                                                     <a href="#">
                                                         <span>
-                                                           Photography
+                                                            Photography
                                                             <svg class="pbmit-svg-arrow"
                                                                 xmlns="http://www.w3.org/2000/svg"
                                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -539,10 +539,11 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                 Website Development    
+                                            Website Development
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
-                                            Our mission is to create websites that combine functionality, aesthetics, and performance.
+                                            Our mission is to create websites that combine functionality, aesthetics, and
+                                            performance.
                                         </h4>
                                         <div class="pbmit-heading-desc">
                                             <ul>
@@ -568,7 +569,7 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                           Application Development
+                                            Application Development
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
                                             We build applications that deliver seamless <br> digital experiences.
@@ -597,10 +598,10 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                           Digital Marketing
+                                            Digital Marketing
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
-                                           We help you grow your brand with data-driven strategies.
+                                            We help you grow your brand with data-driven strategies.
                                         </h4>
                                         <div class="pbmit-heading-desc">
                                             <ul>
@@ -626,10 +627,10 @@
                                             </div>
                                         </div>
                                         <h2 class="pbmit-element-title">
-                                          Photography
+                                            Photography
                                         </h2>
                                         <h4 class="pbmit-element-subtitle">
-                                          We capture visuals that tell your brand’s story.
+                                            We capture visuals that tell your brand’s story.
                                         </h4>
                                         <div class="pbmit-heading-desc">
                                             <ul>
@@ -660,14 +661,15 @@
                         </div>
                     </div>
                     <div class="col-md-12 col-xl-6 pbmit-sticky-col2-special">
-                        <div class="about-us-four-content">
+                        <div class="about-us-four-content" style="margin-bottom: 110px">
                             <div class="pbmit-heading-subheading">
-                                <h4 class="pbmit-subtitle">Who we are</h4>
+                                <h4 class="pbmit-subtitle">Why Choose Us?</h4>
                                 <h2 class="pbmit-title">Building bridges for sustainable and growth</h2>
                                 <div class="pbmit-heading-desc text-white">
-                                    At FinFlow, we understand the importance of financial planning for individuals
-                                    and businesses alike. Our team of expert financial planners is committed to
-                                    helping you achieve your financial goals and secure your financial future.
+                                    At Creative Tech Studio, we don’t just deliver services—we build solutions that inspire
+                                    growth, innovation, and success. Whether it’s a website, application, marketing
+                                    campaign, or photography project, we ensure quality and creativity at every step.
+
                                 </div>
                             </div>
                             <div class="row mb-5">
@@ -682,15 +684,14 @@
                                                         <span class="pbmit-fid-number"></span>
                                                         <span class="pbmit-number-rotate numinate"
                                                             data-appear-animation="animateDigits" data-from="0"
-                                                            data-to="75" data-interval="5" data-before=""
+                                                            data-to="95" data-interval="5" data-before=""
                                                             data-before-style="" data-after=""
-                                                            data-after-style="">75</span>
+                                                            data-after-style="">95</span>
                                                         <span>%</span>
                                                     </div>
                                                 </div>
                                                 <div class="pbmit-fid-sub">
-                                                    <h3 class="pbmit-fid-title">guiding Social <br>
-                                                        Development
+                                                    <h3 class="pbmit-fid-title">Client Satisfaction
                                                     </h3>
                                                 </div>
                                             </div>
@@ -708,15 +709,14 @@
                                                         <span class="pbmit-fid-number"></span>
                                                         <span class="pbmit-number-rotate numinate"
                                                             data-appear-animation="animateDigits" data-from="0"
-                                                            data-to="89" data-interval="5" data-before=""
+                                                            data-to="85" data-interval="5" data-before=""
                                                             data-before-style="" data-after=""
-                                                            data-after-style="">89</span>
+                                                            data-after-style="">85</span>
                                                         <span>%</span>
                                                     </div>
                                                 </div>
                                                 <div class="pbmit-fid-sub">
-                                                    <h3 class="pbmit-fid-title">Avg Profit <br>
-                                                        Increased
+                                                    <h3 class="pbmit-fid-title">Business Growth Boost
                                                     </h3>
                                                 </div>
                                             </div>
@@ -724,59 +724,69 @@
                                     </div>
                                 </div>
                             </div>
-                            <h5 class="pbmit-heading">Analyze Your Business.</h5>
-                            <div class="pbmit-text-color-white">We understand the importance of financial planning
+                            <h5 class="pbmit-heading">Expertise That Matters</h5>
+                            {{-- <div class="pbmit-text-color-white">We understand the importance of financial planning
                                 for individuals and businesses alike. Our team of expert financial planners is
                                 committed to helping you achieve your financial goals and secure your financial
-                                future.</div>
+                                future.</div> --}}
                             <ul class="list-group list-group-borderless">
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-icon">
                                         <i aria-hidden="true" class="ti-check"></i>
                                     </span>
-                                    <span class="pbmit-icon-list-text">Translating the design into code using
-                                        Webflow</span>
+                                    <span class="pbmit-icon-list-text">Skilled team in Website & Application
+                                        Development</span>
                                 </li>
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-icon">
                                         <i aria-hidden="true" class="ti-check"></i>
                                     </span>
-                                    <span class="pbmit-icon-list-text">Responsive and functions perfectly across
-                                        all devices</span>
+                                    <span class="pbmit-icon-list-text">Proven track record in Digital Marketing
+                                        success</span>
                                 </li>
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-icon">
                                         <i aria-hidden="true" class="ti-check"></i>
                                     </span>
-                                    <span class="pbmit-icon-list-text">Testing the website thoroughly before
-                                        launch</span>
+                                    <span class="pbmit-icon-list-text">Creative professionals for high-quality
+                                        Photography</span>
                                 </li>
                             </ul>
-                            <div class="sticky-img">
+
+                            <h5 class="pbmit-heading">Our Promise</h5>
+                            {{-- <div class="pbmit-text-color-white">We understand the importance of financial planning
+                                for individuals and businesses alike. Our team of expert financial planners is
+                                committed to helping you achieve your financial goals and secure your financial
+                                future.</div> --}}
+                            <ul class="list-group list-group-borderless">
+                                <li class="list-group-item">
+                                    <span class="pbmit-icon-list-icon">
+                                        <i aria-hidden="true" class="ti-check"></i>
+                                    </span>
+                                    <span class="pbmit-icon-list-text">Tailor-made solutions aligned with your goals</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="pbmit-icon-list-icon">
+                                        <i aria-hidden="true" class="ti-check"></i>
+                                    </span>
+                                    <span class="pbmit-icon-list-text">Transparent communication & timely delivery</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="pbmit-icon-list-icon">
+                                        <i aria-hidden="true" class="ti-check"></i>
+                                    </span>
+                                    <span class="pbmit-icon-list-text">Innovative, future-ready digital strategies</span>
+                                </li>
+                            </ul>
+                            <h5 class="pbmit-heading">Research & Innovation</h5>
+                            {{-- <div class="sticky-img">
                                 <img src="images/homepage-04/sticky-img.jpg" class="img-fluid" alt="">
+                            </div> --}}
+                            <div class="mb-5 pbmit-text-color-white">
+                                We continuously study trends, markets, and technologies to bring you cutting-edge solutions
+                                that keep your brand ahead of the competition.
                             </div>
-                            <div class="mt-5 mb-5 pbmit-text-color-white">
-                                We understand the importance of financial planning for individuals and businesses
-                                alike. Our team of expert financial planners is committed to helping you achieve
-                                your financial goals and secure your financial future.
-                            </div>
-                            <div class="pbmit-ihbox-style-2">
-                                <div class="pbmit-ihbox-icon">
-                                    <div class="pbmit-ihbox-icon-wrapper">
-                                        <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-presentation"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pbmit-ihbox-contents">
-                                    <h2 class="pbmit-element-title">
-                                        Research and Study of the Market
-                                    </h2>
-                                    <div class="pbmit-heading-desc">Lorem ipsum dolor sit ametsed do eiusm
-                                        onsectetur adipiscing elit Adipiscing elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua.</div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -808,15 +818,16 @@
                                 <div class="pbmit-ihbox-style-8">
                                     <div class="pbmit-ihbox-headingicon">
                                         <div class="pbmit-ihbox-icon">
-                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2012
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2018
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">
-                                                The Ideal Items <br> of Business Corp
+                                                Foundation of Creative Tech Studio
                                             </h2>
-                                            <div class="pbmit-heading-desc">Our partners with leading technology
-                                                providers to guide our clients through the implementation process.
+                                            <div class="pbmit-heading-desc">Started with a vision to deliver innovative
+                                                digital solutions in Website Development and set the base for long-term
+                                                growth.
                                             </div>
                                         </div>
                                     </div>
@@ -827,15 +838,15 @@
                                 <div class="pbmit-ihbox-style-8">
                                     <div class="pbmit-ihbox-headingicon">
                                         <div class="pbmit-ihbox-icon">
-                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2015
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2019
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">
-                                                Silver Price <br> Amazing Portfolio
+                                                Expansion in Website Development
                                             </h2>
-                                            <div class="pbmit-heading-desc">Our partners with leading technology
-                                                providers to guide our clients through the implementation process.
+                                            <div class="pbmit-heading-desc">Delivered our first 100+ websites with modern
+                                                UI/UX designs, focusing on client satisfaction and digital presence.
                                             </div>
                                         </div>
                                     </div>
@@ -846,15 +857,15 @@
                                 <div class="pbmit-ihbox-style-8">
                                     <div class="pbmit-ihbox-headingicon">
                                         <div class="pbmit-ihbox-icon">
-                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2017
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2020
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">
-                                                Best Marketing <br>Company
+                                                Introduction of Application Development
                                             </h2>
-                                            <div class="pbmit-heading-desc">Our partners with leading technology
-                                                providers to guide our clients through the implementation process.
+                                            <div class="pbmit-heading-desc">Launched custom mobile & web apps for
+                                                businesses to scale their operations digitally.
                                             </div>
                                         </div>
                                     </div>
@@ -865,15 +876,15 @@
                                 <div class="pbmit-ihbox-style-8">
                                     <div class="pbmit-ihbox-headingicon">
                                         <div class="pbmit-ihbox-icon">
-                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2020
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2021
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">
-                                                The Best of <br> Financial Corp
+                                                Digital Marketing Excellence
                                             </h2>
-                                            <div class="pbmit-heading-desc">Our partners with leading technology
-                                                providers to guide our clients through the implementation process.
+                                            <div class="pbmit-heading-desc">Became a one-stop solution with SEO, social
+                                                media, and paid campaigns that boosted client visibility and revenue.
                                             </div>
                                         </div>
                                     </div>
@@ -889,10 +900,10 @@
                                         </div>
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">
-                                                Investigation and <br> Evaluation
+                                                Photography & Creative Media
                                             </h2>
-                                            <div class="pbmit-heading-desc">Our partners with leading technology
-                                                providers to guide our clients through the implementation process.
+                                            <div class="pbmit-heading-desc">Introduced professional photography & branding
+                                                services to give clients a strong visual identity.
                                             </div>
                                         </div>
                                     </div>
@@ -908,10 +919,49 @@
                                         </div>
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">
-                                                Digital Media <br> Organization
+                                                Strategic Partnerships & Growth
                                             </h2>
-                                            <div class="pbmit-heading-desc">Our partners with leading technology
-                                                providers to guide our clients through the implementation process.
+                                            <div class="pbmit-heading-desc">Collaborated with top tech providers and
+                                                expanded services for businesses across industries.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide7 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2024
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                Innovation & Client-Centric Solutions
+                                            </h2>
+                                            <div class="pbmit-heading-desc">Focused on automation, AI-driven strategies,
+                                                and custom apps to simplify business workflows.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- Slide6 -->
+                            <article class="pbmit-miconheading-style-8 swiper-slide">
+                                <div class="pbmit-ihbox-style-8">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">2025
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">
+                                                Creative Tech Studio – A Global Vision
+                                            </h2>
+                                            <div class="pbmit-heading-desc">On a mission to provide complete digital
+                                                transformation solutions worldwide – combining Website Development, App
+                                                Development, Digital Marketing, and Photography.
                                             </div>
                                         </div>
                                     </div>
@@ -932,28 +982,28 @@
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title">
-                                    Purchasing & Combining
+                                    BUILDING WEBSITES
                                 </h2>
                             </div>
                         </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title">
-                                    Capital Obtaining
+                                    CREATING APPS
                                 </h2>
                             </div>
                         </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title">
-                                    Market Research
+                                    GROWING BRANDS
                                 </h2>
                             </div>
                         </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title">
-                                    Growth Strategy
+                                    CAPTURING MOMENTS
                                 </h2>
                             </div>
                         </article>
@@ -1309,272 +1359,58 @@
             <div class="container">
                 <div class="pbmit-heading-subheading text-center">
                     <h4 class="pbmit-subtitle">Latest Blog</h4>
-                    <h2 class="pbmit-title">Latest news coming</h2>
+                    <h2 class="pbmit-title">Latest Blogs Coming</h2>
                 </div>
                 <div class="swiper-slider" data-loop="false" data-autoplay="false" data-dots="false"
                     data-arrows="false" data-columns="3" data-margin="30" data-effect="slide">
                     <div class="swiper-wrapper">
+
                         <!-- Slide1 -->
-                        <article class="pbmit-blog-style-1 swiper-slide">
-                            <div class="post-item">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-01.jpg') }}"
-                                                class="img-fluid" alt="">
+                        @foreach ($blogs as $blog)
+                            <article class="pbmit-blog-style-1 swiper-slide">
+                                <div class="post-item">
+                                    <div class="pbmit-featured-container">
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('uploads/' . $blog->image) }}"
+                                                    class="img-fluid" alt="">
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="pbminfotech-box-content">
+                                        <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
+                                            <div class="pbmit-meta-category">
+                                                <a href="{{ route('blog' )}}" rel="category tag">Blog</a>
+                                            </div>
+                                            <div class="pbmit-meta-date">
+                                                <span class="pbmit-date-wrap">{{ $blog->created_at->format('d M, Y') }}</span>
+                                            </div>
+                                        </div>
+                                        <h3 class="pbmit-post-title">
+                                            <a href="{{ route('blog.details', $blog->id)}}">{{ $blog->title }}</a>
+                                        </h3>
+                                        <div class="pbmit-svg-btn">
+                                            <a class="btn-arrow" href="{{ route('blog.details', $blog->id)}}">
+                                                Read More
+                                                <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    width="10" height="19" viewBox="0 0 19 19"
+                                                    xml:space="preserve">
+                                                    <line x1="1" y1="18" x2="17.8" y2="1.2">
+                                                    </line>
+                                                    <line x1="1.2" y1="1" x2="18" y2="1">
+                                                    </line>
+                                                    <line x1="18" y1="17.8" x2="18" y2="1">
+                                                    </line>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="{{ route('blog.details', $blog->id)}}" class="pbmit-link"></a>
                                 </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
-                                        <div class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Business</a>
-                                        </div>
-                                        <div class="pbmit-meta-date">
-                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Determine and get in touch with
-                                            prospects.</a>
-                                    </h3>
-                                    <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="blog-single-detail.html">
-                                            Read More
-                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                                </line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1">
-                                                </line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1">
-                                                </line>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="blog-single-detail.html" class="pbmit-link"></a>
-                            </div>
-                        </article>
-                        <!-- Slide2 -->
-                        <article class="pbmit-blog-style-1 swiper-slide">
-                            <div class="post-item">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-02.jpg') }}"
-                                                class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
-                                        <div class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Economy</a>
-                                        </div>
-                                        <div class="pbmit-meta-date">
-                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Measure These 8 Crucial Brand Awareness
-                                            Metrics</a>
-                                    </h3>
-                                    <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="blog-single-detail.html">
-                                            Read More
-                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                                </line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1">
-                                                </line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1">
-                                                </line>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="blog-single-detail.html" class="pbmit-link"></a>
-                            </div>
-                        </article>
-                        <!-- Slide3 -->
-                        <article class="pbmit-blog-style-1 swiper-slide">
-                            <div class="post-item">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-03.jpg') }}"
-                                                class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
-                                        <div class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Finance</a>
-                                        </div>
-                                        <div class="pbmit-meta-date">
-                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Keep aware of new current trends and
-                                            competitors</a>
-                                    </h3>
-                                    <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="blog-single-detail.html">
-                                            Read More
-                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10"
-                                                height="19" viewBox="0 0 19 19" xml:space="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                                </line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1">
-                                                </line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1">
-                                                </line>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="blog-single-detail.html" class="pbmit-link"></a>
-                            </div>
-                        </article>
-                        <!-- Slide4 -->
-                        <article class="pbmit-blog-style-1 swiper-slide">
-                            <div class="post-item">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-04.jpg') }}"
-                                                class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
-                                        <div class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Insurance</a>
-                                        </div>
-                                        <div class="pbmit-meta-date">
-                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Speak with salespeople and development
-                                            managers.</a>
-                                    </h3>
-                                    <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="blog-single-detail.html">
-                                            Read More
-                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                                </line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1">
-                                                </line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1">
-                                                </line>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="blog-single-detail.html" class="pbmit-link"></a>
-                            </div>
-                        </article>
-                        <!-- Slide5 -->
-                        <article class="pbmit-blog-style-1 swiper-slide">
-                            <div class="post-item">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-05.jpg') }}"
-                                                class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
-                                        <div class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Investment</a>
-                                        </div>
-                                        <div class="pbmit-meta-date">
-                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Motivate your employees to advance their
-                                            skills.</a>
-                                    </h3>
-                                    <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="blog-single-detail.html">
-                                            Read More
-                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                                </line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1">
-                                                </line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1">
-                                                </line>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="blog-single-detail.html" class="pbmit-link"></a>
-                            </div>
-                        </article>
-                        <!-- Slide6 -->
-                        <article class="pbmit-blog-style-1 swiper-slide">
-                            <div class="post-item">
-                                <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/homepage-04/blog/blog-06.jpg') }}"
-                                                class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pbminfotech-box-content">
-                                    <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
-                                        <div class="pbmit-meta-category">
-                                            <a href="blog-classic.html" rel="category tag">Research</a>
-                                        </div>
-                                        <div class="pbmit-meta-date">
-                                            <span class="pbmit-date-wrap">14 Jul, 2023</span>
-                                        </div>
-                                    </div>
-                                    <h3 class="pbmit-post-title">
-                                        <a href="blog-single-detail.html">Create sales content based on
-                                            achievements.</a>
-                                    </h3>
-                                    <div class="pbmit-svg-btn">
-                                        <a class="btn-arrow" href="blog-single-detail.html">
-                                            Read More
-                                            <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                width="10" height="19" viewBox="0 0 19 19"
-                                                xml:space="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2">
-                                                </line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1">
-                                                </line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1">
-                                                </line>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="blog-single-detail.html" class="pbmit-link"></a>
-                            </div>
-                        </article>
+                            </article>
+                        @endforeach
+
                     </div>
                 </div>
             </div>

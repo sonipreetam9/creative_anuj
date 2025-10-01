@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\AboutModel;
+use App\Models\BlogModel;
 use App\Models\ServiceModel;
 
 use Illuminate\Http\Request;
@@ -13,12 +14,13 @@ class IndexController extends Controller
     {
         $abouts = AboutModel::all();
         $services = ServiceModel::orderBy('id', 'ASC')->get();
-        return view('index', compact('abouts', 'services'));
+        $blogs = BlogModel::orderBy('id', 'ASC')->get();
+        return view('index', compact('abouts', 'services', 'blogs'));
     }
 
-    public function coming_soon()
-    {
-        return view('coming_soon');
-    }
+    // public function coming_soon()
+    // {
+    //     return view('coming_soon');
+    // }
 
 }

@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/base.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -76,7 +78,7 @@
                                                         @endforeach
                                                     </ul>
                                                 </li>
-                                                <li class="dropdown">
+                                                {{-- <li class="dropdown">
                                                     <a href="{{ route('portfolio') }}">Portfolio</a>
                                                     <ul>
                                                         <li><a href="">Portfolio 1</a></li>
@@ -84,7 +86,7 @@
                                                         <li><a href="">Portfolio 3</a></li>
                                                         <li><a href="">Portfolio 4</a></li>
                                                     </ul>
-                                                </li>
+                                                </li> --}}
                                                 <li>
                                                     <a href="{{ route('blog') }}">Blog</a>
                                                 </li>

@@ -246,12 +246,12 @@
                             <div class="collapse menu-dropdown" id="sidebarLandingblog">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="{{ route('admin.service') }}" class="nav-link"
-                                            data-key="t-one-page"> Add
+                                        <a href="{{ route('admin.blog') }}" class="nav-link" data-key="t-one-page">
+                                            Add
                                             Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ route('admin.all.service') }}" class="nav-link"
+                                        <a href="{{ route('admin.all.blog') }}" class="nav-link"
                                             data-key="t-multi-page">Blog
                                             List</a>
                                     </li>

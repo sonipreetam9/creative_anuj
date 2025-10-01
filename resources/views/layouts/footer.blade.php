@@ -51,11 +51,12 @@
                                               </a>
                                           </li>
                                           <li class="pbmit-social-li pbmit-social-youtube">
-                                              <a title="YouTube" href="https://youtube.com" target="_blank"
+                                              <a title="YouTube" href="#" target="_blank"
                                                   rel="noopener">
-                                                  <span><i class="pbmit-base-icon-youtube"></i></span>
+                                                  <span><i class="fa-brands fa-youtube"></i></span>
                                               </a>
                                           </li>
+
 
                                           <li class="pbmit-social-li pbmit-social-instagram">
                                               <a title="Instagram" href="#" target="_blank" rel="noopener">
@@ -75,7 +76,7 @@
                           <div class="row">
                               <div class="col-md-6">
                                   <div class="pbmit-footer-copyright-text-area">
-                                      Copyright © 2025 <a href="#">{{ $comp_title }}</a>, All Rights Reserved.
+                                      Copyright © 2018 <a href="#">{{ $comp_title }}</a>, All Rights Reserved.
                                   </div>
                               </div>
                               {{-- <div class="col-md-6">

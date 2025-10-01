@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
         $comp_url = "www.creativetechstudio.in";
         $comp_phone = "93064-39947";
         $comp_email = "info@creativetechstudio.in";
-        $comp_address = "123 Tech Street, Innovation City, Country";
+        $comp_address = "Sirsa, HR";
         $small_logo = 'admin1/assets/images/logo.png';
         $dashboard_logo = 'admin1/assets/images/logo.png';
         $login_logo = 'admin1/assets/images/admin-logo.png';

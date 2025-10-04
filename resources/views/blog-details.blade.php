@@ -96,7 +96,7 @@
                                 <div class="textwidget">
                                     <div class="pbmit-service-ads">
                                         <div class="pbmit-logo-img">
-                                            <img src="{{ asset('assets/images/logo.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/logo.png') }}" alt="logo">
                                         </div>
                                         <div class="pbmit-ads-title">
                                             {{-- <h3 class="pbmit-title-one">First-Class Finance</h3> --}}

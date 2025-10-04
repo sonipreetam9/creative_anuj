@@ -29,222 +29,33 @@
         <section class="section-lg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-01.jpg') }}" class="img-fluid" alt="">
+                    @foreach ($services as $service)
+                        <div class="col-md-6">
+                            <article class="pbmit-ele pbmit-service-style-1">
+                                <div class="pbminfotech-post-item">
+                                    <div class="pbminfotech-service-content">
+                                        <div class="pbmit-featured-img-wrapper">
+                                            <div class="pbmit-featured-wrapper">
+                                                <img src="{{ asset('uploads/' . $service->image) }}" class="img-fluid"
+                                                    alt="" style="height: 450px; object-fit: cover;">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                                        <div class="pbminfotech-box-content">
+                                            <div class="pbmit-service-icon-wrapper">
+                                                <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
+                                            </div>
+                                            <div class="pbmit-serv-cat">
+                                                <a href="{{ route('services') }}" rel="tag">Services</a>
+                                            </div>
+                                            <h3 class="pbmit-service-title">
+                                                <a href="{{ route('service.detail', $service->id) }}">{{ $service->title }}</a>
+                                            </h3>
                                         </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Advisory</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Qualify leads</a>
-                                        </h3>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-02.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Consulting</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Business Planning</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-03.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Inventory</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Market Research</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-04.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Management</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Financial Management</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-05.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Marketing</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Finance Instruments</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-06.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Strtegy</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Expert Consultation</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-07.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Consulting</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Qualify Leads</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-08.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Management</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Tax/Audit Consulting</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="pbmit-ele pbmit-service-style-1">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('assets/images/service/service-09.jpg') }}" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Strtegy</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="{{ route('service-detail') }}">Technology Growth</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                            </article>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </section>

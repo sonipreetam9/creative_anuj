@@ -1,5 +1,9 @@
 @extends('admin.layouts.header')
 @section('super')
+    <!-- Summernote CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet">
+
+
     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
@@ -90,9 +94,6 @@
                                             </div>
                                         </div>
 
-
-
-
                                         {{-- Submit Button --}}
                                         <div class="col-md-12 mt-3 text-center">
                                             <button type="submit" class="btn btn-primary w-100">Submit</button>
@@ -109,4 +110,5 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
 @endsection

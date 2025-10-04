@@ -2980,7 +2980,7 @@
 .site-footer{
 	position: relative;
 	font-size: 16px;
-	padding: 100px 0 40px 0;
+	padding: 40px 0 40px 0;
 	background-color: #011712;
     background-image: url(../images/bg/footer-bg-img.png);
     background-repeat: no-repeat;
@@ -3005,7 +3005,7 @@
 	z-index: 1;
 }
 .pbmit-footer-logo img{
-	max-height: 140px;
+	max-height: 80px;
 }
 .pbmit-footer-big-area-wrapper .pbmit-footer-left h3{
 	font-size: 26px;

@@ -213,7 +213,7 @@
             <div class="container">
                 @foreach ($abouts as $about)
                     <div class="row">
-                        <div class="col-md-12 col-xl-4">
+                        <div class="col-md-12 col-xl-6">
                             <div class="pbmit-heading-subheading">
                                 <h4 class="pbmit-subtitle">About us</h4>
                             </div>
@@ -224,7 +224,7 @@
                                             <div class="pbmit-animation-style4">
                                                 @if ($about->image)
                                                     <img src="{{ asset('uploads/' . $about->image) }}" class="img-fluid"
-                                                        alt="{{ $about->title }}">
+                                                        alt="{{ $about->title }}" style="height: 400px">
                                                 @else
                                                     <span>No Image Available</span>
                                                 @endif
@@ -236,7 +236,7 @@
                                             <div class="pbmit-animation-style3">
                                                 @if ($about->image)
                                                     <img src="{{ asset('uploads/' . $about->image2) }}" class="img-fluid"
-                                                        alt="{{ $about->title }}">
+                                                        alt="{{ $about->title }}" style="height: 400px">
                                                 @else
                                                     <span>No Image Available</span>
                                                 @endif
@@ -246,7 +246,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12 col-xl-8">
+                        <div class="col-md-12 col-xl-6">
                             <div class="about-four-rightbox">
                                 <div class="pbmit-heading-subheading">
                                     <h4 class="pbmit-title text-white">{{ $about->title }}</h4>
@@ -1034,9 +1034,9 @@
                                     <div class="pbminfotech-post-item">
                                         <div class="pbminfotech-box-content">
                                             <blockquote class="pbminfotech-testimonial-text">
-                                                <p>I express my deep gratitude to the team for the impeccable and
-                                                    productive service to the company activities based on the
-                                                    results of seven years of joint work I recommend the services
+                                                <p>“Creative Tech Studio completely transformed our online presence. The new
+                                                    website they built is fast, modern, and perfectly reflects our brand.
+                                                    Their team is creative, responsive, and highly professional.”
                                                 </p>
                                             </blockquote>
                                             <div class="pbminfotech-box-star-ratings">
@@ -1047,15 +1047,10 @@
                                                 <i class="pbmit-base-icon-star pbmit-active"></i>
                                             </div>
                                             <div class="pbminfotech-box-content-inner">
-                                                <div class="pbmit-featured-img-wrapper">
-                                                    <div class="pbmit-featured-wrapper">
-                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-01.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                </div>
                                                 <div class="pbminfotech-box-author">
-                                                    <h3 class="pbminfotech-box-title">Stephen Welch</h3>
-                                                    <div class="pbminfotech-testimonial-detail">Satisfied Client
+                                                    <h3 class="pbminfotech-box-title">Aarav Mehta</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Business Owner – Website
+                                                        Development Client
                                                     </div>
                                                 </div>
                                             </div>
@@ -1067,9 +1062,9 @@
                                     <div class="pbminfotech-post-item">
                                         <div class="pbminfotech-box-content">
                                             <blockquote class="pbminfotech-testimonial-text">
-                                                <p>I express my deep gratitude to the team for the impeccable and
-                                                    productive service to the company activities based on the
-                                                    results of seven years of joint work I recommend the services
+                                                <p>“Our mobile app came out better than we imagined! From design to launch,
+                                                    the Creative Tech Studio team handled everything smoothly and kept us
+                                                    updated at every step.”
                                                 </p>
                                             </blockquote>
                                             <div class="pbminfotech-box-star-ratings">
@@ -1080,15 +1075,10 @@
                                                 <i class="pbmit-base-icon-star"></i>
                                             </div>
                                             <div class="pbminfotech-box-content-inner">
-                                                <div class="pbmit-featured-img-wrapper">
-                                                    <div class="pbmit-featured-wrapper">
-                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-02.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                </div>
                                                 <div class="pbminfotech-box-author">
-                                                    <h3 class="pbminfotech-box-title">Martin Bailey</h3>
-                                                    <div class="pbminfotech-testimonial-detail">Chief Finance</div>
+                                                    <h3 class="pbminfotech-box-title">Priya Sharma</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Startup Founder –
+                                                        Application Development Client</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1099,9 +1089,9 @@
                                     <div class="pbminfotech-post-item">
                                         <div class="pbminfotech-box-content">
                                             <blockquote class="pbminfotech-testimonial-text">
-                                                <p>I express my deep gratitude to the team for the impeccable and
-                                                    productive service to the company activities based on the
-                                                    results of seven years of joint work I recommend the services
+                                                <p>“Thanks to their digital marketing strategies, our business has grown
+                                                    rapidly. The results were visible within a few weeks — more traffic,
+                                                    better engagement, and solid conversions.”
                                                 </p>
                                             </blockquote>
                                             <div class="pbminfotech-box-star-ratings">
@@ -1112,15 +1102,10 @@
                                                 <i class="pbmit-base-icon-star"></i>
                                             </div>
                                             <div class="pbminfotech-box-content-inner">
-                                                <div class="pbmit-featured-img-wrapper">
-                                                    <div class="pbmit-featured-wrapper">
-                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-03.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                </div>
                                                 <div class="pbminfotech-box-author">
-                                                    <h3 class="pbminfotech-box-title">Emma Greed</h3>
-                                                    <div class="pbminfotech-testimonial-detail">Legal Advisor
+                                                    <h3 class="pbminfotech-box-title">Rahul Verma</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Marketing Head – Digital
+                                                        Marketing Client
                                                     </div>
                                                 </div>
                                             </div>
@@ -1132,9 +1117,9 @@
                                     <div class="pbminfotech-post-item">
                                         <div class="pbminfotech-box-content">
                                             <blockquote class="pbminfotech-testimonial-text">
-                                                <p>I express my deep gratitude to the team for the impeccable and
-                                                    productive service to the company activities based on the
-                                                    results of seven years of joint work I recommend the services
+                                                <p>“Their photography team captured our brand essence perfectly. The shots
+                                                    were stunning, creative, and delivered on time — perfect for our social
+                                                    media campaigns.”
                                                 </p>
                                             </blockquote>
                                             <div class="pbminfotech-box-star-ratings">
@@ -1145,15 +1130,10 @@
                                                 <i class="pbmit-base-icon-star pbmit-active"></i>
                                             </div>
                                             <div class="pbminfotech-box-content-inner">
-                                                <div class="pbmit-featured-img-wrapper">
-                                                    <div class="pbmit-featured-wrapper">
-                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-04.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                </div>
                                                 <div class="pbminfotech-box-author">
-                                                    <h3 class="pbminfotech-box-title">Daniel Craig</h3>
-                                                    <div class="pbminfotech-testimonial-detail">Tax Manager</div>
+                                                    <h3 class="pbminfotech-box-title">Simran Kaur</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Creative Director –
+                                                        Photography Client</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1164,9 +1144,9 @@
                                     <div class="pbminfotech-post-item">
                                         <div class="pbminfotech-box-content">
                                             <blockquote class="pbminfotech-testimonial-text">
-                                                <p>I express my deep gratitude to the team for the impeccable and
-                                                    productive service to the company activities based on the
-                                                    results of seven years of joint work I recommend the services
+                                                <p>“We’ve worked with Creative Tech Studio for multiple projects, and
+                                                    they’ve consistently delivered excellence. Their combination of
+                                                    creativity and technology makes them our go-to digital partner.”
                                                 </p>
                                             </blockquote>
                                             <div class="pbminfotech-box-star-ratings">
@@ -1177,48 +1157,9 @@
                                                 <i class="pbmit-base-icon-star"></i>
                                             </div>
                                             <div class="pbminfotech-box-content-inner">
-                                                <div class="pbmit-featured-img-wrapper">
-                                                    <div class="pbmit-featured-wrapper">
-                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-05.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                </div>
                                                 <div class="pbminfotech-box-author">
-                                                    <h3 class="pbminfotech-box-title">Amelia Dyer</h3>
-                                                    <div class="pbminfotech-testimonial-detail">Stockbroker</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                                <!-- Slide6 -->
-                                <article class="pbmit-testimonial-style-2 swiper-slide">
-                                    <div class="pbminfotech-post-item">
-                                        <div class="pbminfotech-box-content">
-                                            <blockquote class="pbminfotech-testimonial-text">
-                                                <p>I express my deep gratitude to the team for the impeccable and
-                                                    productive service to the company activities based on the
-                                                    results of seven years of joint work I recommend the services
-                                                </p>
-                                            </blockquote>
-                                            <div class="pbminfotech-box-star-ratings">
-                                                <i class="pbmit-base-icon-star pbmit-active"></i>
-                                                <i class="pbmit-base-icon-star pbmit-active"></i>
-                                                <i class="pbmit-base-icon-star pbmit-active"></i>
-                                                <i class="pbmit-base-icon-star pbmit-active"></i>
-                                                <i class="pbmit-base-icon-star pbmit-active"></i>
-                                            </div>
-                                            <div class="pbminfotech-box-content-inner">
-                                                <div class="pbmit-featured-img-wrapper">
-                                                    <div class="pbmit-featured-wrapper">
-                                                        <img src="{{ asset('assets/images/homepage-02/testimonial/testimonial-06.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="pbminfotech-box-author">
-                                                    <h3 class="pbminfotech-box-title">Henry Cavil</h3>
-                                                    <div class="pbminfotech-testimonial-detail">Cost Marketing
-                                                    </div>
+                                                    <h3 class="pbminfotech-box-title">Karan Patel</h3>
+                                                    <div class="pbminfotech-testimonial-detail">Entrepreneur – Multi-service Client</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1372,25 +1313,26 @@
                                     <div class="pbmit-featured-container">
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="{{ asset('uploads/' . $blog->image) }}"
-                                                    class="img-fluid" alt="">
+                                                <img src="{{ asset('uploads/' . $blog->image) }}" class="img-fluid"
+                                                    alt="" style="height: 350px; object-fit: cover;">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
                                         <div class="pbmit-meta-cat-wrapper pbmit-meta-line d-flex align-items-center">
                                             <div class="pbmit-meta-category">
-                                                <a href="{{ route('blog' )}}" rel="category tag">Blog</a>
+                                                <a href="{{ route('blog') }}" rel="category tag">Blog</a>
                                             </div>
                                             <div class="pbmit-meta-date">
-                                                <span class="pbmit-date-wrap">{{ $blog->created_at->format('d M, Y') }}</span>
+                                                <span
+                                                    class="pbmit-date-wrap">{{ $blog->created_at->format('d M, Y') }}</span>
                                             </div>
                                         </div>
                                         <h3 class="pbmit-post-title">
-                                            <a href="{{ route('blog.details', $blog->id)}}">{{ $blog->title }}</a>
+                                            <a href="{{ route('blog.details', $blog->id) }}">{{ $blog->title }}</a>
                                         </h3>
                                         <div class="pbmit-svg-btn">
-                                            <a class="btn-arrow" href="{{ route('blog.details', $blog->id)}}">
+                                            <a class="btn-arrow" href="{{ route('blog.details', $blog->id) }}">
                                                 Read More
                                                 <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -1406,7 +1348,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <a href="{{ route('blog.details', $blog->id)}}" class="pbmit-link"></a>
+                                    <a href="{{ route('blog.details', $blog->id) }}" class="pbmit-link"></a>
                                 </div>
                             </article>
                         @endforeach

@@ -133,7 +133,7 @@
                                             <th>Image 1</th>
                                             <th>Image 2</th>
                                             <th>Title</th>
-                                            <th>Short Description</th>
+                                            {{-- <th>Short Description</th> --}}
                                             <th>Action</th>
                                             <style>
                                                 th {
@@ -174,7 +174,7 @@
                                                     @endif
                                                 </td>
                                                 <td>{{ $data->title }}</td>
-                                                <td>{{ $data->short_description }}</td>
+                                                {{-- <td>{{ $data->short_description }}</td> --}}
 
                                                 <td>
                                                     <a class="btn btn-warning btn-sm"

@@ -163,7 +163,7 @@
                                         <div class="pbmit-animation-style4">
                                             @if ($about->image)
                                                 <img src="{{ asset('uploads/' . $about->image) }}" class="img-fluid"
-                                                    alt="{{ $about->title }}">
+                                                    alt="{{ $about->title }}" style="height: 400px">
                                             @else
                                                 <span>No Image Available</span>
                                             @endif
@@ -175,7 +175,7 @@
                                         <div class="pbmit-animation-style3">
                                             @if ($about->image)
                                                 <img src="{{ asset('uploads/' . $about->image2) }}" class="img-fluid"
-                                                    alt="{{ $about->title }}">
+                                                    alt="{{ $about->title }}" style="height: 400px">
                                             @else
                                                 <span>No Image Available</span>
                                             @endif

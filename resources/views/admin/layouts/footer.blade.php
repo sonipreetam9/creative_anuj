@@ -6,11 +6,11 @@
                     document.write(new Date().getFullYear())
                 </script> © Tech.
             </div>
-            <div class="col-sm-6">
+            {{-- <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
                     Design & Develop by Starnext Technologies Pvt. Ltd.
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </footer>
@@ -27,11 +27,15 @@
     <i class="ri-arrow-up-line"></i>
 </button>
 <!--end back-to-top-->
-
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+    });
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 {{-- <script src="{{ asset('https://cdn.datatables.net/2.3.0/js/dataTables.min.js') }}"></script> --}}
 
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 
 <!-- JAVASCRIPT -->
@@ -66,34 +70,43 @@
     let table = new DataTable('#myTable');
 </script> --}}
 <script>
-$(document).ready(function() {
-    $('#myTable').DataTable({
-        responsive: true,
-        pageLength: 10,
-        language: {
-            search: "🔍 Search:"
-        }
+    $(document).ready(function() {
+        $('#myTable').DataTable({
+            responsive: true,
+            pageLength: 10,
+            language: {
+                search: "🔍 Search:"
+            }
+        });
     });
-});
 </script>
 <style>
-   table.dataTable > thead .sorting:before, table.dataTable > thead .sorting_asc:before, table.dataTable > thead .sorting_asc_disabled:before, table.dataTable > thead .sorting_desc:before, table.dataTable > thead .sorting_desc_disabled:before {
-    content: "\f0360";
-    position: absolute;
-    right: 0.8rem;
-    top: 12px;
-    font-size: 0.8rem;
-    font-family: "Material Design Icons";
-}
-table.dataTable > thead .sorting:after, table.dataTable > thead .sorting_asc:after, table.dataTable > thead .sorting_asc_disabled:after, table.dataTable > thead .sorting_desc:after, table.dataTable > thead .sorting_desc_disabled:after {
-    content: "\f035d";
-    position: absolute;
+    table.dataTable>thead .sorting:before,
+    table.dataTable>thead .sorting_asc:before,
+    table.dataTable>thead .sorting_asc_disabled:before,
+    table.dataTable>thead .sorting_desc:before,
+    table.dataTable>thead .sorting_desc_disabled:before {
+        content: "\f0360";
+        position: absolute;
+        right: 0.8rem;
+        top: 12px;
+        font-size: 0.8rem;
+        font-family: "Material Design Icons";
+    }
+
+    table.dataTable>thead .sorting:after,
+    table.dataTable>thead .sorting_asc:after,
+    table.dataTable>thead .sorting_asc_disabled:after,
+    table.dataTable>thead .sorting_desc:after,
+    table.dataTable>thead .sorting_desc_disabled:after {
+        content: "\f035d";
+        position: absolute;
         right: 0.8rem;
 
-    top: 18px;
-    font-size: 0.8rem;
-    font-family: "Material Design Icons";
-}
+        top: 18px;
+        font-size: 0.8rem;
+        font-family: "Material Design Icons";
+    }
 </style>
 </body>
 

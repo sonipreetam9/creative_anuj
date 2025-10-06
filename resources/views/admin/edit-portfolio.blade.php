@@ -41,17 +41,48 @@
                                         <div class="col-md-12">
                                             <div class="form-floating">
                                                 <select class="form-control" id="portfolio_id" name="portfolio_id"
-                                                    placeholder="Enter title">
+                                                    placeholder="Enter title" disabled>
                                                     <option value="">Select</option>
                                                     @foreach ($portfolioHeading as $heading)
                                                         <option value="{{ $heading->id }}"
-                                                            @if ($heading->id == $EditPortfolio->portfolio_id) {{ 'selected' }} @endif>
-                                                            {{ $heading->title }}</option>
+                                                            @if ($heading->id == $EditPortfolio->portfolio_id) {{ 'selected' }} @endif >
+                                                            {{ $heading->title }} </option>
                                                     @endforeach
                                                 </select>
-                                                <label for="title">Select Portfolio Heading</label>
+                                                <label for="title">Portfolio Heading</label>
                                             </div>
                                         </div>
+
+                                         {{-- Title --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="title" name="title" value="{{ $EditPortfolio->title}}">
+
+                                                <label for="email">title</label>
+                                                {{-- <small class="form-text text-muted">Enter branch email (will be used for
+                                                    login).</small> --}}
+                                                @error('email')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                               
+                                            </div>
+                                        </div>
+
+                                         {{-- Url --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="url" name="url" value="{{ $EditPortfolio->url}}">
+
+                                                <label for="email">URL</label>
+                                                {{-- <small class="form-text text-muted">Enter branch email (will be used for
+                                                    login).</small> --}}
+                                                @error('email')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                               
+                                            </div>
+                                        </div>
+
 
                                         {{-- Image --}}
                                         <div class="col-md-12">

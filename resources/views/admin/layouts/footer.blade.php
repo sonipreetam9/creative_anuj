@@ -113,15 +113,11 @@
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
 
 <script>
-
-
     $(document).ready(function() {
-  $('#summernote').summernote();
-});
+        $('#summernote').summernote();
+    });
 </script>
 
 </body>
-
-
 
 </html>

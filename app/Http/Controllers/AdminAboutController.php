@@ -26,6 +26,8 @@ class AdminAboutController extends Controller
             'long_description' => 'required|string',
         ]);
 
+        $about = AboutModel::first() ?? new AboutModel();
+
         // Handle the image upload if an image is provided
         if ($request->hasFile('image')) {
             $imageName = time() . '_1.' . $request->image->extension();
@@ -38,6 +40,8 @@ class AdminAboutController extends Controller
             $request->image2->move(public_path('uploads'), $imageName2);
             $validatedData['image2'] = $imageName2;
         }
+
+        $validatedData['long_description'] = base64_encode($request->long_description);
 
         AboutModel::create($validatedData);
 
@@ -73,7 +77,7 @@ class AdminAboutController extends Controller
         // Update text fields
         $about->title = $request->title;
         $about->short_description = $request->short_description;
-        $about->long_description = $request->long_description;
+        $about->long_description = base64_encode($request->long_description);
 
         // Save changes
         $about->save();

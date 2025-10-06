@@ -1,5 +1,6 @@
 @extends('admin.layouts.header')
 @section('super')
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
@@ -24,7 +25,8 @@
                             <h4 class="card-title mb-0 flex-grow-1">Edit Blog</h4>
                         </div>
 
-                        <form action="{{ route('admin.edit.blog.post', $dataq->id) }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('admin.edit.blog.post', $dataq->id) }}" method="POST"
+                            enctype="multipart/form-data">
                             @csrf
 
                             @if (Session::has('success'))
@@ -58,7 +60,8 @@
                                                 <label for="email">Image</label>
                                                 {{-- <small class="form-text text-muted">Enter branch email (will be used for
                                                     login).</small> --}}
-                                                <img src="{{ asset('uploads/'. $dataq->image) }}" alt="" width="100">
+                                                <img src="{{ asset('uploads/' . $dataq->image) }}" alt=""
+                                                    width="100">
                                                 @error('email')
                                                     <small class="text-danger">{{ $message }}</small>
                                                 @enderror
@@ -81,8 +84,8 @@
                                         {{-- Long Description --}}
                                         <div class="col-md-12">
                                             <div class="mb-3">
-                                                <label for="long_description" class="form-label">Long Description</label>
-                                                <textarea class="form-control summernote" id="long_description" name="long_description">{{ $dataq->long_description }}</textarea>
+                                                <label for="summernote" class="form-label">Long Description</label>
+                                                <textarea class="form-control summernote" id="summernote" name="long_description">{{ base64_decode($dataq->long_description) }}</textarea>
 
                                                 @error('long_description')
                                                     <small class="text-danger">{{ $message }}</small>

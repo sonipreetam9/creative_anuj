@@ -35,18 +35,15 @@
                                 <div class="pbmit-image-wrapper">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="{{ asset('uploads/' . $portfolio->image) }}"
-                                                class="img-fluid" alt="image" style="height: 400px; object-fit: cover">
+                                            <img src="{{ asset('uploads/' . $portfolio->image) }}" class="img-fluid"
+                                                alt="image" style="height: 400px; object-fit: cover">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pbminfotech-box-content">
-                                    <div class="pbmit-port-cat">
-                                        <a href="#" rel="tag">Advice</a>
-                                    </div>
-                                    <h3 class="pbmit-title">{{ $heading->title }}</h3>
+                                    <h3 class="pbmit-title">{{ $portfolio->title }}</h3>
                                 </div>
-                                {{-- <a href="single-detail-style-1.html" class="pbmit-link"></a> --}}
+                                <a href="{{ $portfolio->url }}" class="pbmit-link" target="_blank"></a>
                             </div>
                         </article>
                     @endforeach

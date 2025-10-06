@@ -1,5 +1,6 @@
 @extends('admin.layouts.header')
 @section('super')
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
@@ -99,8 +100,8 @@
                                         {{-- Long Description --}}
                                         <div class="col-md-12">
                                             <div class="mb-3">
-                                                <label for="long_description" class="form-label">Long Description</label>
-                                                <textarea class="form-control summernote" id="long_description" name="long_description">{{ $data->long_description }}</textarea>
+                                                <label for="summernote" class="form-label">Long Description</label>
+                                                <textarea class="form-control summernote" id="summernote" name="long_description">{{ base64_decode($data->long_description) }}</textarea>
 
                                                 @error('long_description')
                                                     <small class="text-danger">{{ $message }}</small>

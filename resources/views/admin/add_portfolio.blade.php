@@ -51,6 +51,36 @@
                                             </div>
                                         </div>
 
+                                        {{-- Title --}}
+                                         <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="title" name="title"
+                                                    required>
+
+                                                <label for="email">Title</label>
+                                                {{-- <small class="form-text text-muted">Enter branch email (will be used for
+                                                    login).</small> --}}
+                                                @error('title')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        {{-- url --}}
+                                         <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="url" name="url"
+                                                    required>
+
+                                                <label for="email">URL</label>
+                                                {{-- <small class="form-text text-muted">Enter branch email (will be used for
+                                                    login).</small> --}}
+                                                @error('url')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
                                         {{-- Image --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">

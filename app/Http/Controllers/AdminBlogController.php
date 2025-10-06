@@ -32,6 +32,8 @@ class AdminBlogController extends Controller
             $validation['image'] = $imageName;
         }
 
+        $validation['long_description'] = base64_encode($request->long_description);
+
         BlogModel::create($validation);
 
         return redirect()->back()->with('success', 'Blog Added Successfully');
@@ -54,7 +56,7 @@ class AdminBlogController extends Controller
         }
 
         $blog->title = $request->title;
-        $blog->long_description = $request->long_description;
+        $blog->long_description = base64_encode($request->long_description);
         $blog->save();
 
         return redirect()->back()->with('success', 'Blog Update Succesfully');

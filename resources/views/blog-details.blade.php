@@ -56,7 +56,7 @@
                                             <div class="pbmit-entry_content">
 
                                                 <h3 class="mb-3">{{ $blogs->title }}</h3>
-                                                <p>{{ $blogs->long_description }}</p>
+                                                <p>{!! base64_decode($blogs->long_description) !!}</p>
 
                                             </div>
                                         </div>

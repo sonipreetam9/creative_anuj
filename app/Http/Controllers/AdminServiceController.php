@@ -30,6 +30,8 @@ class AdminServiceController extends Controller
             $validatedData['image'] = $imageName;
         }
 
+        $validatedData['long_description'] = base64_encode($request->long_description);
+
         // Save the data to the database
         ServiceModel::create($validatedData);
 
@@ -60,7 +62,7 @@ class AdminServiceController extends Controller
         }
         $service->title = $request->title;
         $service->short_description = $request->short_description;
-        $service->long_description = $request->long_description;
+        $service->long_description = base64_encode($request->long_description);
         $service->save();
 
         return redirect()->back()->with('success', 'Service updated successfully.');

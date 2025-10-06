@@ -38,6 +38,7 @@
                                             <th>ID</th>
                                             <th>Portfolio Heading</th>
                                             <th>Image</th>
+                                            <th>Title</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -53,6 +54,7 @@
                                             <tr>
                                                 <td>{{ $i }}</td>
                                                 <td>{{ $portfolio->heading->title ?? 'N/A' }}</td>
+                                                <td>{{ $portfolio->title }}</td>
                                                 <td>
                                                     @if ($portfolio->image)
                                                         <img src="{{ asset('uploads/' . $portfolio->image) }}"
@@ -63,8 +65,8 @@
                                                 </td>
                                                 <td>
                                                     {{-- <a class="btn btn-success btn-sm" href="">Show</a> --}}
-                                                    {{-- <a class="btn btn-warning btn-sm"
-                                                        href="{{ route('admin.portfolio.edit.page', $portfolio->id) }}">Edit</a> --}}
+                                                    <a class="btn btn-warning btn-sm"
+                                                        href="{{ route('admin.portfolio.edit.page', $portfolio->id) }}">Edit</a>
                                                     <a href="{{ route('admin.portfolio.delete', $portfolio->id) }}"
                                                         class="btn btn-danger btn-sm"
                                                         onclick="return confirm('Are you sure you want to delete this portfolio?')">

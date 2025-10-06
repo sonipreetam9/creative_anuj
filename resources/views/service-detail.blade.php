@@ -91,7 +91,8 @@
                                 <div class="pbmit-heading-subheading animation-style2">
                                     <h3 class="pbmit-title">{{ $service->title }}</h3>
                                 </div>
-                                <p>{{ $service->long_description }}</p>
+                                <p>{!! base64_decode($service->long_description) !!}</p>
+
 
                             </div>
 

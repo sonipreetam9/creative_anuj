@@ -63,6 +63,8 @@ class AdminPortfolioController extends Controller
     {
         $validate = $request->validate([
             'portfolio_id' => 'required|string',
+            'title' => 'required|max:255',
+            'url' => 'required|url',
             'image' => 'required|image',
 
         ]);
@@ -93,7 +95,8 @@ class AdminPortfolioController extends Controller
         return view('admin.edit-portfolio', compact('EditPortfolio', 'portfolioHeading'));
     }
 
-    public function AdminPortfolioEdit(Request $request, $id)
+    public function 
+    AdminPortfolioEdit(Request $request, $id)
     {
         $portfolio = PortfolioModel::findOrFail($id);
         if ($request->hasFile('image')) {
@@ -102,7 +105,8 @@ class AdminPortfolioController extends Controller
             $portfolio->image = $fileName;
         }
 
-        $portfolio->portfolio_id = $request->portfolio_id;
+        $portfolio->title = $request->title;
+        $portfolio->url = $request->url;
         $portfolio->save();
 
         return redirect()->back()->with('success', 'Portfolio Update Successfully');

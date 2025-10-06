@@ -189,47 +189,7 @@
                                     <h4 class="pbmit-subtitle">Creative Tech Studio </h4>
                                     <h2 class="pbmit-title">{{ $about->title }}</h2>
                                 </div>
-                                <div class="about-us-three-content">
-                                    <div class="pbmit-desc">{{ $about->long_description }}</div>
-                                </div>
-                                {{-- <div class="row mt-5 mb-5">
-                                        <div class="col-md-6">
-                                            <div class="pbmit-ihbox-style-2">
-                                                <div class="pbmit-ihbox-icon">
-                                                    <div class="pbmit-ihbox-icon-wrapper">
-                                                        <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-call-center"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="pbmit-ihbox-contents">
-                                                    <h2 class="pbmit-element-title">
-                                                        Market Analysis
-                                                    </h2>
-                                                    <div class="pbmit-heading-desc">We welcome and celebrate different
-                                                        perspectives to help our firm.</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="pbmit-ihbox-style-2">
-                                                <div class="pbmit-ihbox-icon">
-                                                    <div class="pbmit-ihbox-icon-wrapper">
-                                                        <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-investment"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="pbmit-ihbox-contents">
-                                                    <h2 class="pbmit-element-title">
-                                                        Rise in Sales
-                                                    </h2>
-                                                    <div class="pbmit-heading-desc">We welcome and celebrate different
-                                                        perspectives to help our firm.</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> --}}
+                                <div class="pbmit-desc">{!! base64_decode($about->long_description) !!}</div>
                             </div>
                         </div>
                     </div>

@@ -14,6 +14,8 @@ class PortfolioModel extends Model
     protected $fillable = [
 
         'portfolio_id',
+        'title',
+        'url',
         'image',
 
     ];

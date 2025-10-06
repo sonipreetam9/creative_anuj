@@ -3,13 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\PortfolioHeadingModel;
 use App\Models\PortfolioModel;
 
 class AdminPortfolioController extends Controller
 {
     public function AdminPortfolioHeading()
     {
-        $portfolio = PortfolioModel::all();
+        $portfolio = PortfolioHeadingModel::all();
         return view('admin.portfolio_heading', compact('portfolio'));
 
     }
@@ -22,7 +23,7 @@ class AdminPortfolioController extends Controller
 
         $title = $request->input('title');
 
-        $portfolioHeading = new PortfolioModel();
+        $portfolioHeading = new PortfolioHeadingModel();
         $portfolioHeading->title = $title;
         $portfolioHeading->save();
 
@@ -30,14 +31,13 @@ class AdminPortfolioController extends Controller
     }
 
     public function AdminPortfolioHeadingUpdate(Request $request, $id)
-
     {
 
         $request->validate([
             'title' => 'required',
         ]);
 
-        $portfolioHeading = PortfolioModel::findOrFail($id);
+        $portfolioHeading = PortfolioHeadingModel::findOrFail($id);
         $portfolioHeading->title = $request->input('title');
         $portfolioHeading->save();
 
@@ -46,7 +46,7 @@ class AdminPortfolioController extends Controller
 
     public function AdminPortfolioHeadingDelete($id)
     {
-        $portfolioHeading = PortfolioModel::findOrFail($id);
+        $portfolioHeading = PortfolioHeadingModel::findOrFail($id);
         $portfolioHeading->delete();
 
         return redirect()->back()->with('success', 'Portfolio heading deleted successfully!');
@@ -55,8 +55,66 @@ class AdminPortfolioController extends Controller
 
     public function AdminPortfolioIndex()
     {
-        return view('admin.add_portfolio');
+        $headings = PortfolioHeadingModel::all();
+        return view('admin.add_portfolio', compact('headings'));
     }
 
+    public function AdminPortfolioPost(Request $request)
+    {
+        $validate = $request->validate([
+            'portfolio_id' => 'required|string',
+            'image' => 'required|image',
+
+        ]);
+
+        if ($request->hasFile('image')) {
+            $fileName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('uploads'), $fileName);
+            $validate['image'] = $fileName;
+        }
+
+        PortfolioModel::create($validate);
+
+        return redirect()->back()->with('success', 'Portfolio Created Successfully');
+
+    }
+
+    public function AdminPortfolioList()
+    {
+        $portfolioList = PortfolioModel::all();
+        return view('admin.all_portfolio', compact('portfolioList'));
+    }
+
+    public function AdminPortfolioEditIndex($id)
+    {
+        $EditPortfolio = PortfolioModel::findOrFail($id);
+        // dd($EditPortfolio);
+        $portfolioHeading = PortfolioHeadingModel::all();
+        return view('admin.edit-portfolio', compact('EditPortfolio', 'portfolioHeading'));
+    }
+
+    public function AdminPortfolioEdit(Request $request, $id)
+    {
+        $portfolio = PortfolioModel::findOrFail($id);
+        if ($request->hasFile('image')) {
+            $fileName = time() . '.' . $request->file('image')->getClientOriginalExtension();
+            $request->file('image')->move(public_path('uploads'), $fileName);
+            $portfolio->image = $fileName;
+        }
+
+        $portfolio->portfolio_id = $request->portfolio_id;
+        $portfolio->save();
+
+        return redirect()->back()->with('success', 'Portfolio Update Successfully');
+
+    }
+
+    public function AdminPortfolioDelete($id)
+    {
+        $portfolioDelete = PortfolioModel::findOrFail($id);
+        $portfolioDelete->delete();
+        return redirect()->back()->with('success', 'Portfolio Delete Succesfully');
+
+    }
 
 }

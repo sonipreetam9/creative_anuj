@@ -27,11 +27,7 @@
     <i class="ri-arrow-up-line"></i>
 </button>
 <!--end back-to-top-->
-<script>
-    $(document).ready(function() {
-        $('#summernote').summernote();
-    });
-</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 {{-- <script src="{{ asset('https://cdn.datatables.net/2.3.0/js/dataTables.min.js') }}"></script> --}}
 
@@ -108,6 +104,22 @@
         font-family: "Material Design Icons";
     }
 </style>
+
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+
+<script>
+
+
+    $(document).ready(function() {
+  $('#summernote').summernote();
+});
+</script>
+
 </body>
 
 

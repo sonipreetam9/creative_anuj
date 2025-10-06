@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\PortfolioHeadingModel;
 use Illuminate\Support\ServiceProvider;
 use App\Models\ServiceModel;
 
@@ -41,6 +42,9 @@ class AppServiceProvider extends ServiceProvider
 
         $services = ServiceModel::orderBy('id', 'ASC')->get();
         view()->share('services', $services);
+
+        $portfolioheading = PortfolioHeadingModel::orderBy('id', 'ASC')->get();
+        view()->share('portfolioheading', $portfolioheading);
 
 
     }

@@ -24,9 +24,9 @@
                             <h4 class="card-title mb-0 flex-grow-1">Add Portfolio Post</h4>
                         </div>
 
-                        <form action="{{ route('admin.portfolio.post') }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('admin.portfolio.edit.post', $EditPortfolio->id) }}" method="POST"
+                            enctype="multipart/form-data">
                             @csrf
-
                             @if (Session::has('success'))
                                 <div style="padding: 10px 15px 0px 15px;">
                                     <p class="alert alert-success">{{ Session::get('success') }}!</p>
@@ -41,10 +41,12 @@
                                         <div class="col-md-12">
                                             <div class="form-floating">
                                                 <select class="form-control" id="portfolio_id" name="portfolio_id"
-                                                    placeholder="Enter title" required>
+                                                    placeholder="Enter title">
                                                     <option value="">Select</option>
-                                                    @foreach ($headings as $heading)
-                                                        <option value="{{ $heading->id }}">{{ $heading->title }}</option>
+                                                    @foreach ($portfolioHeading as $heading)
+                                                        <option value="{{ $heading->id }}"
+                                                            @if ($heading->id == $EditPortfolio->portfolio_id) {{ 'selected' }} @endif>
+                                                            {{ $heading->title }}</option>
                                                     @endforeach
                                                 </select>
                                                 <label for="title">Select Portfolio Heading</label>
@@ -54,8 +56,7 @@
                                         {{-- Image --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">
-                                                <input type="file" class="form-control" id="image" name="image"
-                                                    required>
+                                                <input type="file" class="form-control" id="image" name="image">
 
                                                 <label for="email">Image</label>
                                                 {{-- <small class="form-text text-muted">Enter branch email (will be used for
@@ -63,6 +64,8 @@
                                                 @error('email')
                                                     <small class="text-danger">{{ $message }}</small>
                                                 @enderror
+                                                <img src="{{ asset('uploads/' . $EditPortfolio->image) }}" alt="image"
+                                                    height="100">
                                             </div>
                                         </div>
 

@@ -9,6 +9,18 @@ class PortfolioModel extends Model
 {
     use HasFactory;
 
-    protected $table = 'portfolio_heading';
-    protected $fillable = ['title'];
+    protected $table = 'portfolio';
+
+    protected $fillable = [
+
+        'portfolio_id',
+        'image',
+
+    ];
+
+    public function heading()
+    {
+        return $this->belongsTo(PortfolioHeadingModel::class, 'portfolio_id', 'id');
+    }
+
 }

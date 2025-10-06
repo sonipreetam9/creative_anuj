@@ -37,9 +37,9 @@
                             <div class="pbmit-ihbox-style-1">
                                 <div class="pbmit-ihbox-contents">
                                     <h4 class="pbmit-element-subtitle"> What We Offer </h4>
-                                    <h2 class="pbmit-element-title"> Marketing & <br> Advertising </h2>
-                                    <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur
-                                        adipiscing elit.</div>
+                                    <h2 class="pbmit-element-title"> Website Development </h2>
+                                    <div class="pbmit-heading-desc">Build a powerful online presence with our custom website
+                                        development services.</div>
                                     <div class="pbmit-ihbox-btn">
                                         <a href="#">
                                             <span>
@@ -64,10 +64,10 @@
                         <article class="pbmit-miconheading-style-1 swiper-slide">
                             <div class="pbmit-ihbox-style-1">
                                 <div class="pbmit-ihbox-contents">
-                                    <h4 class="pbmit-element-subtitle">We Good Company</h4>
-                                    <h2 class="pbmit-element-title"> Personal <br> Development </h2>
-                                    <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur
-                                        adipiscing elit.</div>
+                                    <h4 class="pbmit-element-subtitle">WHAT WE OFFER</h4>
+                                    <h2 class="pbmit-element-title"> Application Development</h2>
+                                    <div class="pbmit-heading-desc">Transform your ideas into powerful mobile and
+                                        web applications.</div>
                                     <div class="pbmit-ihbox-btn">
                                         <a href="#">
                                             <span>
@@ -92,10 +92,10 @@
                         <article class="pbmit-miconheading-style-1 swiper-slide">
                             <div class="pbmit-ihbox-style-1">
                                 <div class="pbmit-ihbox-contents">
-                                    <h4 class="pbmit-element-subtitle">What We Do</h4>
-                                    <h2 class="pbmit-element-title"> Research & <br> Strategy </h2>
-                                    <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur
-                                        adipiscing elit.</div>
+                                    <h4 class="pbmit-element-subtitle">WHAT WE OFFER</h4>
+                                    <h2 class="pbmit-element-title"> Digital Marketing</h2>
+                                    <div class="pbmit-heading-desc">Boost your online reach and drive real growth through
+                                        our digital marketing expertise.</div>
                                     <div class="pbmit-ihbox-btn">
                                         <a href="#">
                                             <span>
@@ -120,10 +120,9 @@
                         <article class="pbmit-miconheading-style-1 swiper-slide">
                             <div class="pbmit-ihbox-style-1">
                                 <div class="pbmit-ihbox-contents">
-                                    <h4 class="pbmit-element-subtitle">We Offer For You</h4>
-                                    <h2 class="pbmit-element-title"> Marketing <br> Automation </h2>
-                                    <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur
-                                        adipiscing elit.</div>
+                                    <h4 class="pbmit-element-subtitle">WHAT WE OFFER </h4>
+                                    <h2 class="pbmit-element-title"> Photography </h2>
+                                    <div class="pbmit-heading-desc">Capture creativity that connects.</div>
                                     <div class="pbmit-ihbox-btn">
                                         <a href="#">
                                             <span>
@@ -265,8 +264,8 @@
                                         <div class="pbminfotech-service-content">
                                             <div class="pbmit-featured-img-wrapper">
                                                 <div class="pbmit-featured-wrapper">
-                                                    <img src="{{ asset('uploads/' . $data->image) }}"
-                                                        class="img-fluid" alt="{{ $data->title }}">
+                                                    <img src="{{ asset('uploads/' . $data->image) }}" class="img-fluid"
+                                                        alt="{{ $data->title }}">
                                                 </div>
                                             </div>
                                             <div class="pbminfotech-box-content">
@@ -277,7 +276,8 @@
                                                     <a href="{{ route('services')}}" rel="tag">Services</a>
                                                 </div> --}}
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="{{ route('service.detail', $data->id )}}">{{ $data->title }}</a>
+                                                    <a
+                                                        href="{{ route('service.detail', $data->id) }}">{{ $data->title }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -298,6 +298,31 @@
                     <div class="col-md-4">
                         <div class="pbminfotech-ele-fid-style-3 pe-xxl-5">
                             <div class="pbmit-fld-contents">
+                                <div class="pbmit-circle-outer" data-digit="95" data-fill="#03251e"
+                                    data-emptyfill="#f5f2f0" data-before="" data-after="<sup>%</sup>" data-thickness="2"
+                                    data-size="130">
+                                    <div class="pbmit-circle">
+                                        <div class="pbmit-fid-inner">
+                                            <span class="pbmit-fid-number"></span>
+                                            <span class="pbmit-number-rotate numinate"
+                                                data-appear-animation="animateDigits" data-from="0" data-to="95"
+                                                data-interval="5" data-before="" data-before-style="" data-after=""
+                                                data-after-style="">95</span>
+                                            <sup>%</sup>
+                                        </div>
+                                    </div>
+                                    <div class="pbmit-fid-sub">
+                                        <h3 class="pbmit-fid-title">Successfully Completed Projects</h3>
+                                        <div class="pbmit-heading-desc">We take pride in delivering projects that exceed
+                                            client expectations.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pbminfotech-ele-fid-style-3 pe-xxl-5">
+                            <div class="pbmit-fld-contents">
                                 <div class="pbmit-circle-outer" data-digit="80" data-fill="#03251e"
                                     data-emptyfill="#f5f2f0" data-before="" data-after="<sup>%</sup>" data-thickness="2"
                                     data-size="130">
@@ -312,9 +337,9 @@
                                         </div>
                                     </div>
                                     <div class="pbmit-fid-sub">
-                                        <h3 class="pbmit-fid-title">Finalized projects</h3>
-                                        <div class="pbmit-heading-desc">Quis nostrud exercitation ullamco sed do eiusmod
-                                            tempor.</div>
+                                        <h3 class="pbmit-fid-title">Innovative & Fresh Ideas</h3>
+                                        <div class="pbmit-heading-desc">At Creative Tech Studio, innovation drives
+                                            everything we do. </div>
                                     </div>
                                 </div>
                             </div>
@@ -323,48 +348,23 @@
                     <div class="col-md-4">
                         <div class="pbminfotech-ele-fid-style-3 pe-xxl-5">
                             <div class="pbmit-fld-contents">
-                                <div class="pbmit-circle-outer" data-digit="55" data-fill="#03251e"
+                                <div class="pbmit-circle-outer" data-digit="90" data-fill="#03251e"
                                     data-emptyfill="#f5f2f0" data-before="" data-after="<sup>%</sup>" data-thickness="2"
                                     data-size="130">
                                     <div class="pbmit-circle">
                                         <div class="pbmit-fid-inner">
                                             <span class="pbmit-fid-number"></span>
                                             <span class="pbmit-number-rotate numinate"
-                                                data-appear-animation="animateDigits" data-from="0" data-to="55"
+                                                data-appear-animation="animateDigits" data-from="0" data-to="90"
                                                 data-interval="5" data-before="" data-before-style="" data-after=""
-                                                data-after-style="">55</span>
+                                                data-after-style="">90</span>
                                             <sup>%</sup>
                                         </div>
                                     </div>
                                     <div class="pbmit-fid-sub">
-                                        <h3 class="pbmit-fid-title">Fresh to work</h3>
-                                        <div class="pbmit-heading-desc">Quis nostrud exercitation ullamco sed do eiusmod
-                                            tempor.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="pbminfotech-ele-fid-style-3 pe-xxl-5">
-                            <div class="pbmit-fld-contents">
-                                <div class="pbmit-circle-outer" data-digit="67" data-fill="#03251e"
-                                    data-emptyfill="#f5f2f0" data-before="" data-after="<sup>%</sup>" data-thickness="2"
-                                    data-size="130">
-                                    <div class="pbmit-circle">
-                                        <div class="pbmit-fid-inner">
-                                            <span class="pbmit-fid-number"></span>
-                                            <span class="pbmit-number-rotate numinate"
-                                                data-appear-animation="animateDigits" data-from="0" data-to="67"
-                                                data-interval="5" data-before="" data-before-style="" data-after=""
-                                                data-after-style="">67</span>
-                                            <sup>%</sup>
-                                        </div>
-                                    </div>
-                                    <div class="pbmit-fid-sub">
-                                        <h3 class="pbmit-fid-title">Priority of Goals</h3>
-                                        <div class="pbmit-heading-desc">Quis nostrud exercitation ullamco sed do eiusmod
-                                            tempor.</div>
+                                        <h3 class="pbmit-fid-title">Client Satisfaction & Goal Achievement</h3>
+                                        <div class="pbmit-heading-desc">Your success is our top priority. We focus on
+                                            understanding your goals deeply.</div>
                                     </div>
                                 </div>
                             </div>

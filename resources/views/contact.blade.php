@@ -130,11 +130,12 @@
                                                 <span><i class="pbmit-base-icon-facebook-squared"></i></span>
                                             </a>
                                         </li>
-                                        <li class="pbmit-social-li pbmit-social-twitter">
+                                        <li class="pbmit-social-li pbmit-social-youtube">
                                             <a href="#" target="_blank">
-                                                <span><i class="pbmit-base-icon-twitter"></i></span>
+                                                <span><i class="fa-brands fa-youtube"></i></span>
                                             </a>
                                         </li>
+
                                         <li class="pbmit-social-li pbmit-social-instagram">
                                             <a href="#" target="_blank">
                                                 <span><i class="pbmit-base-icon-instagram"></i></span>

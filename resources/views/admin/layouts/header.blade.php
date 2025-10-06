@@ -34,9 +34,7 @@
 
     <!-- Custom Css-->
     <link href="{{ asset('admin1/assets/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+
 
 
 </head>
@@ -226,17 +224,17 @@
                                             data-key="t-one-page"> Add
                                             Portfolio Heading</a>
                                     </li>
-                                    {{-- <li class="nav-item">
+                                    <li class="nav-item">
                                         <a href="{{ route('admin.portfolio.index') }}" class="nav-link"
                                             data-key="t-one-page"> Add
                                             Portfolio Post</a>
-                                    </li> --}}
-                                    {{--
+                                    </li>
+                                    
                                     <li class="nav-item">
                                         <a href="{{ route('admin.all.portfolio') }}" class="nav-link"
                                             data-key="t-multi-page">Portfolio
                                             List</a>
-                                    </li> --}}
+                                    </li>
                                 </ul>
                             </div>
                         </li>

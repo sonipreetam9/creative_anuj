@@ -78,15 +78,15 @@
                                                         @endforeach
                                                     </ul>
                                                 </li>
-                                                {{-- <li class="dropdown">
-                                                    <a href="{{ route('portfolio') }}">Portfolio</a>
+                                                <li class="dropdown">
+                                                    {{-- <a href="{{ route('portfolio') }}">Portfolio</a> --}}
+                                                    <a href="#">Portfolio</a>
                                                     <ul>
-                                                        <li><a href="">Portfolio 1</a></li>
-                                                        <li><a href="">Portfolio 2</a></li>
-                                                        <li><a href="">Portfolio 3</a></li>
-                                                        <li><a href="">Portfolio 4</a></li>
+                                                        @foreach ($portfolioheading as $heading)
+                                                            <li><a href="{{ route('portfolio', $heading->id) }}">{{ $heading->title }}</a></li>
+                                                        @endforeach
                                                     </ul>
-                                                </li> --}}
+                                                </li>
                                                 <li>
                                                     <a href="{{ route('blog') }}">Blog</a>
                                                 </li>

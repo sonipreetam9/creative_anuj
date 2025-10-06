@@ -1,7 +1,7 @@
 @extends('admin.layouts.header')
 @section('super')
-    <!-- Summernote CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 
     <div class="page-content">
@@ -85,8 +85,8 @@
                                         {{-- Long Description --}}
                                         <div class="col-md-12">
                                             <div class="mb-3">
-                                                <label for="long_description" class="form-label">Long Description</label>
-                                                <textarea class="form-control summernote" id="long_description" name="long_description" required>{{ old('long_description') }}</textarea>
+                                                <label for="summernote" class="form-label">Long Description</label>
+                                                <textarea class="form-control summernote" id="summernote" name="long_description" required>{{ old('long_description') }}</textarea>
 
                                                 @error('long_description')
                                                     <small class="text-danger">{{ $message }}</small>
@@ -109,6 +109,7 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+
+
+    <!-- include summernote css/js -->
 @endsection

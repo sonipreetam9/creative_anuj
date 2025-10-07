@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use App\Models\AdminModel;
+use App\Models\BlogModel;
+use App\Models\ContactModel;
+use App\Models\PortfolioModel;
+use App\Models\ServiceModel;
 
 class AdminIndexController extends Controller
 {
@@ -53,7 +57,7 @@ class AdminIndexController extends Controller
         ], [
             'password.regex' => 'Password must contain only letters and numbers.'
         ]);
-     
+
 
         if (Auth::guard('admin')->attempt(['email' => $request->email, 'password' => $request->password])) {
 
@@ -120,7 +124,11 @@ class AdminIndexController extends Controller
 
     public function AdminDashboard()
     {
-        return view('admin.index');
+        $totalService = ServiceModel::count();
+        $totalportfolio = PortfolioModel::count();
+        $totalblog = BlogModel::count();
+        $totalcontact = ContactModel::count();
+        return view('admin.index', compact('totalService', 'totalportfolio', 'totalblog', 'totalcontact' ));
     }
 
 }

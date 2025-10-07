@@ -88,14 +88,14 @@
                                         {{-- Short Description --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">
-                                                <textarea class="form-control" id="short_description" name="short_description" placeholder="Enter short description">{{ $data->short_description }}</textarea>
+                                                <textarea class="form-control" id="short_description" name="short_description" placeholder="Enter short description" style="height: 100px"> {{ $data->short_description }} </textarea>
                                                 <label for="short_description">Short Description</label>
-                                                {{-- <small class="form-text text-muted">Brief description of the branch.</small> --}}
                                                 @error('short_description')
                                                     <small class="text-danger">{{ $message }}</small>
                                                 @enderror
                                             </div>
                                         </div>
+
 
                                         {{-- Long Description --}}
                                         <div class="col-md-12">

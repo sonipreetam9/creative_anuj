@@ -29,14 +29,15 @@
                                         <div class="d-flex align-items-center">
                                             <div class="flex-grow-1 overflow-hidden">
                                                 <p class="text-uppercase fw-medium text-muted text-truncate mb-0"> Total
-                                                    Branch</p>
+                                                    Service</p>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-end justify-content-between mt-4">
                                             <div>
                                                 <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value"
-                                                        data-target="11">2</span></h4>
-                                                <a href="#" class="text-decoration-underline">View Branches</a>
+                                                        data-target="11">{{ $totalService }}</span></h4>
+                                                <a href="{{ route('admin.all.service') }}"
+                                                    class="text-decoration-underline">View Service</a>
                                             </div>
                                             <div class="avatar-sm flex-shrink-0">
                                                 <span class="avatar-title bg-success rounded fs-3">
@@ -56,14 +57,15 @@
                                         <div class="d-flex align-items-center">
                                             <div class="flex-grow-1 overflow-hidden">
                                                 <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                    Total Client</p>
+                                                    Total Portfolio</p>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-end justify-content-between mt-4">
                                             <div>
                                                 <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value"
-                                                        data-target="11">5</span></h4>
-                                                <a href="#" class="text-decoration-underline">View Clients</a>
+                                                        data-target="11">{{ $totalportfolio }}</span></h4>
+                                                <a href="{{ route('admin.all.portfolio') }}"
+                                                    class="text-decoration-underline">View Portfolio</a>
                                             </div>
                                             <div class="avatar-sm flex-shrink-0">
                                                 <span class="avatar-title bg-warning rounded fs-3">
@@ -82,14 +84,15 @@
                                         <div class="d-flex align-items-center">
                                             <div class="flex-grow-1 overflow-hidden">
                                                 <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                    Today New Client</p>
+                                                    Total Blog</p>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-end justify-content-between mt-4">
                                             <div>
                                                 <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value"
-                                                        data-target="11">3</span></h4>
-                                                <a href="#" class="text-decoration-underline">View Clients</a>
+                                                        data-target="11">{{ $totalblog }}</span></h4>
+                                                <a href="{{ route('admin.all.blog') }}"
+                                                    class="text-decoration-underline">View Blog</a>
                                             </div>
                                             <div class="avatar-sm flex-shrink-0">
                                                 <span class="avatar-title bg-warning rounded fs-3">
@@ -108,15 +111,15 @@
                                         <div class="d-flex align-items-center">
                                             <div class="flex-grow-1 overflow-hidden">
                                                 <p class="text-uppercase fw-medium text-muted text-truncate mb-0">
-                                                    Total Fees</p>
+                                                    Total Contact</p>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-end justify-content-between mt-4">
                                             <div>
                                                 <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value"
-                                                        data-target="11">200</span></h4>
-                                                {{-- <a href="{{ route('super.today.employee') }}"
-                                                    class="text-decoration-underline">View Clients</a> --}}
+                                                        data-target="11">{{ $totalcontact }}</span></h4>
+                                                <a href="{{ route('admin.all.contact') }}"
+                                                    class="text-decoration-underline">View Contact</a>
                                             </div>
                                             <div class="avatar-sm flex-shrink-0">
                                                 <span class="avatar-title bg-danger rounded fs-3">
@@ -183,7 +186,6 @@
                                                             </td>
                                                             <td>{{ $emp->name }}</td>
                                                             <td>{{ $emp->phone }}</td>
-
                                                             <td>{{ $emp->city }}</td>
                                                             <td>{{ $emp->fees }}</td>
                                                             <td>{{ \Carbon\Carbon::parse($emp->join_date)->format('d-m-Y') }}

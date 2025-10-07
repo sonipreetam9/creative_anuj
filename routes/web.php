@@ -74,17 +74,23 @@ Route::group(
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin']], function () {
     Route::get('/dashboard', [AdminIndexController::class, 'AdminDashboard'])->name('admin.dashboard');
+
+    // About route
     Route::get('/about', [AdminAboutController::class, 'AdminAbout'])->name('admin.about');
     Route::post('/about/post', [AdminAboutController::class, 'AdminAboutPost'])->name('admin.about.post');
     Route::get('/about/edit/{id}', [AdminAboutController::class, 'AdminAboutUpdatePage'])->name('admin.about.edit');
     Route::post('/about/edit/{id}', [AdminAboutController::class, 'AdminAboutUpdate'])->name('admin.about.update');
     Route::get('/about/delete/{id}', [AdminAboutController::class, 'AdminAboutDelete'])->name('admin.about.delete');
+
+    // Service route
     Route::get('/add-service', [AdminServiceController::class, 'AdminServiceIndex'])->name('admin.service');
     Route::post('/add-service', [AdminServiceController::class, 'AdminServicePost'])->name('admin.service.post');
     Route::get('/all-service', [AdminServiceController::class, 'AdminAllService'])->name('admin.all.service');
     Route::get('/edit-service/{id}', [AdminServiceController::class, 'AdminServiceUpdate'])->name('admin.service.edit.page');
     Route::post('/edit-service/{id}', [AdminServiceController::class, 'AdminServiceUpdatePost'])->name('admin.service.edit.post');
     Route::get('/delete-service/{id}', [AdminServiceController::class, 'AdminServiceDelete'])->name('admin.service.delete');
+
+    // Portfolio route
     Route::get('/portfolio-heading', [AdminPortfolioController::class, 'AdminPortfolioHeading'])->name('admin.portfolio.heading');
     Route::post('/portfolio-heading/create', [AdminPortfolioController::class, 'AdminPortfolioHeadingCreate'])->name('admin.portfolio.heading.create');
     Route::post('/portfolio-heading/edit/{id}', [AdminPortfolioController::class, 'AdminPortfolioHeadingUpdate'])->name('admin.portfolio.heading.update');
@@ -93,14 +99,18 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin']], function () 
     Route::post('/portfolio/create-post', [AdminPortfolioController::class, 'AdminPortfolioPost'])->name('admin.portfolio.post');
     Route::get('/portfolio-list', [AdminPortfolioController::class, 'AdminPortfolioList'])->name('admin.all.portfolio');
     Route::get('/edit-portfolio/{id}', [AdminPortfolioController::class, 'AdminPortfolioEditIndex'])->name('admin.portfolio.edit.page');
-    Route::post('portfolio/edit-post/{id}',[AdminPortfolioController::class, 'AdminPortfolioEdit'])->name('admin.portfolio.edit.post');
+    Route::post('portfolio/edit-post/{id}', [AdminPortfolioController::class, 'AdminPortfolioEdit'])->name('admin.portfolio.edit.post');
     Route::get('/portfolio/delete/{id}', [AdminPortfolioController::class, 'AdminPortfolioDelete'])->name('admin.portfolio.delete');
+
+    // Blog route
     Route::get('/add-blog', [AdminBlogController::class, 'AdminBlogIndex'])->name('admin.blog');
     Route::post('add-blog-create', [AdminBlogController::class, 'AdminBlogCreate'])->name('admin.blog.post');
     Route::get('/all-blog', [AdminBlogController::class, 'AdminAllBlog'])->name('admin.all.blog');
     Route::get('/edit-blog/{id}', [AdminBlogController::class, 'AdminBlogEditIndex'])->name('admin.blog.edit.page');
     Route::post('/edit-blog-post/{id}', [AdminBlogController::class, 'AdminBlogEditPost'])->name('admin.edit.blog.post');
     Route::get('/blog-delete/{id}', [AdminBlogController::class, 'AdminBlogDelete'])->name('admin.blog.delete');
+
+    // Contact route
     Route::get('/contact', [AdminContactController::class, 'AdminAllContact'])->name('admin.all.contact');
     Route::get('/contact/delete/{id}', [AdminContactController::class, 'AdminContactDelete'])->name('admin.contact.delete');
     Route::get('/logout', [AdminIndexController::class, 'AdminLogout'])->name('admin.logout');

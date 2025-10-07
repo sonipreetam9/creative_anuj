@@ -1,7 +1,15 @@
 @extends('layouts.header')
 @section('content')
     <!-- Header Main Area End Here -->
+    <style>
+        .pbmit-desc {
+            position: relative;
+            display: inline-block;
+            /* overflow: scroll; */
+        }
 
+
+    </style>
     <!-- Title Bar -->
     <div class="pbmit-title-bar-wrapper">
         <div class="container">
@@ -93,9 +101,9 @@
                             <div class="pbmit-ihbox-style-1">
                                 <div class="pbmit-ihbox-contents">
                                     <h4 class="pbmit-element-subtitle">WHAT WE OFFER</h4>
-                                    <h2 class="pbmit-element-title"> Digital Marketing</h2>
+                                    <h2 class="pbmit-element-title"> Digital <br> Marketing</h2>
                                     <div class="pbmit-heading-desc">Boost your online reach and drive real growth through
-                                        our digital marketing expertise.</div>
+                                        our digital marketing expertise. </div>
                                     <div class="pbmit-ihbox-btn">
                                         <a href="#">
                                             <span>
@@ -121,8 +129,11 @@
                             <div class="pbmit-ihbox-style-1">
                                 <div class="pbmit-ihbox-contents">
                                     <h4 class="pbmit-element-subtitle">WHAT WE OFFER </h4>
-                                    <h2 class="pbmit-element-title"> Photography </h2>
-                                    <div class="pbmit-heading-desc">Capture creativity that connects.</div>
+                                    <h2 class="pbmit-element-title"> Creative Photography </h2>
+                                    <div class="pbmit-heading-desc">
+                                        Capture stunning visuals that tell stories and create lasting impressions.
+                                    </div>
+
                                     <div class="pbmit-ihbox-btn">
                                         <a href="#">
                                             <span>
@@ -154,7 +165,7 @@
         <section class="section-lgx">
             <div class="container">
                 @foreach ($abouts as $about)
-                    <div class="row g-0 align-items-center">
+                    <div class="row g-0 align-items-center mb-5">
                         <div class="col-md-12 col-xl-6">
                             <div class="row">
                                 <div class="col-md-6">
@@ -162,7 +173,8 @@
                                         <div class="pbmit-animation-style4">
                                             @if ($about->image)
                                                 <img src="{{ asset('uploads/' . $about->image) }}" class="img-fluid"
-                                                    alt="{{ $about->title }}" style="height: 400px">
+                                                    alt="{{ $about->title }}"
+                                                    style="height: 400px; object-fit: cover; width: 100%;">
                                             @else
                                                 <span>No Image Available</span>
                                             @endif
@@ -172,9 +184,10 @@
                                 <div class="col-md-6">
                                     <div class="about-three_img2">
                                         <div class="pbmit-animation-style3">
-                                            @if ($about->image)
+                                            @if ($about->image2)
                                                 <img src="{{ asset('uploads/' . $about->image2) }}" class="img-fluid"
-                                                    alt="{{ $about->title }}" style="height: 400px">
+                                                    alt="{{ $about->title }}"
+                                                    style="height: 400px; object-fit: cover; width: 100%;">
                                             @else
                                                 <span>No Image Available</span>
                                             @endif
@@ -183,19 +196,24 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-12 col-xl-6">
                             <div class="about-us-three-rightbox">
                                 <div class="pbmit-heading-subheading animation-style2">
-                                    <h4 class="pbmit-subtitle">Creative Tech Studio </h4>
+                                    <h4 class="pbmit-subtitle">Creative Tech Studio</h4>
                                     <h2 class="pbmit-title">{{ $about->title }}</h2>
                                 </div>
-                                <div class="pbmit-desc">{!! base64_decode($about->long_description) !!}</div>
+                                <div class="pbmit-desc">
+                                    {!! base64_decode($about->long_description) !!}
+                                </div>
+
                             </div>
                         </div>
                     </div>
+                @endforeach
             </div>
-            @endforeach
         </section>
+
         <!-- About end -->
 
         <!-- Service Start -->

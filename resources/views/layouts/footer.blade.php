@@ -46,23 +46,25 @@
                                   <div class="textwidget">
                                       <ul class="pbmit-social-links">
                                           <li class="pbmit-social-li pbmit-social-facebook">
-                                              <a title="Facebook" href="#" target="_blank" rel="noopener">
+                                              <a title="Facebook" href="{{ $facebook }}" target="_blank"
+                                                  rel="noopener">
                                                   <span><i class="pbmit-base-icon-facebook-squared"></i></span>
                                               </a>
                                           </li>
                                           <li class="pbmit-social-li pbmit-social-youtube">
-                                              <a title="YouTube" href="#" target="_blank"
+                                              <a title="YouTube" href="{{ $youtube }}" target="_blank"
                                                   rel="noopener">
                                                   <span><i class="fa-brands fa-youtube"></i></span>
                                               </a>
                                           </li>
-
-
-                                          <li class="pbmit-social-li pbmit-social-instagram">
-                                              <a title="Instagram" href="#" target="_blank" rel="noopener">
-                                                  <span><i class="pbmit-base-icon-instagram"></i></span>
+                                          <li class="pbmit-social-li pbmit-social-whatsapp">
+                                              <a title="WhatsApp"
+                                                  href="https://wa.me/919306439947?text=Hello,%20I%20am%20interested%20in%20your%20services."
+                                                  target="_blank" rel="noopener">
+                                                  <span><i class="pbmit-base-icon-whatsapp"></i></span>
                                               </a>
                                           </li>
+
                                       </ul>
                                   </div>
                               </div>

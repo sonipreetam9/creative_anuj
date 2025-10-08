@@ -53,21 +53,23 @@ class AdminIndexController extends Controller
         // Validate input
         $request->validate([
             'email' => 'required|email',
-            'password' => ['required', 'string', 'regex:/^[a-zA-Z0-9]+$/'],
+            'password' => ['required', 'string', 'regex:/^[a-zA-Z0-9@.]+$/'],
         ], [
-            'password.regex' => 'Password must contain only letters and numbers.'
+            'password.regex' => 'Password can only contain letters, numbers, @, and .'
         ]);
 
-
-        if (Auth::guard('admin')->attempt(['email' => $request->email, 'password' => $request->password])) {
-
-
+        if (
+            Auth::guard('admin')->attempt([
+                'email' => $request->email,
+                'password' => $request->password
+            ])
+        ) {
             return redirect()->route('admin.dashboard')->with('success', 'Logged in successfully!');
         }
 
         return redirect()->back()->with('error', 'Invalid login credentials!');
-
     }
+
 
     public function AdminLogout(Request $request)
     {
@@ -128,7 +130,7 @@ class AdminIndexController extends Controller
         $totalportfolio = PortfolioModel::count();
         $totalblog = BlogModel::count();
         $totalcontact = ContactModel::count();
-        return view('admin.index', compact('totalService', 'totalportfolio', 'totalblog', 'totalcontact' ));
+        return view('admin.index', compact('totalService', 'totalportfolio', 'totalblog', 'totalcontact'));
     }
 
 }

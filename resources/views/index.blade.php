@@ -213,13 +213,13 @@
             <div class="container">
                 @foreach ($abouts as $about)
                     <div class="row">
-                        <div class="col-md-12 col-xl-6">
+                        <div class="col-md-12 col-xl-4">
                             <div class="pbmit-heading-subheading">
                                 <h4 class="pbmit-subtitle">About us</h4>
                             </div>
                             <div class="col-md-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="about-three_img1">
                                             <div class="pbmit-animation-style4">
                                                 @if ($about->image)
@@ -231,22 +231,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="about-three_img2">
-                                            <div class="pbmit-animation-style3">
-                                                @if ($about->image)
-                                                    <img src="{{ asset('uploads/' . $about->image2) }}" class="img-fluid"
-                                                        alt="{{ $about->title }}" style="height: 400px">
-                                                @else
-                                                    <span>No Image Available</span>
-                                                @endif
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12 col-xl-6">
+                        <div class="col-md-12 col-xl-8">
                             <div class="about-four-rightbox">
                                 <div class="pbmit-heading-subheading">
                                     <h4 class="pbmit-title text-white">{{ $about->title }}</h4>

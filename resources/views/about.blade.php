@@ -166,9 +166,9 @@
             <div class="container">
                 @foreach ($abouts as $about)
                     <div class="row g-0 align-items-center mb-5">
-                        <div class="col-md-12 col-xl-6">
+                        <div class="col-md-12 col-xl-4">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="about-three_img1">
                                         <div class="pbmit-animation-style4">
                                             @if ($about->image)
@@ -181,7 +181,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                {{-- <div class="col-md-6">
                                     <div class="about-three_img2">
                                         <div class="pbmit-animation-style3">
                                             @if ($about->image2)
@@ -193,11 +193,11 @@
                                             @endif
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 
-                        <div class="col-md-12 col-xl-6">
+                        <div class="col-md-12 col-xl-8">
                             <div class="about-us-three-rightbox">
                                 <div class="pbmit-heading-subheading animation-style2">
                                     <h4 class="pbmit-subtitle">Creative Tech Studio</h4>
@@ -242,7 +242,7 @@
                                         <div class="pbminfotech-service-content">
                                             <div class="pbmit-featured-img-wrapper">
                                                 <div class="pbmit-featured-wrapper">
-                                                    <img src="{{ asset('uploads/' . $data->image) }}" class="img-fluid"
+                                                    <img src="{{ asset('uploads/' . $data->image) }}" class="img-fluid" style="height: 300px; object-fit: cover;"
                                                         alt="{{ $data->title }}">
                                                 </div>
                                             </div>

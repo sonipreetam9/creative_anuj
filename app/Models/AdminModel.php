@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable; // 👈 use User instead of AdminModel
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
@@ -19,13 +19,8 @@ class AdminModel extends Authenticatable
         'in_hash',
     ];
 
-    // ✅ Always hash password automatically when saving
+    // Hide password when model is converted to array/json
     protected $hidden = [
         'password',
     ];
-
-    public function setPasswordAttribute($value)
-    {
-        $this->attributes['password'] = bcrypt($value);
-    }
 }

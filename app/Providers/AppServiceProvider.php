@@ -26,10 +26,13 @@ class AppServiceProvider extends ServiceProvider
         $comp_url = "www.creativetechstudio.in";
         $comp_phone = "93064-39947";
         $comp_email = "info@creativetechstudio.in";
-        $comp_address = "Sirsa, HR";
+        $comp_address = "Satnam Chowk, Begu Road, Sirsa";
         $small_logo = 'admin1/assets/images/logo.png';
         $dashboard_logo = 'admin1/assets/images/logo.png';
         $login_logo = 'admin1/assets/images/admin-logo.png';
+        $facebook = 'https://www.facebook.com/creativetechstudio47';
+        $youtube = 'https://www.youtube.com/@CreativeTechStudio47';
+        $instagram = 'https://www.instagram.com/creativetechstudio47';
 
         view()->share('comp_title', $comp_title);
         view()->share('comp_url', $comp_url);
@@ -39,6 +42,9 @@ class AppServiceProvider extends ServiceProvider
         view()->share('small_logo', $small_logo);
         view()->share('dashboard_logo', $dashboard_logo);
         view()->share('login_logo', $login_logo);
+        view()->share('facebook', $facebook);
+        view()->share('youtube', $youtube);
+        view()->share('instagram', $instagram);
 
         $services = ServiceModel::orderBy('id', 'ASC')->get();
         view()->share('services', $services);

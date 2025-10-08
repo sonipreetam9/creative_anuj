@@ -52,11 +52,11 @@
                                         </div>
 
                                         {{-- Image 1 --}}
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="form-control">
                                                 <input type="file" class="form-control" id="image" name="image"
                                                     required>
-                                                <label for="title">Image 1</label>
+                                                <label for="title">Image</label>
                                                 @error('image')
                                                     <small class="text-danger">{{ $message }}</small>
                                                 @enderror
@@ -64,7 +64,7 @@
                                         </div>
 
                                         {{-- Image 2 --}}
-                                        <div class="col-md-6">
+                                        {{-- <div class="col-md-6">
                                             <div class="form-control">
                                                 <input type="file" class="form-control" id="image" name="image2"
                                                     required>
@@ -73,7 +73,7 @@
                                                     <small class="text-danger">{{ $message }}</small>
                                                 @enderror
                                             </div>
-                                        </div>
+                                        </div> --}}
 
                                         {{-- Short Description --}}
                                         <div class="col-md-12">
@@ -131,8 +131,8 @@
                                     <thead class="table-light text-center text-muted">
                                         <tr>
                                             <th>ID</th>
-                                            <th>Image 1</th>
-                                            <th>Image 2</th>
+                                            <th>Image</th>
+                                            {{-- <th>Image 2</th> --}}
                                             <th>Title</th>
                                             {{-- <th>Short Description</th> --}}
                                             <th>Action</th>
@@ -166,14 +166,14 @@
                                                         <span class="text-muted">No Image</span>
                                                     @endif
                                                 </td>
-                                                <td>
+                                                {{-- <td>
                                                     @if ($data->image)
                                                         <img src="{{ asset('uploads/' . $data->image2) }}" alt="Profile"
                                                             width="60" height="60">
                                                     @else
                                                         <span class="text-muted">No Image</span>
                                                     @endif
-                                                </td>
+                                                </td> --}}
                                                 <td>{{ $data->title }}</td>
                                                 {{-- <td>{{ $data->short_description }}</td> --}}
 

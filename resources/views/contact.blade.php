@@ -97,7 +97,7 @@
                                 <h2 class="pbmit-element-title">
                                     Working Days
                                 </h2>
-                                <div class="pbmit-heading-desc">Mon to Fri - 09:00am To 06:00pm </div>
+                                <div class="pbmit-heading-desc">Mon to Sat - 09:00am To 06:00pm </div>
                             </div>
                         </div>
                     </div>
@@ -126,21 +126,28 @@
                                     <h3>Follow us :</h3>
                                     <ul class="pbmit-social-links">
                                         <li class="pbmit-social-li pbmit-social-facebook">
-                                            <a href="#" target="_blank">
+                                            <a href="{{ $facebook }}" target="_blank">
                                                 <span><i class="pbmit-base-icon-facebook-squared"></i></span>
                                             </a>
                                         </li>
                                         <li class="pbmit-social-li pbmit-social-youtube">
-                                            <a href="#" target="_blank">
+                                            <a href="{{ $youtube }}" target="_blank">
                                                 <span><i class="fa-brands fa-youtube"></i></span>
                                             </a>
                                         </li>
 
                                         <li class="pbmit-social-li pbmit-social-instagram">
-                                            <a href="#" target="_blank">
+                                            <a href="{{ $instagram }}" target="_blank">
                                                 <span><i class="pbmit-base-icon-instagram"></i></span>
                                             </a>
                                         </li>
+                                        <li class="pbmit-social-li pbmit-social-whatsapp">
+                                            <a href="https://wa.me/919306439947?text=Hello,%20I%20am%20interested%20in%20your%20services."
+                                                target="_blank">
+                                                <span><i class="fa-brands fa-whatsapp"></i></span>
+                                            </a>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -212,8 +219,8 @@
 
         <!-- Iframe -->
         <section class="iframe-section">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55540.674915983436!2d75.03006357724611!3d29.53698425000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39114db0893d723d%3A0xc51125be998c4f95!2sSirsa%2C%20Haryana!5e0!3m2!1sen!2sin!4v1758522393379!5m2!1sen!2sin"
+            <<iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.808864521594!2d75.03094927553393!3d29.521929975190822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39114db9c256148b%3A0x420047b951721ae8!2sShah%20Satnam%20Singh%20Ji%20Chowk%2C%20Shri%20Gaushala%20Mohalla%2C%20Sirsa%2C%20Haryana%20125055!5e0!3m2!1sen!2sin!4v1759927284277!5m2!1sen!2sin"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>

@@ -38,7 +38,7 @@
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
                                                 <img src="{{ asset('uploads/' . $blogs->image) }}" class="img-fluid"
-                                                    alt="">
+                                                    alt="" style="height: 732px; object-fit: cover;">
                                             </div>
                                         </div>
                                         <div class="pbmit-blog-classic-inner">

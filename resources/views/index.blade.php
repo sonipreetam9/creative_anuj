@@ -11,6 +11,7 @@
                         <div class="pbmit-slider-bg"
                             style="background-image: url({{ asset('assets/images/banner-slider-img/slide-1.jpg') }});">
                         </div>
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8 col-lg-6">
@@ -48,7 +49,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>  
                                 <div class="col-md-6 col-lg-6"></div>
                             </div>
                         </div>

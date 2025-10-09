@@ -6,7 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title', 'Welcome to Creative Tech Studio')</title>
     <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
+    <meta name="description" content="@yield('meta_description', 'Creative Tech Studio offers web development, design, and digital marketing solutions.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'seo, creative tech studio, web development')">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -24,7 +25,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="canonical" href="{{ url()->current() }}">
-
+    <style>
+        ..marquee-four {
+            padding-bottom: 370px !important;
+        }
+    </style>
 </head>
 
 <body>

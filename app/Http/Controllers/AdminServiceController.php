@@ -21,6 +21,9 @@ class AdminServiceController extends Controller
             'image' => 'image|mimes:jpeg,png,jpg,gif,svg',
             'short_description' => 'required|string|max:500',
             'long_description' => 'required|string',
+            'meta_title' => 'required|string',
+            'meta_description' => 'required|string',
+            'meta_keyword' => 'required|string',
         ]);
 
         // Handle the image upload if an image is provided
@@ -63,6 +66,9 @@ class AdminServiceController extends Controller
         $service->title = $request->title;
         $service->short_description = $request->short_description;
         $service->long_description = base64_encode($request->long_description);
+        $service->meta_title = $request->meta_title;
+        $service->meta_description = $request->meta_description;
+        $service->meta_keyword = $request->meta_keyword;
         $service->save();
 
         return redirect()->back()->with('success', 'Service updated successfully.');

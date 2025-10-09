@@ -1,8 +1,12 @@
 @extends('layouts.header')
 @section('content')
+@section('title', 'Blog - Creative Tech Studio')
+@section('meta_description', 'Explore expert tips, tutorials, and insights on web development and digital marketing from Creative Tech Studio.')
+@section('meta_keywords', 'blog, web development blog, digital marketing, creative tech studio blog')
     <!-- Header Main Area End Here -->
 
     <!-- Title Bar -->
+
     <div class="pbmit-title-bar-wrapper">
         <div class="container">
             <div class="pbmit-title-bar-content">

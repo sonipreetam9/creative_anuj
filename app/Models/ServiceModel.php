@@ -15,5 +15,8 @@ class ServiceModel extends Model
         'image',
         'short_description',
         'long_description',
+        'meta_title',
+        'meta_description',
+        'meta_keyword',
     ];
 }

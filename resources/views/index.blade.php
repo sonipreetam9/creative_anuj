@@ -1,6 +1,8 @@
 @extends('layouts.header')
 @section('content')
 @section('title', 'Home - Creative Tech Studio')
+@section('meta_description', 'We build websites, web apps, and digital solutions tailored for businesses.')
+@section('meta_keywords', 'web development, laravel, seo, creative tech studio')
 <!-- Header Main Area End Here -->
 <div class="pbmit-slider-area pbmit-slider-four">
     <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="1"

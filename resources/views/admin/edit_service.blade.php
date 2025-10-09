@@ -39,6 +39,47 @@
                                 <div class="live-preview">
                                     <div class="row gy-4">
 
+                                        {{-- Meta Title --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="meta_title" name="meta_title"
+                                                    placeholder="Enter Meta Title" value="{{ $data->meta_title }}">
+                                                <label for="meta_title">Meta Title</label>
+                                                <small class="form-text text-muted">Enter Meta Title</small>
+                                                @error('meta_title')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        {{-- Meta Description --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="meta_description"
+                                                    name="meta_description" placeholder="Enter Meta Description"
+                                                    value="{{ $data->meta_description }}" >
+                                                <label for="meta_description">Meta Description</label>
+                                                <small class="form-text text-muted">Enter Meta Description</small>
+                                                @error('meta_description')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+                                        {{-- Meta Keywords --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="meta_keyword"
+                                                    name="meta_keyword" placeholder="Enter Meta Keywords"
+                                                    value="{{ $data->title }}">
+                                                <label for="Meta Keywords">Meta Keywords</label>
+                                                <small class="form-text text-muted">Enter the Meta Keywords</small>
+                                                @error('meta_keyword')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
                                         {{-- Title --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">

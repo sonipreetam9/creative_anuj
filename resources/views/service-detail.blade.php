@@ -1,5 +1,10 @@
 @extends('layouts.header')
 @section('content')
+@section('title', $service->meta_title ?? $service->title . ' - Creative Tech Studio')
+@section('meta_description', $service->meta_description ?? 'Learn more about our ' . $service->title . ' service at
+    Creative Tech Studio.')
+@section('meta_keywords', $service->meta_keywords ?? 'services, ' . strtolower($service->title) . ', creative tech
+    studio')
     <!-- Header Main Area End Here -->
 
     <!-- Title Bar -->

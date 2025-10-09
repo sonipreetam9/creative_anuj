@@ -1,6 +1,8 @@
 @extends('layouts.header')
 @section('content')
 @section('title', 'Services - Creative Tech Studio')
+@section('meta_description', 'Discover our professional web development, design, and digital marketing services at Creative Tech Studio to grow your business online.')
+@section('meta_keywords', 'web development, web design, digital marketing, laravel services, creative tech studio')
 <!-- Header Main Area End Here -->
 
 <!-- Title Bar -->

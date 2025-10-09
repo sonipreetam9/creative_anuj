@@ -38,13 +38,53 @@
                                 <div class="live-preview">
                                     <div class="row gy-4">
 
-                                        {{-- Title --}}
+                                         {{-- Meta Title --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="meta_title" name="meta_title"
+                                                    placeholder="Enter Meta Title" value="{{ old('meta_title') }}" required>
+                                                <label for="meta_title">Meta Title</label>
+                                                <small class="form-text text-muted">Enter Meta Title</small>
+                                                @error('meta_title')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                         {{-- Meta Description --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="meta_description" name="meta_description"
+                                                    placeholder="Enter Meta Description" value="{{ old('meta_description') }}" required>
+                                                <label for="meta_description">Meta Description</label>
+                                                <small class="form-text text-muted">Enter Meta Description</small>
+                                                @error('meta_description')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+                                         {{-- Meta Keywords --}}
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="meta_keyword" name="meta_keyword"
+                                                    placeholder="Enter Meta Keywords" value="{{ old('meta_keyword') }}" required>
+                                                <label for="Meta Keywords">Meta Keywords</label>
+                                                <small class="form-text text-muted">Enter the Meta Keywords</small>
+                                                @error('meta_keyword')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        {{-- Service Title --}}
                                         <div class="col-md-12">
                                             <div class="form-floating">
                                                 <input type="text" class="form-control" id="title" name="title"
-                                                    placeholder="Enter title" value="{{ old('title') }}" required>
-                                                <label for="title">Title</label>
-                                                <small class="form-text text-muted">Enter the Title</small>
+                                                    placeholder="Enter Service title" value="{{ old('title') }}" required>
+                                                <label for="title">Service Title</label>
+                                                <small class="form-text text-muted">Enter Service Title</small>
                                                 @error('title')
                                                     <small class="text-danger">{{ $message }}</small>
                                                 @enderror

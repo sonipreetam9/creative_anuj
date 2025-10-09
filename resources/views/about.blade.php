@@ -1,6 +1,8 @@
 @extends('layouts.header')
 @section('content')
 @section('title', 'About Us - Creative Tech Studio')
+@section('meta_description', 'Learn more about Creative Tech Studio, our mission, and our team.')
+@section('meta_keywords', 'about creative tech studio, company info, web agency')
 <!-- Header Main Area End Here -->
 <style>
     .pbmit-desc {

@@ -1,5 +1,12 @@
 @extends('layouts.header')
 @section('content')
+@section('title', 'Contact - Creative Tech Studio')
+@section('meta_description', 'Get in touch with Creative Tech Studio for web development, design, and SEO services.
+    Reach out via our contact form, email, or phone today.')
+@section('meta_keywords', 'contact creative tech studio, web development contact, seo services contact, digital agency
+    contact')
+
+
     <!-- Header Main Area End Here -->
 
     <!-- Title Bar -->

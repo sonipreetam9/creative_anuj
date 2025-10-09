@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Creative Tech Studio</title>
+    <title>@yield('title', 'Welcome to Creative Tech Studio')</title>
     <meta name="robots" content="noindex, follow">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="canonical" href="{{ url()->current() }}">
 
 </head>
 
@@ -83,7 +84,9 @@
                                                     <a href="#">Portfolio</a>
                                                     <ul>
                                                         @foreach ($portfolioheading as $heading)
-                                                            <li><a href="{{ route('portfolio', $heading->id) }}">{{ $heading->title }}</a></li>
+                                                            <li><a
+                                                                    href="{{ route('portfolio', $heading->id) }}">{{ $heading->title }}</a>
+                                                            </li>
                                                         @endforeach
                                                     </ul>
                                                 </li>

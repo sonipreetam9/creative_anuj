@@ -260,7 +260,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 .marquee-four {
-    padding-bottom: 380px;
+    padding-bottom: 370px;
 }
 .fid-bg-four {
     margin-top: -460px;
@@ -273,7 +273,7 @@
     background-image: url(../images/homepage-04/bg/fid-bg.jpg);
 }
 .testimonial-four {
-    padding: 390px 0px 130px 0px;
+    padding: 150px 0px 130px 0px;
     margin-top: -260px;
 }
 .testimonial-four .swiper-button-next:after,

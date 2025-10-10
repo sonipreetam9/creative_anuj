@@ -970,7 +970,7 @@
         <!-- Our Process End -->
 
         <!-- Marquee Start -->
-        <section class="pbminfotech-element-marquee-effect marquee-four">
+        <section class="pbminfotech-element-marquee-effect">
             <div class="container-fluid p-0">
                 <div class="swiper-slider marquee">
                     <div class="swiper-wrapper">
@@ -1009,7 +1009,7 @@
         <!-- Marquee End -->
 
         <!-- Testimonial Start -->
-        <section class="pbmit-bg-color-light testimonial-four">
+        <section class="pbmit-bg-color-light" style="margin-top: 100px; padding-top: 100px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-3 position-relative">

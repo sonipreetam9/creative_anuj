@@ -1,9 +1,11 @@
 @extends('layouts.header')
 @section('content')
 @section('title', 'Creative Tech Studio - Web Development, App Development & Digital Marketing')
-@section('meta_description', 'Creative Tech Studio builds modern websites, mobile apps, and digital marketing strategies
+@section('meta_description',
+    'Creative Tech Studio builds modern websites, mobile apps, and digital marketing strategies
     to grow your business. We also specialize in photography and creative solutions tailored to your brand.')
-@section('meta_keywords', 'web development, app development, digital marketing, photography, creative tech studio, SEO,
+@section('meta_keywords',
+    'web development, app development, digital marketing, photography, creative tech studio, SEO,
     website design, mobile apps, branding, online marketing')
 
     <!-- Header Main Area End Here -->
@@ -231,7 +233,8 @@
                                             <div class="pbmit-animation-style4">
                                                 @if ($about->image)
                                                     <img src="{{ asset('uploads/' . $about->image) }}" class="img-fluid"
-                                                        alt="{{ $about->title }}" style="height: 300px; object-fit:cover;">
+                                                        alt="{{ $about->title }}"
+                                                        style="height: 300px; object-fit:cover;">
                                                 @else
                                                     <span>No Image Available</span>
                                                 @endif
